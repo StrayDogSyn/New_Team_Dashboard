@@ -1,221 +1,105 @@
-# 🌤️ Team Weather Dashboard
+# 📊 Team Weather CSV Repository
 
-A collaborative weather application that generates CSV files for team comparison. Each team member can use this to collect weather data for their city and compare with other team members' data.
+A bare-bones CSV storage repository for team weather data comparison. Team members upload their CSV files here for shared analysis and comparison.
 
-## 🎯 Group Project Overview
+## 🎯 Purpose
 
-This application is designed for the **Weather App Group Portion** assignment where:
+- **Simple CSV storage** for team weather data
+- **Basic comparison analysis** across team members' data
+- **No complex setup** - just upload and analyze
+- **Group collaboration** through shared CSV files
 
-- Each team member generates a CSV file with weather data from their home city
-- All CSV files are shared through this GitHub repository
-- Each person's individual project compares their city's weather with all team members' cities
-- Implementation can vary between team members while maintaining the shared concept
+## 📁 Repository Structure
 
-## 🚀 Features
+```text
+New_Team_Dashboard/
+├── data/                          # CSV files from team members
+│   ├── weather_data_Eric.csv      # Eric's weather data
+│   ├── weather_data_[member].csv  # Other team members' data
+│   └── sample_weather_data.csv    # Example format
+├── main.py                        # Simple comparison script
+├── requirements.txt               # No dependencies needed
+└── README.md                      # This file
+```
 
-- **Individual Weather Collection**: Get current weather data for your city
-- **CSV Generation**: Automatically save weather data in a standardized CSV format
-- **Team Comparison**: Load and analyze all team members' weather data
-- **Comprehensive Reports**: Generate detailed comparison reports across the team
-- **Environment Security**: Secure API key management using .env files
+## � Quick Start
 
-## 📋 Prerequisites
-
-1. **Python 3.8+**
-2. **OpenWeatherMap API Key** (free at [openweathermap.org](https://openweathermap.org/api))
-3. **Git** for repository collaboration
-
-## 🛠️ Setup Instructions
-
-### 1. Clone the Repository
+### 1. Clone Repository
 
 ```bash
 git clone https://github.com/StrayDogSyn/New_Team_Dashboard.git
 cd New_Team_Dashboard
 ```
 
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Environment Configuration
-
-Create a `.env` file in the project root:
-
-```env
-# OpenWeatherMap API Configuration
-OPENWEATHER_API_KEY=your_api_key_here
-OPENWEATHER_API_KEY_BACKUP=backup_key_if_available
-
-# Application Settings
-DEBUG=false
-LOG_LEVEL=INFO
-WEATHER_DATABASE_PATH=data/weather_dashboard.db
-WEATHER_STORAGE_TYPE=csv
-```
-
-### 4. Get Your API Key
-
-1. Visit [OpenWeatherMap](https://openweathermap.org/api)
-2. Sign up for a free account
-3. Generate an API key
-4. Add it to your `.env` file
-
-## 🏃‍♂️ Usage
-
-### Running the Application
+### 2. Run Comparison
 
 ```bash
 python main.py
 ```
 
-### Interactive Process
+### 3. Add Your CSV
 
-1. **Enter your name** (for CSV identification)
-2. **Enter your city** (where you want weather data from)
-3. **Optional country code** (e.g., 'US', 'UK' for better accuracy)
-4. **View current weather** in your terminal
-5. **CSV file generated** in the `data/` folder
-6. **Team comparison** (if other CSV files are present)
+- Create your CSV file in the `data/` folder
+- Follow the format shown in `sample_weather_data.csv`
+- Run `main.py` again to see updated team comparison
 
-### Example Output
+## 📊 CSV Format
+
+Each CSV file should contain:
 
 ```text
-🌤️  TEAM WEATHER DASHBOARD
-==================================================
-Enter your name: Alice Johnson
-Enter your city: New York
-Enter country code (optional, e.g., 'US', 'UK'): US
-
-🔄 Getting weather data for New York...
-
-🌡️  Current Weather in New York, US:
-   Temperature: 22.5°C (feels like 24.1°C)
-   Condition: Clear Sky
-   Humidity: 45%
-   Wind: 3.2 m/s
-   Sunrise: 06:15 | Sunset: 19:45
-
-💾 Data saved to: data/weather_alice_johnson_20250716_143022.csv
+timestamp,member_name,city,country,temperature,feels_like,humidity,pressure,weather_main,weather_description,wind_speed,wind_direction,cloudiness,visibility,sunrise,sunset,timezone
 ```
 
-## 📊 CSV File Format
+## 👥 Team Usage
 
-Each generated CSV contains the following columns:
-
-- `timestamp`: When the data was collected
-- `member_name`: Team member's name
-- `city`: City name
-- `country`: Country code
-- `temperature`: Temperature in Celsius
-- `feels_like`: Perceived temperature
-- `humidity`: Humidity percentage
-- `pressure`: Atmospheric pressure
-- `weather_main`: Main weather condition
-- `weather_description`: Detailed description
-- `wind_speed`: Wind speed in m/s
-- `wind_direction`: Wind direction in degrees
-- `cloudiness`: Cloud coverage percentage
-- `visibility`: Visibility in kilometers
-- `sunrise`: Sunrise time
-- `sunset`: Sunset time
-- `timezone`: Timezone offset in hours
-
-## 👥 Team Collaboration
-
-### For Team Members
-
-1. **Run the application** and generate your CSV file
-2. **Upload your CSV** to the shared repository's `data/` folder
+1. **Add your CSV file** to the `data/` folder
+2. **Commit and push** your file to the repository
 3. **Pull latest changes** to get other team members' data
-4. **Re-run the application** to see team comparisons
+4. **Run comparison** with `python main.py`
 
-### Repository Structure
+## 📈 What You Get
+
+The comparison script shows:
+
+- Team member count and cities covered
+- Temperature ranges and averages across all data
+- Humidity and wind speed statistics
+- Weather conditions represented
+- Total data records
+
+## � Example Output
 
 ```text
-New_Team_Dashboard/
-├── data/                          # CSV files directory
-│   ├── weather_alice_20250716.csv
-│   ├── weather_bob_20250716.csv
-│   └── weather_charlie_20250716.csv
-├── main.py                        # Main application
-├── requirements.txt               # Dependencies
-├── .env                          # Environment variables (not committed)
-├── .env.example                  # Environment template
-└── README.md                     # This file
+==================================================
+TEAM WEATHER DATA SUMMARY
+==================================================
+Team Members: 2
+Total Cities: 4
+Total Records: 120
+Cities: Providence, Austin, Rawlins, Ontario
+Members: Eric, Sample Member
+
+Temperature Range: 14.5°C to 42.1°C
+Average Temperature: 28.3°C
+
+Humidity Range: 16% to 82%
+Average Humidity: 42.1%
+
+Wind Speed Range: 1.2 to 8.6 m/s
+Average Wind Speed: 4.2 m/s
+
+Weather Conditions: Clear, Clouds, Rain, Snow, Thunderstorm
+==================================================
 ```
-
-## 🔒 Security Notes
-
-- **Never commit your `.env` file** - it contains your API key
-- The `.gitignore` file prevents accidental commits of sensitive data
-- Use the `.env.example` file as a template for team members
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **"API key not found" error**
-   - Check your `.env` file exists and contains `OPENWEATHER_API_KEY`
-   - Verify the API key is valid at OpenWeatherMap
-
-2. **"City not found" error**
-   - Try adding a country code
-   - Check city name spelling
-   - Use English city names
-
-3. **Import errors**
-   - Run `pip install -r requirements.txt`
-   - Ensure you're using Python 3.8+
-
-4. **Permission errors**
-   - Ensure the `data/` directory is writable
-   - Check file permissions
-
-## 🔧 Development
-
-### Project Structure
-
-- `EnvironmentConfig`: Manages API keys and configuration
-- `WeatherDashboard`: Main application class
-- `main()`: Interactive command-line interface
-
-### Extending the Application
-
-- Add new weather metrics to the CSV format
-- Implement additional API providers
-- Create visualization features
-- Add database storage options
-
-## 📈 Team Comparison Features
-
-When multiple CSV files are present, the application generates:
-
-- **Temperature Analysis**: Hottest/coldest cities, averages, ranges
-- **Humidity Comparison**: Humidity levels across locations
-- **Wind Analysis**: Wind speeds and patterns
-- **Weather Conditions**: Summary of weather types
-- **Geographic Coverage**: Countries and cities represented
 
 ## 🤝 Contributing
 
-1. Each team member works independently on their implementation
-2. Share CSV files through the repository
-3. Respect different coding styles and approaches
-4. Focus on the shared goal of weather comparison
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- OpenWeatherMap for providing the weather API
-- Team members for collaboration and data sharing
-- Python community for excellent libraries
+1. Create your weather CSV file
+2. Add it to the `data/` folder
+3. Use descriptive filename: `weather_data_[YourName].csv`
+4. Commit and push to share with team
 
 ---
 
-Happy Weather Tracking! 🌟
+Simple CSV storage for team weather comparison! 📈

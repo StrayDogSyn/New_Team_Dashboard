@@ -1,23 +1,13 @@
-# Weather Dashboard - Essential TKinter GUI Dependencies
-# ======================================================
+# Team Weather CSV Repository - Basic Dependencies
+# ================================================
 
-# Weather API Integration
-requests>=2.31.0
+# No external dependencies required - uses Python standard library only
+# csv - Built-in CSV reading/writing
+# pathlib - Built-in path operations  
+# typing - Built-in type hints
 
-# Environment Variables for API Keys
-python-dotenv>=1.0.0
-
-# Data Validation for Weather Models
-pydantic>=2.0.0
-
-# Optional: Enhanced logging for debugging
-loguru>=0.7.0
-
-# Database support
-# sqlite3 is built-in with Python
-sqlalchemy>=2.0.0  # ORM for database operations
-
-# Data visualization
+# Optional: If team members want enhanced CSV viewing
+# pandas>=1.5.0  # Uncomment for advanced data analysis
 matplotlib>=3.7.0  # For charts and graphs
 numpy>=1.24.0      # For numerical operations
 

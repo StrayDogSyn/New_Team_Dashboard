@@ -1,511 +1,326 @@
 #!/usr/bin/env python3
 """
-Team Weather Dashboard
-=====================
-A collaborative weather application that generates CSV files for team comparison.
-Each team member can use this to collect weather data for their city and compare
-with other team members' data.
+Team Weather Data Repository
+===========================
+A simple CSV storage repository for team weather data comparison.
+Each team member uploads their CSV files here for shared analysis.
 """
 
-import os
-import sys
 import csv
-import json
-import requests
-from datetime import datetime, timedelta
-from dotenv import load_dotenv
+import os
 from pathlib import Path
-import logging
-from typing import Optional, Dict, Any, List
-
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
-logger = logging.getLogger(__name__)
+from typing import List, Dict, Any
 
 
-class EnvironmentConfig:
+def normalize_row_data(row: Dict[str, Any], filename: str) -> Dict[str, Any]:
     """
-    Environment configuration manager for API keys and settings.
+    Normalize different CSV formats to a common structure.
     
-    This class handles loading and validating environment variables
-    from .env files while providing fallback values and error handling.
+    Args:
+        row (Dict[str, Any]): Raw row data from CSV
+        filename (str): Name of the source CSV file
+        
+    Returns:
+        Dict[str, Any]: Normalized row data
     """
+    normalized = {}
     
-    def __init__(self, env_file: str = '.env'):
-        """
-        Initialize the environment configuration.
-        
-        Args:
-            env_file (str): Path to the .env file
-        """
-        self.env_file = env_file
-        self.load_environment()
-        self.validate_required_keys()
+    # Extract member name from filename if not in data
+    if 'member_name' in row:
+        normalized['member_name'] = row['member_name']
+    elif 'weather_data_' in filename:
+        # Extract name from filename like "weather_data_Eric.csv"
+        name_part = filename.replace('weather_data_', '').replace('.csv', '')
+        normalized['member_name'] = name_part.capitalize()
+    else:
+        normalized['member_name'] = 'Unknown'
     
-    def load_environment(self) -> None:
-        """Load environment variables from .env file."""
-        env_path = Path(self.env_file)
-        
-        if env_path.exists():
-            load_dotenv(env_path)
-            logger.info(f"Successfully loaded environment from {env_path}")
-        else:
-            logger.warning(f"Environment file {env_path} not found. Using system environment variables only.")
+    # Handle different timestamp formats
+    timestamp_fields = ['timestamp', 'Timestamp', 'date', 'Date', 'time', 'Time']
+    for field in timestamp_fields:
+        if field in row and row[field]:
+            normalized['timestamp'] = row[field]
+            break
+    else:
+        normalized['timestamp'] = 'Unknown'
     
-    def get_api_key(self, key_name: str, fallback_key: Optional[str] = None) -> Optional[str]:
-        """
-        Get API key from environment variables with optional fallback.
-        
-        Args:
-            key_name (str): Primary API key name
-            fallback_key (str, optional): Fallback API key name
-            
-        Returns:
-            str: API key value or None if not found
-        """
-        api_key = os.getenv(key_name)
-        
-        if not api_key and fallback_key:
-            api_key = os.getenv(fallback_key)
-            if api_key:
-                logger.info(f"Using fallback API key: {fallback_key}")
-        
-        if not api_key:
-            logger.error(f"API key not found: {key_name}")
-            return None
-        
-        # Mask API key in logs for security
-        masked_key = f"{api_key[:8]}{'*' * (len(api_key) - 12)}{api_key[-4:]}"
-        logger.info(f"API key loaded: {key_name} = {masked_key}")
-        
-        return api_key
+    # Handle different city name formats
+    city_fields = ['city', 'City', 'location', 'Location', 'place', 'Place']
+    for field in city_fields:
+        if field in row and row[field]:
+            normalized['city'] = row[field]
+            break
+    else:
+        normalized['city'] = 'Unknown'
     
-    def get_config_value(self, key: str, default: Any = None, data_type: type = str) -> Any:
-        """
-        Get configuration value with type conversion and default fallback.
-        
-        Args:
-            key (str): Environment variable name
-            default (Any): Default value if not found
-            data_type (type): Expected data type for conversion
-            
-        Returns:
-            Any: Configuration value with proper type
-        """
-        value = os.getenv(key, default)
-        
-        if value is None:
-            return default
-        
-        try:
-            if data_type == bool:
-                return str(value).lower() in ('true', '1', 'yes', 'on')
-            elif data_type == int:
-                return int(value)
-            elif data_type == float:
-                return float(value)
-            else:
-                return str(value)
-        except (ValueError, TypeError) as e:
-            logger.warning(f"Failed to convert {key}={value} to {data_type}: {e}")
-            return default
+    # Handle different country formats
+    country_fields = ['country', 'Country', 'nation', 'Nation']
+    for field in country_fields:
+        if field in row and row[field]:
+            normalized['country'] = row[field]
+            break
+    else:
+        normalized['country'] = 'Unknown'
     
-    def validate_required_keys(self) -> None:
-        """Validate that all required API keys are present."""
-        required_keys = [
-            'OPENWEATHER_API_KEY',
-            # Add other required keys here
-        ]
-        
-        missing_keys = []
-        for key in required_keys:
-            if not os.getenv(key):
-                missing_keys.append(key)
-        
-        if missing_keys:
-            logger.error(f"Missing required environment variables: {', '.join(missing_keys)}")
-            raise ValueError(f"Missing required environment variables: {', '.join(missing_keys)}")
-    
-    def get_all_config(self) -> Dict[str, Any]:
-        """
-        Get all configuration values as a dictionary.
-        
-        Returns:
-            Dict[str, Any]: All configuration values
-        """
-        return {
-            # API Keys
-            'openweather_api_key': self.get_api_key('OPENWEATHER_API_KEY', 'OPENWEATHER_API_KEY_BACKUP'),
-            'api_key': self.get_api_key('API_KEY'),
-            
-            # Database Configuration
-            'database_path': self.get_config_value('WEATHER_DATABASE_PATH', 'data/weather_dashboard.db'),
-            'storage_type': self.get_config_value('WEATHER_STORAGE_TYPE', 'sql'),
-            
-            # Application Configuration
-            'debug': self.get_config_value('DEBUG', False, bool),
-            'log_level': self.get_config_value('LOG_LEVEL', 'INFO'),
-            
-            # Optional API Keys
-            'openai_api_key': self.get_api_key('OPENAI_API_KEY'),
-            'google_api_key': self.get_api_key('GOOGLE_API_KEY'),
-        }
-
-
-class WeatherDashboard:
-    """
-    Main weather dashboard class for collecting and comparing weather data.
-    """
-    
-    def __init__(self, config: EnvironmentConfig):
-        """
-        Initialize the weather dashboard.
-        
-        Args:
-            config (EnvironmentConfig): Environment configuration instance
-        """
-        self.config = config
-        self.api_key = config.get_api_key('OPENWEATHER_API_KEY')
-        self.base_url = "https://api.openweathermap.org/data/2.5"
-        
-        if not self.api_key:
-            raise ValueError("OpenWeatherMap API key is required")
-        
-        # Create data directory if it doesn't exist
-        self.data_dir = Path("data")
-        self.data_dir.mkdir(exist_ok=True)
-    
-    def get_weather_data(self, city: str, country_code: str = "") -> Dict[str, Any]:
-        """
-        Get current weather data for a city.
-        
-        Args:
-            city (str): City name
-            country_code (str): ISO country code (optional)
-            
-        Returns:
-            Dict[str, Any]: Weather data
-        """
-        location = f"{city},{country_code}" if country_code else city
-        
-        params = {
-            'q': location,
-            'appid': self.api_key,
-            'units': 'metric'
-        }
-        
-        try:
-            response = requests.get(f"{self.base_url}/weather", params=params)
-            response.raise_for_status()
-            
-            data = response.json()
-            logger.info(f"Successfully retrieved weather data for {city}")
-            return data
-            
-        except requests.exceptions.RequestException as e:
-            logger.error(f"Failed to get weather data for {city}: {e}")
-            raise
-    
-    def get_forecast_data(self, city: str, days: int = 5) -> Dict[str, Any]:
-        """
-        Get 5-day weather forecast for a city.
-        
-        Args:
-            city (str): City name
-            days (int): Number of days (max 5 for free API)
-            
-        Returns:
-            Dict[str, Any]: Forecast data
-        """
-        params = {
-            'q': city,
-            'appid': self.api_key,
-            'units': 'metric',
-            'cnt': days * 8  # 8 forecasts per day (every 3 hours)
-        }
-        
-        try:
-            response = requests.get(f"{self.base_url}/forecast", params=params)
-            response.raise_for_status()
-            
-            data = response.json()
-            logger.info(f"Successfully retrieved forecast data for {city}")
-            return data
-            
-        except requests.exceptions.RequestException as e:
-            logger.error(f"Failed to get forecast data for {city}: {e}")
-            raise
-    
-    def format_weather_data(self, weather_data: Dict[str, Any], member_name: str) -> Dict[str, Any]:
-        """
-        Format weather data into a standardized structure.
-        
-        Args:
-            weather_data (Dict[str, Any]): Raw weather data from API
-            member_name (str): Name of the team member
-            
-        Returns:
-            Dict[str, Any]: Formatted weather data
-        """
-        return {
-            'timestamp': datetime.now().isoformat(),
-            'member_name': member_name,
-            'city': weather_data['name'],
-            'country': weather_data['sys']['country'],
-            'temperature': weather_data['main']['temp'],
-            'feels_like': weather_data['main']['feels_like'],
-            'humidity': weather_data['main']['humidity'],
-            'pressure': weather_data['main']['pressure'],
-            'weather_main': weather_data['weather'][0]['main'],
-            'weather_description': weather_data['weather'][0]['description'],
-            'wind_speed': weather_data.get('wind', {}).get('speed', 0),
-            'wind_direction': weather_data.get('wind', {}).get('deg', 0),
-            'cloudiness': weather_data['clouds']['all'],
-            'visibility': weather_data.get('visibility', 0) / 1000,  # Convert to km
-            'sunrise': datetime.fromtimestamp(weather_data['sys']['sunrise']).strftime('%H:%M'),
-            'sunset': datetime.fromtimestamp(weather_data['sys']['sunset']).strftime('%H:%M'),
-            'timezone': weather_data['timezone'] / 3600,  # Convert to hours
-        }
-    
-    def save_to_csv(self, weather_data: Dict[str, Any], filename: Optional[str] = None) -> str:
-        """
-        Save weather data to CSV file.
-        
-        Args:
-            weather_data (Dict[str, Any]): Formatted weather data
-            filename (str, optional): Custom filename
-            
-        Returns:
-            str: Path to the created CSV file
-        """
-        if filename is None:
-            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-            member_name = weather_data['member_name'].replace(' ', '_').lower()
-            filename = f"weather_{member_name}_{timestamp}.csv"
-        
-        csv_path = self.data_dir / filename
-        
-        # Check if file exists to determine if we need headers
-        file_exists = csv_path.exists()
-        
-        with open(csv_path, 'a', newline='', encoding='utf-8') as csvfile:
-            fieldnames = list(weather_data.keys())
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-            
-            # Write header only if file is new
-            if not file_exists:
-                writer.writeheader()
-            
-            writer.writerow(weather_data)
-        
-        logger.info(f"Weather data saved to {csv_path}")
-        return str(csv_path)
-    
-    def load_team_data(self, csv_directory: str = "data") -> List[Dict[str, Any]]:
-        """
-        Load all CSV files from the team repository.
-        
-        Args:
-            csv_directory (str): Directory containing CSV files
-            
-        Returns:
-            List[Dict[str, Any]]: Combined weather data from all team members
-        """
-        team_data = []
-        csv_dir = Path(csv_directory)
-        
-        if not csv_dir.exists():
-            logger.warning(f"Directory {csv_directory} does not exist")
-            return team_data
-        
-        for csv_file in csv_dir.glob("*.csv"):
+    # Handle temperature (convert Fahrenheit to Celsius if needed)
+    temp_fields = ['temperature', 'Temperature', 'temp', 'Temp', 'Temperature (F)', 'Temperature (C)']
+    for field in temp_fields:
+        if field in row and row[field]:
             try:
-                with open(csv_file, 'r', encoding='utf-8') as file:
-                    reader = csv.DictReader(file)
-                    for row in reader:
-                        # Convert numeric strings back to numbers
-                        for key in ['temperature', 'feels_like', 'humidity', 'pressure', 
-                                  'wind_speed', 'wind_direction', 'cloudiness', 'visibility', 'timezone']:
-                            if key in row and row[key]:
-                                try:
-                                    row[key] = float(row[key])
-                                except ValueError:
-                                    pass
-                        team_data.append(row)
-                
-                logger.info(f"Loaded data from {csv_file}")
-                
-            except Exception as e:
-                logger.error(f"Failed to load {csv_file}: {e}")
+                temp_value = float(row[field])
+                # Convert Fahrenheit to Celsius if the field indicates Fahrenheit
+                if '(F)' in field or temp_value > 50:  # Assume >50 is Fahrenheit
+                    temp_value = (temp_value - 32) * 5/9
+                normalized['temperature'] = temp_value
+                break
+            except (ValueError, TypeError):
+                pass
+    
+    # Handle weather description
+    desc_fields = ['weather_description', 'Description', 'description', 'weather', 'Weather', 'conditions', 'Conditions']
+    for field in desc_fields:
+        if field in row and row[field]:
+            normalized['weather_description'] = row[field]
+            normalized['weather_main'] = row[field].split()[0].capitalize()  # First word as main condition
+            break
+    
+    # Handle humidity
+    humidity_fields = ['humidity', 'Humidity', 'humid', 'Humid']
+    for field in humidity_fields:
+        if field in row and row[field]:
+            try:
+                normalized['humidity'] = float(row[field])
+                break
+            except (ValueError, TypeError):
+                pass
+    
+    # Handle wind speed
+    wind_fields = ['wind_speed', 'Wind Speed', 'wind', 'Wind', 'windspeed', 'WindSpeed']
+    for field in wind_fields:
+        if field in row and row[field]:
+            try:
+                normalized['wind_speed'] = float(row[field])
+                break
+            except (ValueError, TypeError):
+                pass
+    
+    # Copy any other fields that might be useful
+    for key, value in row.items():
+        if key not in normalized and value:
+            normalized[key] = value
+    
+    return normalized
+
+
+def load_all_team_data(csv_directory: str = "data") -> List[Dict[str, Any]]:
+    """
+    Load all CSV files from the team repository with format normalization.
+    
+    Args:
+        csv_directory (str): Directory containing CSV files
         
+    Returns:
+        List[Dict[str, Any]]: Combined and normalized weather data from all team members
+    """
+    team_data = []
+    csv_dir = Path(csv_directory)
+    
+    if not csv_dir.exists():
+        print(f"Directory {csv_directory} does not exist")
         return team_data
     
-    def compare_team_weather(self, team_data: List[Dict[str, Any]]) -> Dict[str, Any]:
-        """
-        Compare weather data across all team members.
-        
-        Args:
-            team_data (List[Dict[str, Any]]): Weather data from all team members
+    for csv_file in csv_dir.glob("*.csv"):
+        try:
+            with open(csv_file, 'r', encoding='utf-8') as file:
+                reader = csv.DictReader(file)
+                file_count = 0
+                
+                for row in reader:
+                    # Normalize the row data to handle different formats
+                    normalized_row = normalize_row_data(row, csv_file.name)
+                    team_data.append(normalized_row)
+                    file_count += 1
             
-        Returns:
-            Dict[str, Any]: Comparison statistics
-        """
-        if not team_data:
-            return {}
-        
-        # Extract numeric data for comparison
-        temperatures = [float(data['temperature']) for data in team_data if data.get('temperature')]
-        humidity_levels = [float(data['humidity']) for data in team_data if data.get('humidity')]
-        wind_speeds = [float(data['wind_speed']) for data in team_data if data.get('wind_speed')]
-        
-        comparison = {
-            'total_members': len(set(data['member_name'] for data in team_data)),
-            'total_cities': len(set(data['city'] for data in team_data)),
-            'temperature_stats': {
-                'highest': max(temperatures) if temperatures else 0,
-                'lowest': min(temperatures) if temperatures else 0,
-                'average': sum(temperatures) / len(temperatures) if temperatures else 0,
-                'hottest_city': next((data['city'] for data in team_data 
-                                    if float(data['temperature']) == max(temperatures)), 'N/A') if temperatures else 'N/A',
-                'coldest_city': next((data['city'] for data in team_data 
-                                    if float(data['temperature']) == min(temperatures)), 'N/A') if temperatures else 'N/A',
-            },
-            'humidity_stats': {
-                'highest': max(humidity_levels) if humidity_levels else 0,
-                'lowest': min(humidity_levels) if humidity_levels else 0,
-                'average': sum(humidity_levels) / len(humidity_levels) if humidity_levels else 0,
-            },
-            'wind_stats': {
-                'highest': max(wind_speeds) if wind_speeds else 0,
-                'lowest': min(wind_speeds) if wind_speeds else 0,
-                'average': sum(wind_speeds) / len(wind_speeds) if wind_speeds else 0,
-            },
-            'weather_conditions': list(set(data['weather_main'] for data in team_data if data.get('weather_main'))),
-            'countries': list(set(data['country'] for data in team_data if data.get('country'))),
-        }
-        
-        return comparison
+            print(f"Loaded {file_count} records from {csv_file}")
+            
+        except Exception as e:
+            print(f"Failed to load {csv_file}: {e}")
     
-    def generate_comparison_report(self, comparison: Dict[str, Any]) -> str:
-        """
-        Generate a human-readable comparison report.
+    return team_data
+
+
+def compare_team_data(team_data: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """
+    Compare weather data across all team members with flexible field handling.
+    
+    Args:
+        team_data (List[Dict[str, Any]]): Weather data from all team members
         
-        Args:
-            comparison (Dict[str, Any]): Comparison statistics
-            
-        Returns:
-            str: Formatted report
-        """
-        if not comparison:
-            return "No data available for comparison."
+    Returns:
+        Dict[str, Any]: Comparison statistics
+    """
+    if not team_data:
+        return {}
+    
+    # Extract numeric data for comparison (handle missing fields gracefully)
+    temperatures = []
+    humidity_levels = []
+    wind_speeds = []
+    
+    for data in team_data:
+        if 'temperature' in data and data['temperature'] is not None:
+            try:
+                temperatures.append(float(data['temperature']))
+            except (ValueError, TypeError):
+                pass
         
-        report = f"""
-🌤️  TEAM WEATHER DASHBOARD REPORT
-=======================================
-📊 Overview:
-   • Team Members: {comparison['total_members']}
-   • Cities Covered: {comparison['total_cities']}
-   • Countries: {', '.join(comparison['countries'])}
-
-🌡️  Temperature Analysis:
-   • Hottest: {comparison['temperature_stats']['highest']:.1f}°C in {comparison['temperature_stats']['hottest_city']}
-   • Coldest: {comparison['temperature_stats']['lowest']:.1f}°C in {comparison['temperature_stats']['coldest_city']}
-   • Team Average: {comparison['temperature_stats']['average']:.1f}°C
-   • Temperature Range: {comparison['temperature_stats']['highest'] - comparison['temperature_stats']['lowest']:.1f}°C
-
-💧 Humidity Analysis:
-   • Highest: {comparison['humidity_stats']['highest']:.0f}%
-   • Lowest: {comparison['humidity_stats']['lowest']:.0f}%
-   • Team Average: {comparison['humidity_stats']['average']:.1f}%
-
-💨 Wind Analysis:
-   • Strongest: {comparison['wind_stats']['highest']:.1f} m/s
-   • Calmest: {comparison['wind_stats']['lowest']:.1f} m/s
-   • Team Average: {comparison['wind_stats']['average']:.1f} m/s
-
-☁️  Weather Conditions Across Team:
-   • {', '.join(comparison['weather_conditions'])}
-
-Report generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
-        """
+        if 'humidity' in data and data['humidity'] is not None:
+            try:
+                humidity_levels.append(float(data['humidity']))
+            except (ValueError, TypeError):
+                pass
         
-        return report.strip()
+        if 'wind_speed' in data and data['wind_speed'] is not None:
+            try:
+                wind_speeds.append(float(data['wind_speed']))
+            except (ValueError, TypeError):
+                pass
+    
+    # Get unique values with safe extraction
+    members = set()
+    cities = set()
+    countries = set()
+    weather_conditions = set()
+    
+    for data in team_data:
+        if data.get('member_name'):
+            members.add(data['member_name'])
+        if data.get('city'):
+            cities.add(data['city'])
+        if data.get('country'):
+            countries.add(data['country'])
+        if data.get('weather_main'):
+            weather_conditions.add(data['weather_main'])
+        elif data.get('weather_description'):
+            # Extract main condition from description if weather_main not available
+            main_condition = data['weather_description'].split()[0].capitalize()
+            weather_conditions.add(main_condition)
+    
+    comparison = {
+        'total_members': len(members),
+        'total_cities': len(cities),
+        'total_records': len(team_data),
+        'temperature_stats': {
+            'count': len(temperatures),
+            'highest': max(temperatures) if temperatures else None,
+            'lowest': min(temperatures) if temperatures else None,
+            'average': sum(temperatures) / len(temperatures) if temperatures else None,
+        },
+        'humidity_stats': {
+            'count': len(humidity_levels),
+            'highest': max(humidity_levels) if humidity_levels else None,
+            'lowest': min(humidity_levels) if humidity_levels else None,
+            'average': sum(humidity_levels) / len(humidity_levels) if humidity_levels else None,
+        },
+        'wind_stats': {
+            'count': len(wind_speeds),
+            'highest': max(wind_speeds) if wind_speeds else None,
+            'lowest': min(wind_speeds) if wind_speeds else None,
+            'average': sum(wind_speeds) / len(wind_speeds) if wind_speeds else None,
+        },
+        'weather_conditions': sorted(list(weather_conditions)),
+        'countries': sorted(list(countries)),
+        'cities': sorted(list(cities)),
+        'members': sorted(list(members)),
+    }
+    
+    return comparison
+
+
+def print_team_summary(comparison: Dict[str, Any]) -> None:
+    """
+    Print a comprehensive summary of team weather data with flexible field handling.
+    
+    Args:
+        comparison (Dict[str, Any]): Comparison statistics
+    """
+    if not comparison:
+        print("No data available for comparison.")
+        return
+    
+    print("\n" + "="*60)
+    print("TEAM WEATHER DATA SUMMARY")
+    print("="*60)
+    print(f"Team Members: {comparison['total_members']}")
+    print(f"Total Cities: {comparison['total_cities']}")
+    print(f"Total Records: {comparison['total_records']}")
+    print(f"Cities: {', '.join(comparison['cities']) if comparison['cities'] else 'None'}")
+    print(f"Members: {', '.join(comparison['members']) if comparison['members'] else 'None'}")
+    
+    # Temperature statistics
+    temp_stats = comparison['temperature_stats']
+    print("\n📊 TEMPERATURE DATA:")
+    if temp_stats['count'] > 0:
+        print(f"  Records with temperature: {temp_stats['count']}")
+        print(f"  Range: {temp_stats['lowest']:.1f}°C to {temp_stats['highest']:.1f}°C")
+        print(f"  Average: {temp_stats['average']:.1f}°C")
+    else:
+        print("  No temperature data available")
+    
+    # Humidity statistics
+    humidity_stats = comparison['humidity_stats']
+    print("\n💧 HUMIDITY DATA:")
+    if humidity_stats['count'] > 0:
+        print(f"  Records with humidity: {humidity_stats['count']}")
+        print(f"  Range: {humidity_stats['lowest']:.0f}% to {humidity_stats['highest']:.0f}%")
+        print(f"  Average: {humidity_stats['average']:.1f}%")
+    else:
+        print("  No humidity data available")
+    
+    # Wind statistics
+    wind_stats = comparison['wind_stats']
+    print("\n🌬️  WIND DATA:")
+    if wind_stats['count'] > 0:
+        print(f"  Records with wind speed: {wind_stats['count']}")
+        print(f"  Range: {wind_stats['lowest']:.1f} to {wind_stats['highest']:.1f} m/s")
+        print(f"  Average: {wind_stats['average']:.1f} m/s")
+    else:
+        print("  No wind speed data available")
+    
+    # Weather conditions
+    print("\n🌤️  WEATHER CONDITIONS:")
+    if comparison['weather_conditions']:
+        print(f"  Conditions observed: {', '.join(comparison['weather_conditions'])}")
+    else:
+        print("  No weather condition data available")
+    
+    # Countries
+    if comparison['countries']:
+        print(f"\n🌍 COUNTRIES: {', '.join(comparison['countries'])}")
+    
+    print("="*60)
+    print(f"✅ Successfully processed data from {comparison['total_members']} team member(s)")
+    print("="*60)
 
 
 def main():
     """
-    Main function for the Team Weather Dashboard.
+    Main function to load and display team weather data comparison.
     """
-    try:
-        # Initialize environment configuration
-        config = EnvironmentConfig()
-        
-        # Initialize weather dashboard
-        dashboard = WeatherDashboard(config)
-        
-        print("🌤️  TEAM WEATHER DASHBOARD")
-        print("=" * 50)
-        
-        # Get user information
-        member_name = input("Enter your name: ").strip()
-        if not member_name:
-            member_name = "Team Member"
-        
-        city = input("Enter your city: ").strip()
-        if not city:
-            print("❌ City name is required!")
-            return
-        
-        country_code = input("Enter country code (optional, e.g., 'US', 'UK'): ").strip()
-        
-        print(f"\n🔄 Getting weather data for {city}...")
-        
-        # Get weather data
-        weather_data = dashboard.get_weather_data(city, country_code)
-        formatted_data = dashboard.format_weather_data(weather_data, member_name)
-        
-        # Display current weather
-        print(f"\n🌡️  Current Weather in {formatted_data['city']}, {formatted_data['country']}:")
-        print(f"   Temperature: {formatted_data['temperature']:.1f}°C (feels like {formatted_data['feels_like']:.1f}°C)")
-        print(f"   Condition: {formatted_data['weather_description'].title()}")
-        print(f"   Humidity: {formatted_data['humidity']}%")
-        print(f"   Wind: {formatted_data['wind_speed']:.1f} m/s")
-        print(f"   Sunrise: {formatted_data['sunrise']} | Sunset: {formatted_data['sunset']}")
-        
-        # Save to CSV
-        csv_file = dashboard.save_to_csv(formatted_data)
-        print(f"\n💾 Data saved to: {csv_file}")
-        
-        # Load and compare team data
-        print(f"\n📊 Loading team comparison data...")
-        team_data = dashboard.load_team_data()
-        
-        if len(team_data) > 1:
-            comparison = dashboard.compare_team_weather(team_data)
-            report = dashboard.generate_comparison_report(comparison)
-            print(report)
-            
-            # Save comparison report
-            report_file = dashboard.data_dir / f"team_comparison_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
-            with open(report_file, 'w', encoding='utf-8') as f:
-                f.write(report)
-            print(f"\n📋 Comparison report saved to: {report_file}")
-        else:
-            print("\n📝 Add more team member data files to generate comparison reports!")
-            print("   Each team member should run this app and share their CSV file.")
-        
-        print(f"\n✅ Weather dashboard complete!")
-        print(f"📁 Check the 'data' folder for CSV files to share with your team.")
-        
-    except KeyboardInterrupt:
-        print("\n\n👋 Weather dashboard interrupted by user.")
-    except Exception as e:
-        logger.error(f"Application error: {e}")
-        print(f"\n❌ Error: {e}")
-        sys.exit(1)
+    print("Team Weather Data Repository")
+    print("Loading all team CSV files...")
+    
+    # Load all team data
+    team_data = load_all_team_data()
+    
+    if not team_data:
+        print("\nNo CSV files found in the data directory.")
+        print("Team members should add their weather CSV files to the 'data' folder.")
+        return
+    
+    # Generate and display comparison
+    comparison = compare_team_data(team_data)
+    print_team_summary(comparison)
 
 
 if __name__ == "__main__":
