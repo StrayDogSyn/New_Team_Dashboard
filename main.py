@@ -1,16 +1,29 @@
 #!/usr/bin/env python3
 """
-Team Weather Data Repository
-===========================
-A simple CSV storage repository for team weather data comparison.
-Each team member uploads their CSV files here for shared analysis.
+Team Weather Data Repository - Compare Cities Feature
+====================================================
+A streamlined CSV storage repository for team weather data collaboration.
+Each team member uploads their CSV files here for shared Compare Cities analysis.
+
+Features:
+- Multi-format CSV normalization
+- Compare Cities analysis with 7 available cities
+- Simplified 2-file export system (CSV + JSON)
+- Team collaboration tools for capstone projects
+
+Usage:
+    python main.py
+    
+Export files will be created in exports/ directory:
+- team_weather_data_[timestamp].csv (complete dataset)
+- team_compare_cities_data_[timestamp].json (analysis data)
 """
 
 import csv
-import os
 import json
 from pathlib import Path
 from typing import List, Dict, Any, Optional
+from datetime import datetime
 
 
 def normalize_row_data(row: Dict[str, Any], filename: str) -> Dict[str, Any]:
@@ -399,7 +412,6 @@ def export_team_data_csv(team_data: List[Dict[str, Any]], output_dir: str = "exp
     export_path.mkdir(exist_ok=True)
     
     # Generate filename with timestamp
-    from datetime import datetime
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     csv_filename = f"team_weather_data_{timestamp}.csv"
     csv_filepath = export_path / csv_filename
@@ -437,133 +449,6 @@ def export_team_data_csv(team_data: List[Dict[str, Any]], output_dir: str = "exp
     return str(csv_filepath)
 
 
-def export_cities_analysis_json(cities_analysis: Dict[str, Any], output_dir: str = "exports") -> str:
-    """
-    Export Compare Cities analysis to JSON format for team member imports.
-    
-    Args:
-        cities_analysis (Dict[str, Any]): City comparison analysis
-        output_dir (str): Directory to save the export file
-        
-    Returns:
-        str: Path to the exported JSON file
-    """
-    # Create exports directory if it doesn't exist
-    export_path = Path(output_dir)
-    export_path.mkdir(exist_ok=True)
-    
-    # Generate filename with timestamp
-    from datetime import datetime
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    json_filename = f"compare_cities_analysis_{timestamp}.json"
-    json_filepath = export_path / json_filename
-    
-    if not cities_analysis or 'city_data' not in cities_analysis:
-        print("❌ No cities analysis data to export")
-        return ""
-    
-    # Write JSON file with pretty formatting
-    with open(json_filepath, 'w', encoding='utf-8') as jsonfile:
-        json.dump(cities_analysis, jsonfile, indent=2, ensure_ascii=False)
-    
-    print(f"✅ Exported cities analysis to: {json_filepath}")
-    print(f"   Cities: {cities_analysis.get('cities_analyzed', 0)} | Records: {cities_analysis.get('total_records', 0)}")
-    return str(json_filepath)
-
-
-def export_team_summary_json(team_summary: Dict[str, Any], output_dir: str = "exports") -> str:
-    """
-    Export team summary statistics to JSON format for team member imports.
-    
-    Args:
-        team_summary (Dict[str, Any]): Team comparison statistics
-        output_dir (str): Directory to save the export file
-        
-    Returns:
-        str: Path to the exported JSON file
-    """
-    # Create exports directory if it doesn't exist
-    export_path = Path(output_dir)
-    export_path.mkdir(exist_ok=True)
-    
-    # Generate filename with timestamp
-    from datetime import datetime
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    json_filename = f"team_summary_{timestamp}.json"
-    json_filepath = export_path / json_filename
-    
-    if not team_summary:
-        print("❌ No team summary data to export")
-        return ""
-    
-    # Write JSON file with pretty formatting
-    with open(json_filepath, 'w', encoding='utf-8') as jsonfile:
-        json.dump(team_summary, jsonfile, indent=2, ensure_ascii=False)
-    
-    print(f"✅ Exported team summary to: {json_filepath}")
-    print(f"   Members: {team_summary.get('total_members', 0)} | Cities: {team_summary.get('total_cities', 0)}")
-    return str(json_filepath)
-
-
-def export_city_specific_csv(team_data: List[Dict[str, Any]], city_name: str, output_dir: str = "exports") -> str:
-    """
-    Export data for a specific city to CSV format for targeted analysis.
-    
-    Args:
-        team_data (List[Dict[str, Any]]): Normalized team weather data
-        city_name (str): Name of the city to filter and export
-        output_dir (str): Directory to save the export file
-        
-    Returns:
-        str: Path to the exported CSV file
-    """
-    # Create exports directory if it doesn't exist
-    export_path = Path(output_dir)
-    export_path.mkdir(exist_ok=True)
-    
-    # Filter data for specific city
-    city_data = [row for row in team_data if row.get('city', '').lower() == city_name.lower()]
-    
-    if not city_data:
-        print(f"❌ No data found for city: {city_name}")
-        return ""
-    
-    # Generate filename with timestamp
-    from datetime import datetime
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    safe_city_name = city_name.replace(' ', '_').replace(',', '').lower()
-    csv_filename = f"{safe_city_name}_weather_data_{timestamp}.csv"
-    csv_filepath = export_path / csv_filename
-    
-    # Get all unique field names from the city data
-    all_fields = set()
-    for row in city_data:
-        all_fields.update(row.keys())
-    
-    # Define standard field order
-    standard_fields = ['timestamp', 'member_name', 'city', 'country', 'temperature', 'humidity', 'wind_speed', 'weather_main', 'weather_description']
-    ordered_fields = []
-    
-    # Add standard fields first if they exist
-    for field in standard_fields:
-        if field in all_fields:
-            ordered_fields.append(field)
-            all_fields.remove(field)
-    
-    # Add remaining fields
-    ordered_fields.extend(sorted(all_fields))
-    
-    # Write CSV file
-    with open(csv_filepath, 'w', newline='', encoding='utf-8') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=ordered_fields)
-        writer.writeheader()
-        writer.writerows(city_data)
-    
-    print(f"✅ Exported {city_name} data to: {csv_filepath}")
-    print(f"   Records: {len(city_data)} | Fields: {len(ordered_fields)}")
-    return str(csv_filepath)
-
-
 def create_export_package(team_data: List[Dict[str, Any]], cities_analysis: Dict[str, Any], team_summary: Dict[str, Any], output_dir: str = "exports") -> Dict[str, str]:
     """
     Create a simplified export package with essential files for team member imports.
@@ -598,8 +483,6 @@ def create_export_package(team_data: List[Dict[str, Any]], cities_analysis: Dict
         export_files['team_data_csv'] = csv_path
     
     # Create combined analysis JSON with all relevant data
-    from datetime import datetime
-    
     combined_analysis = {
         'cities_analysis': cities_analysis,
         'team_summary': team_summary,
