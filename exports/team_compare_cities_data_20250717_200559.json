@@ -1,0 +1,292 @@
+{
+  "cities_analysis": {
+    "cities_analyzed": 7,
+    "total_records": 225,
+    "city_data": {
+      "New York": {
+        "records": 2,
+        "temperature": {
+          "count": 2,
+          "avg": 23.46388888888889,
+          "min": 22.5,
+          "max": 24.427777777777777
+        },
+        "humidity": {
+          "count": 1,
+          "avg": 45.0,
+          "min": 45.0,
+          "max": 45.0
+        },
+        "wind": {
+          "count": 1,
+          "avg": 3.2,
+          "min": 3.2,
+          "max": 3.2
+        },
+        "weather_conditions": [
+          "Clear"
+        ],
+        "members": [
+          "Shomari",
+          "Sample Member"
+        ]
+      },
+      "Providence": {
+        "records": 30,
+        "temperature": {
+          "count": 30,
+          "avg": 26.423333333333336,
+          "min": 20.5,
+          "max": 32.2
+        },
+        "humidity": {
+          "count": 30,
+          "avg": 61.86666666666667,
+          "min": 44.0,
+          "max": 82.0
+        },
+        "wind": {
+          "count": 30,
+          "avg": 3.3033333333333332,
+          "min": 1.8,
+          "max": 5.2
+        },
+        "weather_conditions": [
+          "Broken",
+          "Clear",
+          "Few",
+          "Light",
+          "Moderate",
+          "Scattered",
+          "Thunderstorm"
+        ],
+        "members": [
+          "Eric"
+        ]
+      },
+      "Austin": {
+        "records": 30,
+        "temperature": {
+          "count": 30,
+          "avg": 36.67666666666666,
+          "min": 30.7,
+          "max": 42.1
+        },
+        "humidity": {
+          "count": 30,
+          "avg": 40.93333333333333,
+          "min": 28.0,
+          "max": 58.0
+        },
+        "wind": {
+          "count": 30,
+          "avg": 2.48,
+          "min": 1.2,
+          "max": 5.2
+        },
+        "weather_conditions": [
+          "Broken",
+          "Clear",
+          "Few",
+          "Heavy",
+          "Light",
+          "Scattered",
+          "Thunderstorm"
+        ],
+        "members": [
+          "Eric"
+        ]
+      },
+      "Rawlins": {
+        "records": 30,
+        "temperature": {
+          "count": 30,
+          "avg": 22.40666666666667,
+          "min": 14.5,
+          "max": 31.2
+        },
+        "humidity": {
+          "count": 30,
+          "avg": 26.866666666666667,
+          "min": 16.0,
+          "max": 42.0
+        },
+        "wind": {
+          "count": 30,
+          "avg": 4.946666666666667,
+          "min": 2.2,
+          "max": 8.6
+        },
+        "weather_conditions": [
+          "Broken",
+          "Clear",
+          "Few",
+          "Light",
+          "Moderate",
+          "Overcast",
+          "Scattered",
+          "Thunderstorm"
+        ],
+        "members": [
+          "Eric"
+        ]
+      },
+      "Ontario": {
+        "records": 30,
+        "temperature": {
+          "count": 30,
+          "avg": 31.766666666666666,
+          "min": 24.8,
+          "max": 39.7
+        },
+        "humidity": {
+          "count": 30,
+          "avg": 41.166666666666664,
+          "min": 27.0,
+          "max": 61.0
+        },
+        "wind": {
+          "count": 30,
+          "avg": 3.9433333333333334,
+          "min": 1.8,
+          "max": 6.7
+        },
+        "weather_conditions": [
+          "Broken",
+          "Clear",
+          "Few",
+          "Heavy",
+          "Light",
+          "Moderate",
+          "Overcast",
+          "Scattered",
+          "Thunderstorm"
+        ],
+        "members": [
+          "Eric"
+        ]
+      },
+      "Miami": {
+        "records": 1,
+        "temperature": {
+          "count": 1,
+          "avg": 28.377777777777776,
+          "min": 28.377777777777776,
+          "max": 28.377777777777776
+        },
+        "humidity": {
+          "count": 0,
+          "avg": null,
+          "min": null,
+          "max": null
+        },
+        "wind": {
+          "count": 0,
+          "avg": null,
+          "min": null,
+          "max": null
+        },
+        "weather_conditions": [
+          "Scattered"
+        ],
+        "members": [
+          "Shomari"
+        ]
+      },
+      "New Jersey": {
+        "records": 102,
+        "temperature": {
+          "count": 102,
+          "avg": 22.211764705882356,
+          "min": 22.211111111111116,
+          "max": 22.277777777777775
+        },
+        "humidity": {
+          "count": 0,
+          "avg": null,
+          "min": null,
+          "max": null
+        },
+        "wind": {
+          "count": 0,
+          "avg": null,
+          "min": null,
+          "max": null
+        },
+        "weather_conditions": [
+          "Clear"
+        ],
+        "members": [
+          "Shomari"
+        ]
+      }
+    },
+    "comparison_ready": true
+  },
+  "team_summary": {
+    "total_members": 3,
+    "total_cities": 7,
+    "total_records": 225,
+    "temperature_stats": {
+      "count": 225,
+      "highest": 42.1,
+      "lowest": 14.5,
+      "average": 26.04046913580247
+    },
+    "humidity_stats": {
+      "count": 121,
+      "highest": 82.0,
+      "lowest": 16.0,
+      "average": 42.72727272727273
+    },
+    "wind_stats": {
+      "count": 121,
+      "highest": 8.6,
+      "lowest": 1.2,
+      "average": 3.6644628099173553
+    },
+    "weather_conditions": [
+      "Broken",
+      "Clear",
+      "Few",
+      "Heavy",
+      "Light",
+      "Moderate",
+      "Overcast",
+      "Scattered",
+      "Thunderstorm"
+    ],
+    "countries": [
+      "US",
+      "Unknown"
+    ],
+    "cities": [
+      "Austin",
+      "Miami",
+      "New Jersey",
+      "New York",
+      "Ontario",
+      "Providence",
+      "Rawlins"
+    ],
+    "members": [
+      "Eric",
+      "Sample Member",
+      "Shomari"
+    ]
+  },
+  "export_info": {
+    "total_records": 225,
+    "cities_available": [
+      "New York",
+      "Providence",
+      "Austin",
+      "Rawlins",
+      "Ontario",
+      "Miami",
+      "New Jersey"
+    ],
+    "export_date": "2025-07-17 20:05:59",
+    "usage_note": "This file contains pre-calculated city comparisons and team statistics for Compare Cities implementation"
+  }
+}
