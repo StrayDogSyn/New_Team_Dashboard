@@ -1,4 +1,4 @@
-# 📊 Team Weather CSV Repository
+# 📊 Team CodeFont Weather CSV Repository
 
 A bare-bones CSV storage repository for team weather data comparison. Team members upload their CSV files here for shared analysis and the **Compare Cities** feature.
 
