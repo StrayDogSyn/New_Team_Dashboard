@@ -1,8 +1,104 @@
 {
   "cities_analysis": {
-    "cities_analyzed": 7,
-    "total_records": 225,
+    "cities_analyzed": 9,
+    "total_records": 725,
     "city_data": {
+      "New York": {
+        "records": 2,
+        "temperature": {
+          "count": 2,
+          "avg": 23.46388888888889,
+          "min": 22.5,
+          "max": 24.427777777777777
+        },
+        "humidity": {
+          "count": 1,
+          "avg": 45.0,
+          "min": 45.0,
+          "max": 45.0
+        },
+        "wind": {
+          "count": 1,
+          "avg": 3.2,
+          "min": 3.2,
+          "max": 3.2
+        },
+        "weather_conditions": [
+          "Clear"
+        ],
+        "members": [
+          "Sample Member",
+          "Shomari"
+        ]
+      },
+      "Chicago": {
+        "records": 250,
+        "temperature": {
+          "count": 0,
+          "avg": null,
+          "min": null,
+          "max": null
+        },
+        "humidity": {
+          "count": 0,
+          "avg": null,
+          "min": null,
+          "max": null
+        },
+        "wind": {
+          "count": 0,
+          "avg": null,
+          "min": null,
+          "max": null
+        },
+        "weather_conditions": [
+          "Clear",
+          "Few",
+          "Light",
+          "Overcast",
+          "Rain",
+          "Scattered",
+          "Snow",
+          "Thunderstorm"
+        ],
+        "members": [
+          "Capstone_tobi"
+        ]
+      },
+      "Denver": {
+        "records": 250,
+        "temperature": {
+          "count": 0,
+          "avg": null,
+          "min": null,
+          "max": null
+        },
+        "humidity": {
+          "count": 0,
+          "avg": null,
+          "min": null,
+          "max": null
+        },
+        "wind": {
+          "count": 0,
+          "avg": null,
+          "min": null,
+          "max": null
+        },
+        "weather_conditions": [
+          "Clear",
+          "Few",
+          "Light",
+          "Overcast",
+          "Rain",
+          "Scattered",
+          "Snow",
+          "Thunderstorm"
+        ],
+        "members": [
+          "Capstone_tobi"
+        ]
+      },
       "Providence": {
         "records": 30,
         "temperature": {
@@ -138,34 +234,6 @@
           "Eric"
         ]
       },
-      "New York": {
-        "records": 2,
-        "temperature": {
-          "count": 2,
-          "avg": 23.46388888888889,
-          "min": 22.5,
-          "max": 24.427777777777777
-        },
-        "humidity": {
-          "count": 1,
-          "avg": 45.0,
-          "min": 45.0,
-          "max": 45.0
-        },
-        "wind": {
-          "count": 1,
-          "avg": 3.2,
-          "min": 3.2,
-          "max": 3.2
-        },
-        "weather_conditions": [
-          "Clear"
-        ],
-        "members": [
-          "Sample Member",
-          "Shomari"
-        ]
-      },
       "Miami": {
         "records": 1,
         "temperature": {
@@ -224,9 +292,9 @@
     "comparison_ready": true
   },
   "team_summary": {
-    "total_members": 3,
-    "total_cities": 7,
-    "total_records": 225,
+    "total_members": 4,
+    "total_cities": 9,
+    "total_records": 725,
     "temperature_stats": {
       "count": 225,
       "highest": 42.1,
@@ -253,7 +321,9 @@
       "Light",
       "Moderate",
       "Overcast",
+      "Rain",
       "Scattered",
+      "Snow",
       "Thunderstorm"
     ],
     "countries": [
@@ -262,6 +332,8 @@
     ],
     "cities": [
       "Austin",
+      "Chicago",
+      "Denver",
       "Miami",
       "New Jersey",
       "New York",
@@ -270,23 +342,26 @@
       "Rawlins"
     ],
     "members": [
+      "Capstone_tobi",
       "Eric",
       "Sample Member",
       "Shomari"
     ]
   },
   "export_info": {
-    "total_records": 225,
+    "total_records": 725,
     "cities_available": [
+      "New York",
+      "Chicago",
+      "Denver",
       "Providence",
       "Austin",
       "Rawlins",
       "Ontario",
-      "New York",
       "Miami",
       "New Jersey"
     ],
-    "export_date": "2025-07-28 19:17:18",
+    "export_date": "2025-07-28 20:45:46",
     "usage_note": "This file contains pre-calculated city comparisons and team statistics for Compare Cities implementation"
   }
 }
