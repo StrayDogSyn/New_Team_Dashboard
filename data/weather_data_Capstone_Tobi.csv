@@ -1,0 +1,501 @@
+datetime,city,temp_f,description,units,humidity_pct,wind_speed_mph
+2023-01-01 15:14:29,Chicago,46.42,Few clouds,imperial,60,10.1
+2023-01-02 15:14:29,Chicago,40.04,Clear sky,imperial,47,13.7
+2023-01-03 15:14:29,Chicago,39.3,Light rain,imperial,62,8.7
+2023-01-04 15:14:29,Chicago,47.16,Overcast clouds,imperial,46,7.1
+2023-01-05 15:14:29,Chicago,32.37,Few clouds,imperial,33,5.4
+2023-01-06 15:14:29,Chicago,44.41,Scattered clouds,imperial,40,5.8
+2023-01-07 15:14:29,Chicago,36.96,Overcast clouds,imperial,49,3.7
+2023-01-08 15:14:29,Chicago,43.95,Few clouds,imperial,34,11.2
+2023-01-09 15:14:29,Chicago,41.63,Overcast clouds,imperial,21,9.3
+2023-01-10 15:14:29,Chicago,38.04,Scattered clouds,imperial,42,7.8
+2023-01-11 15:14:29,Chicago,30.1,Overcast clouds,imperial,32,8.4
+2023-01-12 15:14:29,Chicago,35.96,Few clouds,imperial,69,13.5
+2023-01-13 15:14:29,Chicago,38.35,Clear sky,imperial,66,12.1
+2023-01-14 15:14:29,Chicago,35.42,Scattered clouds,imperial,68,9.2
+2023-01-15 15:14:29,Chicago,33.88,Few clouds,imperial,31,7.4
+2023-01-16 15:14:29,Chicago,38.89,Clear sky,imperial,50,10.3
+2023-01-17 15:14:29,Chicago,37.94,Clear sky,imperial,88,11.5
+2023-01-18 15:14:29,Chicago,27.04,Snow,imperial,80,12.1
+2023-01-19 15:14:29,Chicago,31.68,Clear sky,imperial,57,13.0
+2023-01-20 15:14:29,Chicago,34.73,Clear sky,imperial,67,12.0
+2023-01-21 15:14:29,Chicago,41.41,Overcast clouds,imperial,46,4.7
+2023-01-22 15:14:29,Chicago,34.02,Clear sky,imperial,57,7.7
+2023-01-23 15:14:29,Chicago,31.81,Clear sky,imperial,68,21.3
+2023-01-24 15:14:29,Chicago,34.79,Overcast clouds,imperial,56,10.3
+2023-01-25 15:14:29,Chicago,24.37,Overcast clouds,imperial,79,2.7
+2023-01-26 15:14:29,Chicago,43.62,Few clouds,imperial,55,11.6
+2023-01-27 15:14:29,Chicago,16.03,Light rain,imperial,56,6.9
+2023-01-28 15:14:29,Chicago,38.97,Clear sky,imperial,50,6.3
+2023-01-29 15:14:29,Chicago,27.41,Few clouds,imperial,55,6.5
+2023-01-30 15:14:29,Chicago,32.93,Few clouds,imperial,35,11.2
+2023-01-31 15:14:29,Chicago,28.57,Scattered clouds,imperial,48,10.4
+2023-02-01 15:14:29,Chicago,23.07,Overcast clouds,imperial,78,7.1
+2023-02-02 15:14:29,Chicago,28.01,Light rain,imperial,70,4.7
+2023-02-03 15:14:29,Chicago,23.94,Snow,imperial,69,5.9
+2023-02-04 15:14:29,Chicago,24.21,Few clouds,imperial,60,13.4
+2023-02-05 15:14:29,Chicago,28.86,Overcast clouds,imperial,19,4.2
+2023-02-06 15:14:29,Chicago,28.63,Clear sky,imperial,37,4.2
+2023-02-07 15:14:29,Chicago,24.29,Few clouds,imperial,57,17.0
+2023-02-08 15:14:29,Chicago,36.33,Light rain,imperial,67,19.2
+2023-02-09 15:14:29,Chicago,23.31,Few clouds,imperial,55,7.0
+2023-02-10 15:14:29,Chicago,33.7,Scattered clouds,imperial,60,2.8
+2023-02-11 15:14:29,Chicago,30.04,Scattered clouds,imperial,63,6.9
+2023-02-12 15:14:29,Chicago,21.02,Scattered clouds,imperial,32,7.3
+2023-02-13 15:14:29,Chicago,19.18,Few clouds,imperial,62,13.1
+2023-02-14 15:14:29,Chicago,31.07,Few clouds,imperial,49,17.2
+2023-02-15 15:14:29,Chicago,19.56,Overcast clouds,imperial,43,11.5
+2023-02-16 15:14:29,Chicago,33.74,Clear sky,imperial,61,8.1
+2023-02-17 15:14:29,Chicago,37.78,Clear sky,imperial,31,5.3
+2023-02-18 15:14:29,Chicago,35.68,Overcast clouds,imperial,45,6.5
+2023-02-19 15:14:29,Chicago,20.08,Few clouds,imperial,57,8.1
+2023-02-20 15:14:29,Chicago,16.74,Snow,imperial,72,8.8
+2023-02-21 15:14:29,Chicago,10.14,Clear sky,imperial,57,0.9
+2023-02-22 15:14:29,Chicago,27.81,Clear sky,imperial,48,6.7
+2023-02-23 15:14:29,Chicago,10.11,Snow,imperial,53,19.6
+2023-02-24 15:14:29,Chicago,16.94,Clear sky,imperial,58,15.9
+2023-02-25 15:14:29,Chicago,22.32,Overcast clouds,imperial,63,10.9
+2023-02-26 15:14:29,Chicago,22.11,Scattered clouds,imperial,18,3.7
+2023-02-27 15:14:29,Chicago,30.4,Light rain,imperial,80,11.1
+2023-02-28 15:14:29,Chicago,21.08,Clear sky,imperial,38,1.7
+2023-03-01 15:14:29,Chicago,29.87,Rain,imperial,63,8.7
+2023-03-02 15:14:29,Chicago,32.02,Clear sky,imperial,55,12.2
+2023-03-03 15:14:29,Chicago,15.55,Clear sky,imperial,57,11.7
+2023-03-04 15:14:29,Chicago,15.61,Few clouds,imperial,52,7.2
+2023-03-05 15:14:29,Chicago,23.09,Few clouds,imperial,66,8.1
+2023-03-06 15:14:29,Chicago,32.26,Clear sky,imperial,57,14.2
+2023-03-07 15:14:29,Chicago,11.96,Clear sky,imperial,92,5.9
+2023-03-08 15:14:29,Chicago,11.8,Clear sky,imperial,37,4.6
+2023-03-09 15:14:29,Chicago,6.13,Clear sky,imperial,71,6.6
+2023-03-10 15:14:29,Chicago,32.09,Scattered clouds,imperial,48,9.9
+2023-03-11 15:14:29,Chicago,4.95,Light rain,imperial,92,9.3
+2023-03-12 15:14:29,Chicago,9.38,Few clouds,imperial,51,2.3
+2023-03-13 15:14:29,Chicago,21.84,Overcast clouds,imperial,39,14.3
+2023-03-14 15:14:29,Chicago,15.43,Few clouds,imperial,60,12.0
+2023-03-15 15:14:29,Chicago,20.77,Snow,imperial,48,13.0
+2023-03-16 15:14:29,Chicago,18.91,Clear sky,imperial,51,7.9
+2023-03-17 15:14:29,Chicago,12.06,Clear sky,imperial,59,14.9
+2023-03-18 15:14:29,Chicago,7.85,Light rain,imperial,74,5.7
+2023-03-19 15:14:29,Chicago,17.6,Snow,imperial,59,8.0
+2023-03-20 15:14:29,Chicago,32.37,Thunderstorm,imperial,58,14.7
+2023-03-21 15:14:29,Chicago,4.72,Overcast clouds,imperial,65,5.8
+2023-03-22 15:14:29,Chicago,16.5,Snow,imperial,64,3.7
+2023-03-23 15:14:29,Chicago,21.65,Scattered clouds,imperial,71,4.4
+2023-03-24 15:14:29,Chicago,20.9,Snow,imperial,62,12.6
+2023-03-25 15:14:29,Chicago,16.86,Rain,imperial,53,10.7
+2023-03-26 15:14:29,Chicago,16.88,Clear sky,imperial,44,4.9
+2023-03-27 15:14:29,Chicago,16.52,Rain,imperial,56,8.0
+2023-03-28 15:14:29,Chicago,10.34,Thunderstorm,imperial,51,6.7
+2023-03-29 15:14:29,Chicago,22.28,Overcast clouds,imperial,34,10.6
+2023-03-30 15:14:29,Chicago,16.37,Clear sky,imperial,49,5.1
+2023-03-31 15:14:29,Chicago,19.41,Overcast clouds,imperial,42,10.9
+2023-04-01 15:14:29,Chicago,14.15,Thunderstorm,imperial,79,9.7
+2023-04-02 15:14:29,Chicago,11.3,Overcast clouds,imperial,24,4.5
+2023-04-03 15:14:29,Chicago,11.27,Few clouds,imperial,58,12.5
+2023-04-04 15:14:29,Chicago,20.81,Overcast clouds,imperial,47,3.4
+2023-04-05 15:14:29,Chicago,10.53,Few clouds,imperial,47,4.6
+2023-04-06 15:14:29,Chicago,14.45,Rain,imperial,44,12.7
+2023-04-07 15:14:29,Chicago,22.45,Light rain,imperial,57,21.4
+2023-04-08 15:14:29,Chicago,16.72,Clear sky,imperial,66,16.4
+2023-04-09 15:14:29,Chicago,11.74,Clear sky,imperial,30,9.0
+2023-04-10 15:14:29,Chicago,22.52,Light rain,imperial,56,7.3
+2023-04-11 15:14:29,Chicago,18.47,Clear sky,imperial,57,7.7
+2023-04-12 15:14:29,Chicago,18.98,Overcast clouds,imperial,58,11.6
+2023-04-13 15:14:29,Chicago,17.58,Rain,imperial,43,10.0
+2023-04-14 15:14:29,Chicago,38.65,Few clouds,imperial,55,5.9
+2023-04-15 15:14:29,Chicago,17.28,Clear sky,imperial,77,10.8
+2023-04-16 15:14:29,Chicago,21.2,Overcast clouds,imperial,68,15.2
+2023-04-17 15:14:29,Chicago,15.59,Rain,imperial,24,14.4
+2023-04-18 15:14:29,Chicago,18.24,Clear sky,imperial,56,6.4
+2023-04-19 15:14:29,Chicago,20.67,Overcast clouds,imperial,41,8.5
+2023-04-20 15:14:29,Chicago,29.4,Clear sky,imperial,50,11.3
+2023-04-21 15:14:29,Chicago,28.17,Few clouds,imperial,71,8.6
+2023-04-22 15:14:29,Chicago,29.01,Overcast clouds,imperial,88,8.4
+2023-04-23 15:14:29,Chicago,36.09,Overcast clouds,imperial,35,7.0
+2023-04-24 15:14:29,Chicago,29.85,Clear sky,imperial,48,3.0
+2023-04-25 15:14:29,Chicago,18.53,Clear sky,imperial,42,3.7
+2023-04-26 15:14:29,Chicago,26.5,Few clouds,imperial,84,6.9
+2023-04-27 15:14:29,Chicago,30.13,Clear sky,imperial,38,11.3
+2023-04-28 15:14:29,Chicago,21.79,Clear sky,imperial,71,5.2
+2023-04-29 15:14:29,Chicago,19.28,Few clouds,imperial,41,18.9
+2023-04-30 15:14:29,Chicago,22.66,Few clouds,imperial,46,8.5
+2023-05-01 15:14:29,Chicago,21.24,Overcast clouds,imperial,25,12.3
+2023-05-02 15:14:29,Chicago,26.69,Scattered clouds,imperial,48,9.7
+2023-05-03 15:14:29,Chicago,20.82,Clear sky,imperial,60,15.9
+2023-05-04 15:14:29,Chicago,7.77,Thunderstorm,imperial,59,5.6
+2023-05-05 15:14:29,Chicago,22.98,Few clouds,imperial,76,12.6
+2023-05-06 15:14:29,Chicago,18.06,Clear sky,imperial,45,6.5
+2023-05-07 15:14:29,Chicago,8.59,Clear sky,imperial,57,3.2
+2023-05-08 15:14:29,Chicago,16.77,Clear sky,imperial,59,13.7
+2023-05-09 15:14:29,Chicago,14.46,Rain,imperial,61,3.0
+2023-05-10 15:14:29,Chicago,32.26,Overcast clouds,imperial,47,9.4
+2023-05-11 15:14:29,Chicago,26.56,Clear sky,imperial,71,6.9
+2023-05-12 15:14:29,Chicago,28.76,Clear sky,imperial,61,14.7
+2023-05-13 15:14:29,Chicago,25.08,Light rain,imperial,32,5.9
+2023-05-14 15:14:29,Chicago,24.53,Clear sky,imperial,61,15.3
+2023-05-15 15:14:29,Chicago,47.35,Light rain,imperial,46,8.7
+2023-05-16 15:14:29,Chicago,27.59,Scattered clouds,imperial,80,15.9
+2023-05-17 15:14:29,Chicago,24.14,Scattered clouds,imperial,40,8.2
+2023-05-18 15:14:29,Chicago,28.32,Clear sky,imperial,69,12.6
+2023-05-19 15:14:29,Chicago,27.05,Clear sky,imperial,53,3.3
+2023-05-20 15:14:29,Chicago,27.96,Few clouds,imperial,91,11.9
+2023-05-21 15:14:29,Chicago,34.14,Thunderstorm,imperial,60,5.6
+2023-05-22 15:14:29,Chicago,37.76,Few clouds,imperial,45,9.8
+2023-05-23 15:14:29,Chicago,44.14,Scattered clouds,imperial,66,1.8
+2023-05-24 15:14:29,Chicago,19.4,Overcast clouds,imperial,48,3.4
+2023-05-25 15:14:29,Chicago,30.09,Few clouds,imperial,71,8.3
+2023-05-26 15:14:29,Chicago,36.3,Overcast clouds,imperial,89,9.5
+2023-05-27 15:14:29,Chicago,30.4,Clear sky,imperial,61,17.7
+2023-05-28 15:14:29,Chicago,38.3,Overcast clouds,imperial,21,4.7
+2023-05-29 15:14:29,Chicago,37.75,Few clouds,imperial,56,8.5
+2023-05-30 15:14:29,Chicago,48.36,Scattered clouds,imperial,24,9.9
+2023-05-31 15:14:29,Chicago,33.63,Few clouds,imperial,62,7.5
+2023-06-01 15:14:29,Chicago,51.98,Few clouds,imperial,39,4.7
+2023-06-02 15:14:29,Chicago,43.67,Few clouds,imperial,51,13.5
+2023-06-03 15:14:29,Chicago,37.31,Clear sky,imperial,77,5.1
+2023-06-04 15:14:29,Chicago,38.38,Clear sky,imperial,58,13.2
+2023-06-05 15:14:29,Chicago,51.47,Few clouds,imperial,57,10.1
+2023-06-06 15:14:29,Chicago,41.46,Light rain,imperial,33,12.8
+2023-06-07 15:14:29,Chicago,48.42,Clear sky,imperial,64,5.8
+2023-06-08 15:14:29,Chicago,28.79,Overcast clouds,imperial,55,13.3
+2023-06-09 15:14:29,Chicago,49.47,Few clouds,imperial,32,9.4
+2023-06-10 15:14:29,Chicago,47.37,Clear sky,imperial,26,11.4
+2023-06-11 15:14:29,Chicago,35.63,Clear sky,imperial,66,11.3
+2023-06-12 15:14:29,Chicago,46.11,Clear sky,imperial,54,12.5
+2023-06-13 15:14:29,Chicago,50.83,Clear sky,imperial,69,16.1
+2023-06-14 15:14:29,Chicago,44.35,Scattered clouds,imperial,32,11.3
+2023-06-15 15:14:29,Chicago,45.04,Snow,imperial,39,7.8
+2023-06-16 15:14:29,Chicago,40.68,Overcast clouds,imperial,50,4.3
+2023-06-17 15:14:29,Chicago,43.22,Clear sky,imperial,19,9.0
+2023-06-18 15:14:29,Chicago,53.39,Clear sky,imperial,47,0.2
+2023-06-19 15:14:29,Chicago,50.14,Few clouds,imperial,72,7.0
+2023-06-20 15:14:29,Chicago,53.81,Scattered clouds,imperial,24,10.7
+2023-06-21 15:14:29,Chicago,33.6,Rain,imperial,37,6.4
+2023-06-22 15:14:29,Chicago,54.44,Overcast clouds,imperial,40,5.1
+2023-06-23 15:14:29,Chicago,47.93,Few clouds,imperial,76,12.1
+2023-06-24 15:14:29,Chicago,45.37,Thunderstorm,imperial,63,4.3
+2023-06-25 15:14:29,Chicago,38.36,Clear sky,imperial,52,17.7
+2023-06-26 15:14:29,Chicago,44.91,Clear sky,imperial,54,3.2
+2023-06-27 15:14:29,Chicago,55.93,Few clouds,imperial,49,3.8
+2023-06-28 15:14:29,Chicago,45.98,Scattered clouds,imperial,51,14.2
+2023-06-29 15:14:29,Chicago,58.06,Overcast clouds,imperial,38,8.8
+2023-06-30 15:14:29,Chicago,58.87,Few clouds,imperial,69,12.7
+2023-07-01 15:14:29,Chicago,54.56,Clear sky,imperial,59,14.7
+2023-07-02 15:14:29,Chicago,48.2,Few clouds,imperial,38,11.8
+2023-07-03 15:14:29,Chicago,53.16,Clear sky,imperial,47,1.0
+2023-07-04 15:14:29,Chicago,64.5,Clear sky,imperial,47,8.1
+2023-07-05 15:14:29,Chicago,60.0,Rain,imperial,76,4.9
+2023-07-06 15:14:29,Chicago,53.58,Rain,imperial,59,17.8
+2023-07-07 15:14:29,Chicago,59.16,Few clouds,imperial,34,12.2
+2023-07-08 15:14:29,Chicago,56.41,Clear sky,imperial,43,8.8
+2023-07-09 15:14:29,Chicago,62.39,Clear sky,imperial,53,6.1
+2023-07-10 15:14:29,Chicago,42.43,Scattered clouds,imperial,68,4.8
+2023-07-11 15:14:29,Chicago,57.28,Thunderstorm,imperial,43,6.3
+2023-07-12 15:14:29,Chicago,71.71,Clear sky,imperial,60,1.4
+2023-07-13 15:14:29,Chicago,56.7,Snow,imperial,66,3.6
+2023-07-14 15:14:29,Chicago,59.34,Few clouds,imperial,76,6.2
+2023-07-15 15:14:29,Chicago,59.09,Clear sky,imperial,60,15.7
+2023-07-16 15:14:29,Chicago,61.98,Clear sky,imperial,56,4.8
+2023-07-17 15:14:29,Chicago,76.41,Rain,imperial,65,4.5
+2023-07-18 15:14:29,Chicago,80.07,Clear sky,imperial,64,5.2
+2023-07-19 15:14:29,Chicago,55.36,Clear sky,imperial,71,8.1
+2023-07-20 15:14:29,Chicago,68.64,Scattered clouds,imperial,19,12.3
+2023-07-21 15:14:29,Chicago,61.95,Few clouds,imperial,52,9.4
+2023-07-22 15:14:29,Chicago,71.5,Overcast clouds,imperial,70,10.7
+2023-07-23 15:14:29,Chicago,63.71,Scattered clouds,imperial,63,3.9
+2023-07-24 15:14:29,Chicago,65.77,Few clouds,imperial,30,0.1
+2023-07-25 15:14:29,Chicago,76.52,Snow,imperial,47,20.7
+2023-07-26 15:14:29,Chicago,63.49,Clear sky,imperial,77,7.7
+2023-07-27 15:14:29,Chicago,74.97,Clear sky,imperial,37,11.2
+2023-07-28 15:14:29,Chicago,67.38,Light rain,imperial,41,6.0
+2023-07-29 15:14:29,Chicago,77.05,Overcast clouds,imperial,54,5.5
+2023-07-30 15:14:29,Chicago,82.59,Few clouds,imperial,43,10.9
+2023-07-31 15:14:29,Chicago,75.46,Few clouds,imperial,50,5.6
+2023-08-01 15:14:29,Chicago,79.09,Clear sky,imperial,73,8.4
+2023-08-02 15:14:29,Chicago,75.08,Scattered clouds,imperial,33,3.7
+2023-08-03 15:14:29,Chicago,68.1,Overcast clouds,imperial,48,6.1
+2023-08-04 15:14:29,Chicago,64.5,Clear sky,imperial,62,12.0
+2023-08-05 15:14:29,Chicago,60.35,Clear sky,imperial,46,5.5
+2023-08-06 15:14:29,Chicago,68.91,Light rain,imperial,56,7.2
+2023-08-07 15:14:29,Chicago,66.98,Thunderstorm,imperial,56,0.1
+2023-08-08 15:14:29,Chicago,82.58,Few clouds,imperial,69,18.2
+2023-08-09 15:14:29,Chicago,66.19,Scattered clouds,imperial,15,6.8
+2023-08-10 15:14:29,Chicago,76.53,Thunderstorm,imperial,74,6.3
+2023-08-11 15:14:29,Chicago,70.9,Rain,imperial,57,10.0
+2023-08-12 15:14:29,Chicago,78.72,Few clouds,imperial,75,13.5
+2023-08-13 15:14:29,Chicago,76.52,Thunderstorm,imperial,67,5.7
+2023-08-14 15:14:29,Chicago,77.11,Clear sky,imperial,41,15.5
+2023-08-15 15:14:29,Chicago,69.43,Clear sky,imperial,33,6.3
+2023-08-16 15:14:29,Chicago,85.86,Rain,imperial,67,12.1
+2023-08-17 15:14:29,Chicago,93.89,Few clouds,imperial,58,10.4
+2023-08-18 15:14:29,Chicago,77.9,Clear sky,imperial,44,20.0
+2023-08-19 15:14:29,Chicago,81.45,Few clouds,imperial,37,2.4
+2023-08-20 15:14:29,Chicago,75.67,Clear sky,imperial,48,0.1
+2023-08-21 15:14:29,Chicago,79.76,Clear sky,imperial,30,4.8
+2023-08-22 15:14:29,Chicago,74.85,Few clouds,imperial,53,2.5
+2023-08-23 15:14:29,Chicago,90.39,Overcast clouds,imperial,61,2.7
+2023-08-24 15:14:29,Chicago,78.09,Overcast clouds,imperial,66,9.5
+2023-08-25 15:14:29,Chicago,80.97,Light rain,imperial,56,10.0
+2023-08-26 15:14:29,Chicago,79.38,Clear sky,imperial,71,6.6
+2023-08-27 15:14:29,Chicago,79.58,Scattered clouds,imperial,66,0.2
+2023-08-28 15:14:29,Chicago,82.11,Scattered clouds,imperial,52,12.6
+2023-08-29 15:14:29,Chicago,91.08,Thunderstorm,imperial,62,7.2
+2023-08-30 15:14:29,Chicago,78.07,Few clouds,imperial,55,4.5
+2023-08-31 15:14:29,Chicago,91.42,Few clouds,imperial,38,16.4
+2023-09-01 15:14:29,Chicago,79.99,Few clouds,imperial,56,7.0
+2023-09-02 15:14:29,Chicago,81.94,Clear sky,imperial,58,12.1
+2023-09-03 15:14:29,Chicago,85.12,Few clouds,imperial,39,9.5
+2023-09-04 15:14:29,Chicago,93.06,Scattered clouds,imperial,61,7.4
+2023-09-05 15:14:29,Chicago,73.31,Clear sky,imperial,42,17.7
+2023-09-06 15:14:29,Chicago,77.78,Clear sky,imperial,46,0.1
+2023-09-07 15:14:29,Chicago,82.1,Clear sky,imperial,31,14.7
+2023-01-01 15:14:29,Denver,27.46,Thunderstorm,imperial,55,22.3
+2023-01-02 15:14:29,Denver,51.75,Few clouds,imperial,47,3.6
+2023-01-03 15:14:29,Denver,39.17,Clear sky,imperial,34,5.5
+2023-01-04 15:14:29,Denver,38.2,Clear sky,imperial,63,6.2
+2023-01-05 15:14:29,Denver,36.78,Clear sky,imperial,56,10.7
+2023-01-06 15:14:29,Denver,56.31,Few clouds,imperial,80,9.3
+2023-01-07 15:14:29,Denver,35.08,Overcast clouds,imperial,84,10.1
+2023-01-08 15:14:29,Denver,38.66,Few clouds,imperial,19,9.3
+2023-01-09 15:14:29,Denver,43.54,Rain,imperial,59,10.8
+2023-01-10 15:14:29,Denver,41.08,Scattered clouds,imperial,51,12.9
+2023-01-11 15:14:29,Denver,43.48,Light rain,imperial,22,13.0
+2023-01-12 15:14:29,Denver,33.32,Overcast clouds,imperial,82,11.5
+2023-01-13 15:14:29,Denver,38.35,Few clouds,imperial,53,3.2
+2023-01-14 15:14:29,Denver,24.79,Clear sky,imperial,65,7.9
+2023-01-15 15:14:29,Denver,44.75,Few clouds,imperial,65,6.7
+2023-01-16 15:14:29,Denver,43.22,Scattered clouds,imperial,51,13.2
+2023-01-17 15:14:29,Denver,33.11,Snow,imperial,56,8.8
+2023-01-18 15:14:29,Denver,26.32,Clear sky,imperial,60,13.9
+2023-01-19 15:14:29,Denver,37.26,Few clouds,imperial,39,12.1
+2023-01-20 15:14:29,Denver,20.36,Rain,imperial,50,9.3
+2023-01-21 15:14:29,Denver,33.25,Clear sky,imperial,45,3.5
+2023-01-22 15:14:29,Denver,28.89,Few clouds,imperial,68,2.7
+2023-01-23 15:14:29,Denver,37.7,Snow,imperial,54,15.9
+2023-01-24 15:14:29,Denver,26.12,Scattered clouds,imperial,56,14.0
+2023-01-25 15:14:29,Denver,33.0,Clear sky,imperial,61,12.9
+2023-01-26 15:14:29,Denver,30.65,Clear sky,imperial,31,6.4
+2023-01-27 15:14:29,Denver,35.04,Few clouds,imperial,25,13.3
+2023-01-28 15:14:29,Denver,25.96,Clear sky,imperial,54,10.0
+2023-01-29 15:14:29,Denver,36.36,Scattered clouds,imperial,45,5.7
+2023-01-30 15:14:29,Denver,32.35,Clear sky,imperial,30,11.4
+2023-01-31 15:14:29,Denver,26.3,Clear sky,imperial,42,13.4
+2023-02-01 15:14:29,Denver,19.63,Scattered clouds,imperial,48,7.0
+2023-02-02 15:14:29,Denver,29.16,Clear sky,imperial,51,8.7
+2023-02-03 15:14:29,Denver,34.18,Scattered clouds,imperial,36,14.9
+2023-02-04 15:14:29,Denver,33.16,Few clouds,imperial,70,12.9
+2023-02-05 15:14:29,Denver,20.67,Clear sky,imperial,61,17.7
+2023-02-06 15:14:29,Denver,18.6,Thunderstorm,imperial,63,7.3
+2023-02-07 15:14:29,Denver,42.49,Scattered clouds,imperial,48,19.4
+2023-02-08 15:14:29,Denver,23.99,Light rain,imperial,60,1.8
+2023-02-09 15:14:29,Denver,23.97,Overcast clouds,imperial,44,1.6
+2023-02-10 15:14:29,Denver,20.69,Light rain,imperial,63,13.3
+2023-02-11 15:14:29,Denver,34.99,Light rain,imperial,69,1.2
+2023-02-12 15:14:29,Denver,29.62,Few clouds,imperial,46,7.4
+2023-02-13 15:14:29,Denver,32.14,Snow,imperial,64,6.2
+2023-02-14 15:14:29,Denver,33.88,Snow,imperial,58,9.5
+2023-02-15 15:14:29,Denver,28.18,Overcast clouds,imperial,46,6.6
+2023-02-16 15:14:29,Denver,24.84,Clear sky,imperial,50,13.3
+2023-02-17 15:14:29,Denver,29.89,Few clouds,imperial,62,14.3
+2023-02-18 15:14:29,Denver,31.91,Few clouds,imperial,46,16.9
+2023-02-19 15:14:29,Denver,27.25,Scattered clouds,imperial,48,5.0
+2023-02-20 15:14:29,Denver,23.25,Rain,imperial,52,4.7
+2023-02-21 15:14:29,Denver,8.99,Clear sky,imperial,77,9.9
+2023-02-22 15:14:29,Denver,29.5,Clear sky,imperial,49,13.0
+2023-02-23 15:14:29,Denver,14.47,Clear sky,imperial,63,6.1
+2023-02-24 15:14:29,Denver,31.19,Clear sky,imperial,56,12.1
+2023-02-25 15:14:29,Denver,28.27,Light rain,imperial,39,2.3
+2023-02-26 15:14:29,Denver,18.65,Few clouds,imperial,85,6.4
+2023-02-27 15:14:29,Denver,21.93,Few clouds,imperial,71,10.8
+2023-02-28 15:14:29,Denver,31.26,Clear sky,imperial,39,14.8
+2023-03-01 15:14:29,Denver,32.51,Few clouds,imperial,55,6.4
+2023-03-02 15:14:29,Denver,22.04,Clear sky,imperial,56,11.2
+2023-03-03 15:14:29,Denver,29.65,Few clouds,imperial,32,4.5
+2023-03-04 15:14:29,Denver,9.56,Clear sky,imperial,52,12.8
+2023-03-05 15:14:29,Denver,29.56,Few clouds,imperial,61,12.0
+2023-03-06 15:14:29,Denver,7.53,Scattered clouds,imperial,67,5.2
+2023-03-07 15:14:29,Denver,32.33,Rain,imperial,68,9.8
+2023-03-08 15:14:29,Denver,11.74,Light rain,imperial,48,13.2
+2023-03-09 15:14:29,Denver,19.49,Scattered clouds,imperial,23,7.7
+2023-03-10 15:14:29,Denver,7.03,Overcast clouds,imperial,62,6.8
+2023-03-11 15:14:29,Denver,21.21,Scattered clouds,imperial,60,13.2
+2023-03-12 15:14:29,Denver,20.4,Clear sky,imperial,27,1.0
+2023-03-13 15:14:29,Denver,16.82,Overcast clouds,imperial,62,5.3
+2023-03-14 15:14:29,Denver,23.08,Few clouds,imperial,72,9.3
+2023-03-15 15:14:29,Denver,13.1,Few clouds,imperial,40,6.8
+2023-03-16 15:14:29,Denver,23.59,Few clouds,imperial,39,9.9
+2023-03-17 15:14:29,Denver,29.75,Snow,imperial,25,8.0
+2023-03-18 15:14:29,Denver,26.58,Few clouds,imperial,63,4.0
+2023-03-19 15:14:29,Denver,18.99,Clear sky,imperial,69,13.1
+2023-03-20 15:14:29,Denver,18.14,Light rain,imperial,55,15.3
+2023-03-21 15:14:29,Denver,25.35,Thunderstorm,imperial,64,8.3
+2023-03-22 15:14:29,Denver,24.39,Overcast clouds,imperial,56,10.3
+2023-03-23 15:14:29,Denver,15.44,Snow,imperial,31,10.4
+2023-03-24 15:14:29,Denver,20.49,Few clouds,imperial,48,3.9
+2023-03-25 15:14:29,Denver,12.69,Overcast clouds,imperial,51,16.7
+2023-03-26 15:14:29,Denver,17.27,Clear sky,imperial,78,10.6
+2023-03-27 15:14:29,Denver,18.39,Few clouds,imperial,32,14.9
+2023-03-28 15:14:29,Denver,25.56,Overcast clouds,imperial,51,13.6
+2023-03-29 15:14:29,Denver,23.68,Clear sky,imperial,64,11.8
+2023-03-30 15:14:29,Denver,8.33,Light rain,imperial,74,11.8
+2023-03-31 15:14:29,Denver,26.67,Few clouds,imperial,54,3.7
+2023-04-01 15:14:29,Denver,34.9,Clear sky,imperial,38,1.1
+2023-04-02 15:14:29,Denver,12.67,Scattered clouds,imperial,66,12.5
+2023-04-03 15:14:29,Denver,5.65,Overcast clouds,imperial,75,12.0
+2023-04-04 15:14:29,Denver,4.14,Few clouds,imperial,81,8.3
+2023-04-05 15:14:29,Denver,19.86,Clear sky,imperial,43,9.1
+2023-04-06 15:14:29,Denver,22.49,Few clouds,imperial,71,8.3
+2023-04-07 15:14:29,Denver,22.4,Scattered clouds,imperial,48,7.0
+2023-04-08 15:14:29,Denver,29.67,Clear sky,imperial,61,16.1
+2023-04-09 15:14:29,Denver,19.53,Few clouds,imperial,54,8.4
+2023-04-10 15:14:29,Denver,5.57,Clear sky,imperial,55,10.8
+2023-04-11 15:14:29,Denver,21.39,Few clouds,imperial,47,5.6
+2023-04-12 15:14:29,Denver,20.87,Few clouds,imperial,50,7.3
+2023-04-13 15:14:29,Denver,25.03,Few clouds,imperial,78,5.8
+2023-04-14 15:14:29,Denver,29.42,Clear sky,imperial,24,7.8
+2023-04-15 15:14:29,Denver,26.85,Few clouds,imperial,82,8.8
+2023-04-16 15:14:29,Denver,13.83,Few clouds,imperial,38,6.9
+2023-04-17 15:14:29,Denver,31.38,Clear sky,imperial,58,15.9
+2023-04-18 15:14:29,Denver,23.39,Clear sky,imperial,48,10.3
+2023-04-19 15:14:29,Denver,11.38,Few clouds,imperial,44,6.5
+2023-04-20 15:14:29,Denver,22.37,Clear sky,imperial,38,14.1
+2023-04-21 15:14:29,Denver,20.61,Overcast clouds,imperial,75,9.4
+2023-04-22 15:14:29,Denver,23.29,Scattered clouds,imperial,66,6.8
+2023-04-23 15:14:29,Denver,8.97,Rain,imperial,35,10.2
+2023-04-24 15:14:29,Denver,29.63,Clear sky,imperial,45,3.2
+2023-04-25 15:14:29,Denver,26.44,Scattered clouds,imperial,47,7.0
+2023-04-26 15:14:29,Denver,38.35,Overcast clouds,imperial,27,13.3
+2023-04-27 15:14:29,Denver,18.64,Rain,imperial,68,12.7
+2023-04-28 15:14:29,Denver,27.59,Clear sky,imperial,34,4.1
+2023-04-29 15:14:29,Denver,24.56,Overcast clouds,imperial,50,7.6
+2023-04-30 15:14:29,Denver,24.5,Overcast clouds,imperial,67,5.1
+2023-05-01 15:14:29,Denver,21.77,Scattered clouds,imperial,48,4.9
+2023-05-02 15:14:29,Denver,30.89,Clear sky,imperial,61,9.6
+2023-05-03 15:14:29,Denver,37.73,Clear sky,imperial,47,5.6
+2023-05-04 15:14:29,Denver,39.76,Light rain,imperial,55,5.9
+2023-05-05 15:14:29,Denver,23.51,Scattered clouds,imperial,79,5.2
+2023-05-06 15:14:29,Denver,14.93,Few clouds,imperial,22,5.1
+2023-05-07 15:14:29,Denver,21.78,Clear sky,imperial,54,4.4
+2023-05-08 15:14:29,Denver,38.63,Scattered clouds,imperial,66,4.9
+2023-05-09 15:14:29,Denver,33.24,Clear sky,imperial,55,6.3
+2023-05-10 15:14:29,Denver,31.45,Clear sky,imperial,74,2.2
+2023-05-11 15:14:29,Denver,22.84,Overcast clouds,imperial,67,12.3
+2023-05-12 15:14:29,Denver,33.48,Scattered clouds,imperial,76,7.2
+2023-05-13 15:14:29,Denver,27.32,Scattered clouds,imperial,48,7.9
+2023-05-14 15:14:29,Denver,37.09,Light rain,imperial,47,6.6
+2023-05-15 15:14:29,Denver,22.16,Clear sky,imperial,58,8.2
+2023-05-16 15:14:29,Denver,30.27,Light rain,imperial,50,6.3
+2023-05-17 15:14:29,Denver,29.93,Scattered clouds,imperial,76,5.6
+2023-05-18 15:14:29,Denver,32.67,Clear sky,imperial,71,8.1
+2023-05-19 15:14:29,Denver,31.67,Snow,imperial,24,4.8
+2023-05-20 15:14:29,Denver,39.6,Clear sky,imperial,60,5.0
+2023-05-21 15:14:29,Denver,28.84,Light rain,imperial,53,6.8
+2023-05-22 15:14:29,Denver,37.43,Scattered clouds,imperial,58,0.4
+2023-05-23 15:14:29,Denver,15.55,Scattered clouds,imperial,35,6.5
+2023-05-24 15:14:29,Denver,35.19,Clear sky,imperial,58,5.0
+2023-05-25 15:14:29,Denver,32.52,Clear sky,imperial,41,7.6
+2023-05-26 15:14:29,Denver,34.69,Scattered clouds,imperial,62,12.9
+2023-05-27 15:14:29,Denver,29.87,Rain,imperial,67,16.0
+2023-05-28 15:14:29,Denver,35.83,Overcast clouds,imperial,41,7.6
+2023-05-29 15:14:29,Denver,41.25,Few clouds,imperial,67,12.4
+2023-05-30 15:14:29,Denver,43.25,Snow,imperial,44,6.6
+2023-05-31 15:14:29,Denver,39.07,Clear sky,imperial,40,8.7
+2023-06-01 15:14:29,Denver,44.14,Few clouds,imperial,57,4.8
+2023-06-02 15:14:29,Denver,47.99,Light rain,imperial,90,8.9
+2023-06-03 15:14:29,Denver,48.21,Few clouds,imperial,47,6.8
+2023-06-04 15:14:29,Denver,35.78,Overcast clouds,imperial,61,7.4
+2023-06-05 15:14:29,Denver,41.44,Few clouds,imperial,67,13.9
+2023-06-06 15:14:29,Denver,43.59,Scattered clouds,imperial,72,16.9
+2023-06-07 15:14:29,Denver,39.82,Clear sky,imperial,53,15.5
+2023-06-08 15:14:29,Denver,44.4,Scattered clouds,imperial,49,14.9
+2023-06-09 15:14:29,Denver,39.59,Rain,imperial,66,1.6
+2023-06-10 15:14:29,Denver,43.59,Few clouds,imperial,44,8.1
+2023-06-11 15:14:29,Denver,52.74,Few clouds,imperial,60,5.3
+2023-06-12 15:14:29,Denver,36.69,Rain,imperial,74,14.5
+2023-06-13 15:14:29,Denver,38.62,Few clouds,imperial,65,12.1
+2023-06-14 15:14:29,Denver,47.72,Rain,imperial,48,10.3
+2023-06-15 15:14:29,Denver,48.2,Clear sky,imperial,51,15.6
+2023-06-16 15:14:29,Denver,37.89,Scattered clouds,imperial,66,6.4
+2023-06-17 15:14:29,Denver,51.83,Clear sky,imperial,49,14.2
+2023-06-18 15:14:29,Denver,46.21,Few clouds,imperial,68,11.7
+2023-06-19 15:14:29,Denver,41.54,Overcast clouds,imperial,30,5.9
+2023-06-20 15:14:29,Denver,54.8,Rain,imperial,43,6.3
+2023-06-21 15:14:29,Denver,52.61,Few clouds,imperial,55,8.9
+2023-06-22 15:14:29,Denver,54.61,Clear sky,imperial,58,9.7
+2023-06-23 15:14:29,Denver,38.42,Clear sky,imperial,59,8.2
+2023-06-24 15:14:29,Denver,55.05,Light rain,imperial,60,6.4
+2023-06-25 15:14:29,Denver,50.86,Clear sky,imperial,60,5.3
+2023-06-26 15:14:29,Denver,48.52,Clear sky,imperial,65,0.7
+2023-06-27 15:14:29,Denver,53.99,Snow,imperial,53,6.7
+2023-06-28 15:14:29,Denver,54.17,Clear sky,imperial,57,14.9
+2023-06-29 15:14:29,Denver,46.51,Clear sky,imperial,61,5.3
+2023-06-30 15:14:29,Denver,47.61,Rain,imperial,58,6.7
+2023-07-01 15:14:29,Denver,50.01,Clear sky,imperial,46,14.4
+2023-07-02 15:14:29,Denver,55.04,Clear sky,imperial,58,2.4
+2023-07-03 15:14:29,Denver,44.56,Overcast clouds,imperial,67,12.2
+2023-07-04 15:14:29,Denver,52.97,Thunderstorm,imperial,73,8.1
+2023-07-05 15:14:29,Denver,54.73,Overcast clouds,imperial,33,14.6
+2023-07-06 15:14:29,Denver,70.32,Few clouds,imperial,50,10.0
+2023-07-07 15:14:29,Denver,53.95,Scattered clouds,imperial,55,4.2
+2023-07-08 15:14:29,Denver,55.64,Clear sky,imperial,48,10.2
+2023-07-09 15:14:29,Denver,54.34,Few clouds,imperial,38,5.7
+2023-07-10 15:14:29,Denver,47.93,Few clouds,imperial,44,7.3
+2023-07-11 15:14:29,Denver,64.57,Rain,imperial,66,10.5
+2023-07-12 15:14:29,Denver,66.52,Clear sky,imperial,62,14.7
+2023-07-13 15:14:29,Denver,62.59,Rain,imperial,78,10.6
+2023-07-14 15:14:29,Denver,65.12,Clear sky,imperial,73,15.3
+2023-07-15 15:14:29,Denver,57.39,Clear sky,imperial,56,6.5
+2023-07-16 15:14:29,Denver,70.64,Overcast clouds,imperial,68,9.4
+2023-07-17 15:14:29,Denver,59.38,Clear sky,imperial,37,12.7
+2023-07-18 15:14:29,Denver,54.15,Snow,imperial,43,3.6
+2023-07-19 15:14:29,Denver,65.04,Overcast clouds,imperial,92,6.7
+2023-07-20 15:14:29,Denver,65.11,Few clouds,imperial,33,2.4
+2023-07-21 15:14:29,Denver,66.54,Clear sky,imperial,76,1.1
+2023-07-22 15:14:29,Denver,67.87,Clear sky,imperial,44,7.9
+2023-07-23 15:14:29,Denver,57.63,Few clouds,imperial,44,7.7
+2023-07-24 15:14:29,Denver,54.93,Light rain,imperial,31,10.7
+2023-07-25 15:14:29,Denver,72.97,Few clouds,imperial,39,7.1
+2023-07-26 15:14:29,Denver,64.34,Scattered clouds,imperial,64,1.5
+2023-07-27 15:14:29,Denver,72.66,Snow,imperial,58,9.7
+2023-07-28 15:14:29,Denver,60.5,Light rain,imperial,54,13.6
+2023-07-29 15:14:29,Denver,54.26,Few clouds,imperial,49,6.5
+2023-07-30 15:14:29,Denver,72.29,Rain,imperial,82,7.8
+2023-07-31 15:14:29,Denver,64.11,Scattered clouds,imperial,54,6.2
+2023-08-01 15:14:29,Denver,68.92,Clear sky,imperial,52,16.6
+2023-08-02 15:14:29,Denver,68.82,Overcast clouds,imperial,49,6.8
+2023-08-03 15:14:29,Denver,64.4,Scattered clouds,imperial,52,13.0
+2023-08-04 15:14:29,Denver,67.71,Clear sky,imperial,86,11.5
+2023-08-05 15:14:29,Denver,71.17,Overcast clouds,imperial,71,0.3
+2023-08-06 15:14:29,Denver,78.69,Rain,imperial,38,10.7
+2023-08-07 15:14:29,Denver,76.24,Few clouds,imperial,32,8.4
+2023-08-08 15:14:29,Denver,80.66,Clear sky,imperial,48,8.9
+2023-08-09 15:14:29,Denver,78.98,Light rain,imperial,66,0.7
+2023-08-10 15:14:29,Denver,62.87,Clear sky,imperial,41,8.7
+2023-08-11 15:14:29,Denver,57.84,Clear sky,imperial,66,14.7
+2023-08-12 15:14:29,Denver,74.76,Thunderstorm,imperial,46,10.8
+2023-08-13 15:14:29,Denver,68.69,Few clouds,imperial,52,10.0
+2023-08-14 15:14:29,Denver,71.41,Light rain,imperial,47,11.1
+2023-08-15 15:14:29,Denver,70.47,Few clouds,imperial,59,8.2
+2023-08-16 15:14:29,Denver,74.35,Scattered clouds,imperial,34,9.8
+2023-08-17 15:14:29,Denver,77.51,Light rain,imperial,46,10.7
+2023-08-18 15:14:29,Denver,87.47,Clear sky,imperial,68,11.9
+2023-08-19 15:14:29,Denver,70.9,Clear sky,imperial,62,11.4
+2023-08-20 15:14:29,Denver,80.49,Clear sky,imperial,50,12.8
+2023-08-21 15:14:29,Denver,85.0,Clear sky,imperial,38,17.7
+2023-08-22 15:14:29,Denver,68.75,Scattered clouds,imperial,80,5.7
+2023-08-23 15:14:29,Denver,60.23,Clear sky,imperial,32,3.4
+2023-08-24 15:14:29,Denver,66.01,Overcast clouds,imperial,37,13.4
+2023-08-25 15:14:29,Denver,84.36,Clear sky,imperial,29,5.8
+2023-08-26 15:14:29,Denver,63.6,Light rain,imperial,82,2.2
+2023-08-27 15:14:29,Denver,63.99,Few clouds,imperial,34,1.9
+2023-08-28 15:14:29,Denver,69.21,Clear sky,imperial,53,8.4
+2023-08-29 15:14:29,Denver,65.82,Light rain,imperial,52,20.1
+2023-08-30 15:14:29,Denver,78.11,Overcast clouds,imperial,56,9.2
+2023-08-31 15:14:29,Denver,68.91,Clear sky,imperial,42,12.3
+2023-09-01 15:14:29,Denver,74.46,Few clouds,imperial,51,5.3
+2023-09-02 15:14:29,Denver,69.53,Clear sky,imperial,73,7.9
+2023-09-03 15:14:29,Denver,76.84,Overcast clouds,imperial,76,9.5
+2023-09-04 15:14:29,Denver,67.94,Clear sky,imperial,70,10.6
+2023-09-05 15:14:29,Denver,82.83,Rain,imperial,67,9.8
+2023-09-06 15:14:29,Denver,72.51,Overcast clouds,imperial,33,5.4
+2023-09-07 15:14:29,Denver,78.31,Clear sky,imperial,51,3.1

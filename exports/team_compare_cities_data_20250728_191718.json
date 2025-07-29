@@ -3,34 +3,6 @@
     "cities_analyzed": 7,
     "total_records": 225,
     "city_data": {
-      "New York": {
-        "records": 2,
-        "temperature": {
-          "count": 2,
-          "avg": 23.46388888888889,
-          "min": 22.5,
-          "max": 24.427777777777777
-        },
-        "humidity": {
-          "count": 1,
-          "avg": 45.0,
-          "min": 45.0,
-          "max": 45.0
-        },
-        "wind": {
-          "count": 1,
-          "avg": 3.2,
-          "min": 3.2,
-          "max": 3.2
-        },
-        "weather_conditions": [
-          "Clear"
-        ],
-        "members": [
-          "Sample Member",
-          "Shomari"
-        ]
-      },
       "Providence": {
         "records": 30,
         "temperature": {
@@ -166,6 +138,34 @@
           "Eric"
         ]
       },
+      "New York": {
+        "records": 2,
+        "temperature": {
+          "count": 2,
+          "avg": 23.46388888888889,
+          "min": 22.5,
+          "max": 24.427777777777777
+        },
+        "humidity": {
+          "count": 1,
+          "avg": 45.0,
+          "min": 45.0,
+          "max": 45.0
+        },
+        "wind": {
+          "count": 1,
+          "avg": 3.2,
+          "min": 3.2,
+          "max": 3.2
+        },
+        "weather_conditions": [
+          "Clear"
+        ],
+        "members": [
+          "Sample Member",
+          "Shomari"
+        ]
+      },
       "Miami": {
         "records": 1,
         "temperature": {
@@ -278,15 +278,15 @@
   "export_info": {
     "total_records": 225,
     "cities_available": [
-      "New York",
       "Providence",
       "Austin",
       "Rawlins",
       "Ontario",
+      "New York",
       "Miami",
       "New Jersey"
     ],
-    "export_date": "2025-07-17 20:42:18",
+    "export_date": "2025-07-28 19:17:18",
     "usage_note": "This file contains pre-calculated city comparisons and team statistics for Compare Cities implementation"
   }
 }
