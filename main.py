@@ -1,22 +1,16 @@
 #!/usr/bin/env python3
 """
-Team Weather Data Repository - Compare Cities Feature
-====================================================
-A streamlined CSV storage repository for team weather data collaboration.
-Each team member uploads their CSV files here for shared Compare Cities analysis.
-
-Features:
-- Multi-format CSV normalization
-- Compare Cities analysis with 7 available cities
-- Simplified 2-file export system (CSV + JSON)
-- Team collaboration tools for capstone projects
+Team Weather Data Standardizer
+=============================
+This script loads all CSV files from the data/ folder, normalizes and standardizes the fields,
+and exports a single clean CSV and JSON file for team use.
 
 Usage:
     python main.py
-    
-Export files will be created in exports/ directory:
-- team_weather_data_[timestamp].csv (complete dataset)
-- team_compare_cities_data_[timestamp].json (analysis data)
+
+Exports:
+    exports/team_weather_data_[timestamp].csv   # Clean, uniform dataset
+    exports/team_weather_data_[timestamp].json  # Same data as JSON
 """
 
 import csv
@@ -40,7 +34,7 @@ def normalize_row_data(row: Dict[str, Any], filename: str) -> Dict[str, Any]:
     normalized = {}
     
     # Extract member name from filename if not in data
-    if 'member_name' in row:
+    if 'member_name' in row and row['member_name']:
         normalized['member_name'] = row['member_name']
     elif 'weather_data_' in filename:
         # Extract name from filename like "weather_data_Eric.csv"
@@ -56,7 +50,7 @@ def normalize_row_data(row: Dict[str, Any], filename: str) -> Dict[str, Any]:
             normalized['timestamp'] = row[field]
             break
     else:
-        normalized['timestamp'] = 'Unknown'
+        normalized['timestamp'] = ''
     
     # Handle different city name formats
     city_fields = ['city', 'City', 'location', 'Location', 'place', 'Place']
@@ -65,7 +59,7 @@ def normalize_row_data(row: Dict[str, Any], filename: str) -> Dict[str, Any]:
             normalized['city'] = row[field]
             break
     else:
-        normalized['city'] = 'Unknown'
+        normalized['city'] = ''
     
     # Handle different country formats
     country_fields = ['country', 'Country', 'nation', 'Nation']
@@ -74,7 +68,7 @@ def normalize_row_data(row: Dict[str, Any], filename: str) -> Dict[str, Any]:
             normalized['country'] = row[field]
             break
     else:
-        normalized['country'] = 'Unknown'
+        normalized['country'] = ''
     
     # Handle temperature (convert Fahrenheit to Celsius if needed)
     temp_fields = ['temperature', 'Temperature', 'temp', 'Temp', 'Temperature (F)', 'Temperature (C)']
@@ -85,7 +79,7 @@ def normalize_row_data(row: Dict[str, Any], filename: str) -> Dict[str, Any]:
                 # Convert Fahrenheit to Celsius if the field indicates Fahrenheit
                 if '(F)' in field or temp_value > 50:  # Assume >50 is Fahrenheit
                     temp_value = (temp_value - 32) * 5/9
-                normalized['temperature'] = temp_value
+                normalized['temperature'] = round(temp_value, 2)
                 break
             except (ValueError, TypeError):
                 pass
@@ -95,7 +89,7 @@ def normalize_row_data(row: Dict[str, Any], filename: str) -> Dict[str, Any]:
     for field in desc_fields:
         if field in row and row[field]:
             normalized['weather_description'] = row[field]
-            normalized['weather_main'] = row[field].split()[0].capitalize()  # First word as main condition
+            normalized['weather_main'] = row[field].split()[0].capitalize() if row[field] else ''
             break
     
     # Handle humidity
@@ -103,7 +97,7 @@ def normalize_row_data(row: Dict[str, Any], filename: str) -> Dict[str, Any]:
     for field in humidity_fields:
         if field in row and row[field]:
             try:
-                normalized['humidity'] = float(row[field])
+                normalized['humidity'] = round(float(row[field]), 2)
                 break
             except (ValueError, TypeError):
                 pass
@@ -113,7 +107,7 @@ def normalize_row_data(row: Dict[str, Any], filename: str) -> Dict[str, Any]:
     for field in wind_fields:
         if field in row and row[field]:
             try:
-                normalized['wind_speed'] = float(row[field])
+                normalized['wind_speed'] = round(float(row[field]), 2)
                 break
             except (ValueError, TypeError):
                 pass
@@ -122,45 +116,56 @@ def normalize_row_data(row: Dict[str, Any], filename: str) -> Dict[str, Any]:
     for key, value in row.items():
         if key not in normalized and value:
             normalized[key] = value
-    
     return normalized
 
 
-def load_all_team_data(csv_directory: str = "data") -> List[Dict[str, Any]]:
+def load_and_normalize_all_data(csv_directory: str = "data") -> List[Dict[str, Any]]:
     """
-    Load all CSV files from the team repository with format normalization.
-    
-    Args:
-        csv_directory (str): Directory containing CSV files
-        
-    Returns:
-        List[Dict[str, Any]]: Combined and normalized weather data from all team members
+    Load and normalize all CSV files from the data directory.
+    Returns a list of standardized row dicts.
     """
     team_data = []
     csv_dir = Path(csv_directory)
-    
     if not csv_dir.exists():
         print(f"Directory {csv_directory} does not exist")
-        return team_data
-    
+        return []
     for csv_file in csv_dir.glob("*.csv"):
         try:
             with open(csv_file, 'r', encoding='utf-8') as file:
                 reader = csv.DictReader(file)
-                file_count = 0
-                
                 for row in reader:
-                    # Normalize the row data to handle different formats
                     normalized_row = normalize_row_data(row, csv_file.name)
                     team_data.append(normalized_row)
-                    file_count += 1
-            
-            print(f"Loaded {file_count} records from {csv_file}")
-            
+            print(f"Loaded {csv_file.name}")
         except Exception as e:
             print(f"Failed to load {csv_file}: {e}")
-    
     return team_data
+
+def export_standardized_data(team_data: List[Dict[str, Any]], output_dir: str = "exports") -> None:
+    """
+    Export the standardized team data to a single CSV and JSON file.
+    """
+    export_path = Path(output_dir)
+    export_path.mkdir(exist_ok=True)
+    csv_filename = "team_weather_data.csv"
+    json_filename = f"team_weather_data_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+    csv_filepath = export_path / csv_filename
+    json_filepath = export_path / json_filename
+
+    # Get all unique field names
+    all_fields = set()
+    for row in team_data:
+        all_fields.update(row.keys())
+    standard_fields = ['timestamp', 'member_name', 'city', 'country', 'temperature', 'humidity', 'wind_speed', 'weather_main', 'weather_description']
+    ordered_fields = [f for f in standard_fields if f in all_fields] + sorted(all_fields - set(standard_fields))
+
+    # Write CSV
+    with open(csv_filepath, 'w', newline='', encoding='utf-8') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=ordered_fields)
+        writer.writeheader()
+        writer.writerows(team_data)
+    print(f"✅ Exported standardized CSV: {csv_filepath}")
+
 
 
 def compare_team_data(team_data: List[Dict[str, Any]]) -> Dict[str, Any]:
@@ -587,54 +592,17 @@ def print_team_summary(comparison: Dict[str, Any]) -> None:
 
 def main():
     """
-    Main function to load, display team weather data comparison, show Compare Cities analysis, and create export packages.
+    Main function to load, standardize, and export all team weather data.
     """
-    print("Team Weather Data Repository")
-    print("Loading all team CSV files...")
-    
-    # Load all team data
-    team_data = load_all_team_data()
-    
+    print("Team Weather Data Standardizer")
+    print("Loading and normalizing all team CSV files...")
+    team_data = load_and_normalize_all_data()
     if not team_data:
-        print("\nNo CSV files found in the data directory.")
+        print("No CSV files found in the data directory.")
         print("Team members should add their weather CSV files to the 'data' folder.")
         return
-    
-    # Generate and display general comparison
-    comparison = compare_team_data(team_data)
-    print_team_summary(comparison)
-    
-    # Generate and display Compare Cities analysis
-    print("\n" + "🏙️" * 25)
-    cities_analysis = compare_cities_analysis(team_data)
-    print_compare_cities_summary(cities_analysis)
-    
-    # Create export package for team member imports
-    export_files = create_export_package(team_data, cities_analysis, comparison)
-    
-    # Print usage instructions for team members
-    print("\n" + "="*70)
-    print("📚 TEAM MEMBER IMPORT INSTRUCTIONS")
-    print("="*70)
-    print("Python import examples:")
-    print()
-    print("# Import complete team data CSV")
-    print("import pandas as pd")
-    print("team_data = pd.read_csv('exports/team_weather_data_[timestamp].csv')")
-    print()
-    print("# Import combined analysis JSON")
-    print("import json")
-    print("with open('exports/team_compare_cities_data_[timestamp].json', 'r') as f:")
-    print("    analysis_data = json.load(f)")
-    print("    cities_analysis = analysis_data['cities_analysis']")
-    print("    team_summary = analysis_data['team_summary']")
-    print()
-    print("# Quick city comparison example")
-    print("austin_data = team_data[team_data['city'] == 'Austin']")
-    print("providence_data = team_data[team_data['city'] == 'Providence']")
-    print("print(f'Austin avg temp: {austin_data[\"temperature\"].mean():.1f}°C')")
-    print("print(f'Providence avg temp: {providence_data[\"temperature\"].mean():.1f}°C')")
-    print("="*70)
+    export_standardized_data(team_data)
+    print("\nDone! Your clean CSV and JSON exports are ready in the exports/ folder.")
 
 
 if __name__ == "__main__":
