@@ -148,7 +148,7 @@ def export_standardized_data(team_data: List[Dict[str, Any]], output_dir: str = 
     export_path = Path(output_dir)
     export_path.mkdir(exist_ok=True)
     csv_filename = "team_weather_data.csv"
-    json_filename = f"team_weather_data_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+    json_filename = "team_cities.json"
     csv_filepath = export_path / csv_filename
     json_filepath = export_path / json_filename
 
