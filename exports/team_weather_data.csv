@@ -1,543 +1,543 @@
 timestamp,member_name,city,country,temperature,humidity,wind_speed,weather_main,weather_description,2025-07-23 21:04,28,Atlanta,City,Description,Temperature (F),Timestamp,cloudiness,datetime,description,dt,feels_like,few clouds,humidity_pct,id,name,pressure,speed,sunrise,sunset,temp,temp_f,timezone,units,visibility,wind_direction,wind_speed_mph
 2025-07-16T14:30:22.123456,Sample Member,New York,US,22.5,45.0,3.2,Clear,clear sky,,,,,,,,10,,,,24.1,,,,,1013,,06:15,19:45,,,-5.0,,10.0,180,
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-01-01 15:14:29,Few clouds,,,,60,,,,,,,,46.42,,imperial,,,10.1
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-01-02 15:14:29,Clear sky,,,,47,,,,,,,,40.04,,imperial,,,13.7
-,Capstone_tobi,Chicago,,,,,Light,Light rain,,,,,,,,,2023-01-03 15:14:29,Light rain,,,,62,,,,,,,,39.3,,imperial,,,8.7
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-01-04 15:14:29,Overcast clouds,,,,46,,,,,,,,47.16,,imperial,,,7.1
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-01-05 15:14:29,Few clouds,,,,33,,,,,,,,32.37,,imperial,,,5.4
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-01-06 15:14:29,Scattered clouds,,,,40,,,,,,,,44.41,,imperial,,,5.8
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-01-07 15:14:29,Overcast clouds,,,,49,,,,,,,,36.96,,imperial,,,3.7
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-01-08 15:14:29,Few clouds,,,,34,,,,,,,,43.95,,imperial,,,11.2
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-01-09 15:14:29,Overcast clouds,,,,21,,,,,,,,41.63,,imperial,,,9.3
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-01-10 15:14:29,Scattered clouds,,,,42,,,,,,,,38.04,,imperial,,,7.8
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-01-11 15:14:29,Overcast clouds,,,,32,,,,,,,,30.1,,imperial,,,8.4
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-01-12 15:14:29,Few clouds,,,,69,,,,,,,,35.96,,imperial,,,13.5
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-01-13 15:14:29,Clear sky,,,,66,,,,,,,,38.35,,imperial,,,12.1
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-01-14 15:14:29,Scattered clouds,,,,68,,,,,,,,35.42,,imperial,,,9.2
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-01-15 15:14:29,Few clouds,,,,31,,,,,,,,33.88,,imperial,,,7.4
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-01-16 15:14:29,Clear sky,,,,50,,,,,,,,38.89,,imperial,,,10.3
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-01-17 15:14:29,Clear sky,,,,88,,,,,,,,37.94,,imperial,,,11.5
-,Capstone_tobi,Chicago,,,,,Snow,Snow,,,,,,,,,2023-01-18 15:14:29,Snow,,,,80,,,,,,,,27.04,,imperial,,,12.1
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-01-19 15:14:29,Clear sky,,,,57,,,,,,,,31.68,,imperial,,,13.0
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-01-20 15:14:29,Clear sky,,,,67,,,,,,,,34.73,,imperial,,,12.0
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-01-21 15:14:29,Overcast clouds,,,,46,,,,,,,,41.41,,imperial,,,4.7
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-01-22 15:14:29,Clear sky,,,,57,,,,,,,,34.02,,imperial,,,7.7
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-01-23 15:14:29,Clear sky,,,,68,,,,,,,,31.81,,imperial,,,21.3
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-01-24 15:14:29,Overcast clouds,,,,56,,,,,,,,34.79,,imperial,,,10.3
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-01-25 15:14:29,Overcast clouds,,,,79,,,,,,,,24.37,,imperial,,,2.7
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-01-26 15:14:29,Few clouds,,,,55,,,,,,,,43.62,,imperial,,,11.6
-,Capstone_tobi,Chicago,,,,,Light,Light rain,,,,,,,,,2023-01-27 15:14:29,Light rain,,,,56,,,,,,,,16.03,,imperial,,,6.9
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-01-28 15:14:29,Clear sky,,,,50,,,,,,,,38.97,,imperial,,,6.3
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-01-29 15:14:29,Few clouds,,,,55,,,,,,,,27.41,,imperial,,,6.5
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-01-30 15:14:29,Few clouds,,,,35,,,,,,,,32.93,,imperial,,,11.2
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-01-31 15:14:29,Scattered clouds,,,,48,,,,,,,,28.57,,imperial,,,10.4
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-02-01 15:14:29,Overcast clouds,,,,78,,,,,,,,23.07,,imperial,,,7.1
-,Capstone_tobi,Chicago,,,,,Light,Light rain,,,,,,,,,2023-02-02 15:14:29,Light rain,,,,70,,,,,,,,28.01,,imperial,,,4.7
-,Capstone_tobi,Chicago,,,,,Snow,Snow,,,,,,,,,2023-02-03 15:14:29,Snow,,,,69,,,,,,,,23.94,,imperial,,,5.9
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-02-04 15:14:29,Few clouds,,,,60,,,,,,,,24.21,,imperial,,,13.4
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-02-05 15:14:29,Overcast clouds,,,,19,,,,,,,,28.86,,imperial,,,4.2
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-02-06 15:14:29,Clear sky,,,,37,,,,,,,,28.63,,imperial,,,4.2
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-02-07 15:14:29,Few clouds,,,,57,,,,,,,,24.29,,imperial,,,17.0
-,Capstone_tobi,Chicago,,,,,Light,Light rain,,,,,,,,,2023-02-08 15:14:29,Light rain,,,,67,,,,,,,,36.33,,imperial,,,19.2
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-02-09 15:14:29,Few clouds,,,,55,,,,,,,,23.31,,imperial,,,7.0
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-02-10 15:14:29,Scattered clouds,,,,60,,,,,,,,33.7,,imperial,,,2.8
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-02-11 15:14:29,Scattered clouds,,,,63,,,,,,,,30.04,,imperial,,,6.9
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-02-12 15:14:29,Scattered clouds,,,,32,,,,,,,,21.02,,imperial,,,7.3
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-02-13 15:14:29,Few clouds,,,,62,,,,,,,,19.18,,imperial,,,13.1
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-02-14 15:14:29,Few clouds,,,,49,,,,,,,,31.07,,imperial,,,17.2
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-02-15 15:14:29,Overcast clouds,,,,43,,,,,,,,19.56,,imperial,,,11.5
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-02-16 15:14:29,Clear sky,,,,61,,,,,,,,33.74,,imperial,,,8.1
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-02-17 15:14:29,Clear sky,,,,31,,,,,,,,37.78,,imperial,,,5.3
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-02-18 15:14:29,Overcast clouds,,,,45,,,,,,,,35.68,,imperial,,,6.5
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-02-19 15:14:29,Few clouds,,,,57,,,,,,,,20.08,,imperial,,,8.1
-,Capstone_tobi,Chicago,,,,,Snow,Snow,,,,,,,,,2023-02-20 15:14:29,Snow,,,,72,,,,,,,,16.74,,imperial,,,8.8
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-02-21 15:14:29,Clear sky,,,,57,,,,,,,,10.14,,imperial,,,0.9
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-02-22 15:14:29,Clear sky,,,,48,,,,,,,,27.81,,imperial,,,6.7
-,Capstone_tobi,Chicago,,,,,Snow,Snow,,,,,,,,,2023-02-23 15:14:29,Snow,,,,53,,,,,,,,10.11,,imperial,,,19.6
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-02-24 15:14:29,Clear sky,,,,58,,,,,,,,16.94,,imperial,,,15.9
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-02-25 15:14:29,Overcast clouds,,,,63,,,,,,,,22.32,,imperial,,,10.9
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-02-26 15:14:29,Scattered clouds,,,,18,,,,,,,,22.11,,imperial,,,3.7
-,Capstone_tobi,Chicago,,,,,Light,Light rain,,,,,,,,,2023-02-27 15:14:29,Light rain,,,,80,,,,,,,,30.4,,imperial,,,11.1
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-02-28 15:14:29,Clear sky,,,,38,,,,,,,,21.08,,imperial,,,1.7
-,Capstone_tobi,Chicago,,,,,Rain,Rain,,,,,,,,,2023-03-01 15:14:29,Rain,,,,63,,,,,,,,29.87,,imperial,,,8.7
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-03-02 15:14:29,Clear sky,,,,55,,,,,,,,32.02,,imperial,,,12.2
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-03-03 15:14:29,Clear sky,,,,57,,,,,,,,15.55,,imperial,,,11.7
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-03-04 15:14:29,Few clouds,,,,52,,,,,,,,15.61,,imperial,,,7.2
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-03-05 15:14:29,Few clouds,,,,66,,,,,,,,23.09,,imperial,,,8.1
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-03-06 15:14:29,Clear sky,,,,57,,,,,,,,32.26,,imperial,,,14.2
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-03-07 15:14:29,Clear sky,,,,92,,,,,,,,11.96,,imperial,,,5.9
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-03-08 15:14:29,Clear sky,,,,37,,,,,,,,11.8,,imperial,,,4.6
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-03-09 15:14:29,Clear sky,,,,71,,,,,,,,6.13,,imperial,,,6.6
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-03-10 15:14:29,Scattered clouds,,,,48,,,,,,,,32.09,,imperial,,,9.9
-,Capstone_tobi,Chicago,,,,,Light,Light rain,,,,,,,,,2023-03-11 15:14:29,Light rain,,,,92,,,,,,,,4.95,,imperial,,,9.3
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-03-12 15:14:29,Few clouds,,,,51,,,,,,,,9.38,,imperial,,,2.3
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-03-13 15:14:29,Overcast clouds,,,,39,,,,,,,,21.84,,imperial,,,14.3
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-03-14 15:14:29,Few clouds,,,,60,,,,,,,,15.43,,imperial,,,12.0
-,Capstone_tobi,Chicago,,,,,Snow,Snow,,,,,,,,,2023-03-15 15:14:29,Snow,,,,48,,,,,,,,20.77,,imperial,,,13.0
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-03-16 15:14:29,Clear sky,,,,51,,,,,,,,18.91,,imperial,,,7.9
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-03-17 15:14:29,Clear sky,,,,59,,,,,,,,12.06,,imperial,,,14.9
-,Capstone_tobi,Chicago,,,,,Light,Light rain,,,,,,,,,2023-03-18 15:14:29,Light rain,,,,74,,,,,,,,7.85,,imperial,,,5.7
-,Capstone_tobi,Chicago,,,,,Snow,Snow,,,,,,,,,2023-03-19 15:14:29,Snow,,,,59,,,,,,,,17.6,,imperial,,,8.0
-,Capstone_tobi,Chicago,,,,,Thunderstorm,Thunderstorm,,,,,,,,,2023-03-20 15:14:29,Thunderstorm,,,,58,,,,,,,,32.37,,imperial,,,14.7
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-03-21 15:14:29,Overcast clouds,,,,65,,,,,,,,4.72,,imperial,,,5.8
-,Capstone_tobi,Chicago,,,,,Snow,Snow,,,,,,,,,2023-03-22 15:14:29,Snow,,,,64,,,,,,,,16.5,,imperial,,,3.7
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-03-23 15:14:29,Scattered clouds,,,,71,,,,,,,,21.65,,imperial,,,4.4
-,Capstone_tobi,Chicago,,,,,Snow,Snow,,,,,,,,,2023-03-24 15:14:29,Snow,,,,62,,,,,,,,20.9,,imperial,,,12.6
-,Capstone_tobi,Chicago,,,,,Rain,Rain,,,,,,,,,2023-03-25 15:14:29,Rain,,,,53,,,,,,,,16.86,,imperial,,,10.7
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-03-26 15:14:29,Clear sky,,,,44,,,,,,,,16.88,,imperial,,,4.9
-,Capstone_tobi,Chicago,,,,,Rain,Rain,,,,,,,,,2023-03-27 15:14:29,Rain,,,,56,,,,,,,,16.52,,imperial,,,8.0
-,Capstone_tobi,Chicago,,,,,Thunderstorm,Thunderstorm,,,,,,,,,2023-03-28 15:14:29,Thunderstorm,,,,51,,,,,,,,10.34,,imperial,,,6.7
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-03-29 15:14:29,Overcast clouds,,,,34,,,,,,,,22.28,,imperial,,,10.6
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-03-30 15:14:29,Clear sky,,,,49,,,,,,,,16.37,,imperial,,,5.1
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-03-31 15:14:29,Overcast clouds,,,,42,,,,,,,,19.41,,imperial,,,10.9
-,Capstone_tobi,Chicago,,,,,Thunderstorm,Thunderstorm,,,,,,,,,2023-04-01 15:14:29,Thunderstorm,,,,79,,,,,,,,14.15,,imperial,,,9.7
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-04-02 15:14:29,Overcast clouds,,,,24,,,,,,,,11.3,,imperial,,,4.5
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-04-03 15:14:29,Few clouds,,,,58,,,,,,,,11.27,,imperial,,,12.5
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-04-04 15:14:29,Overcast clouds,,,,47,,,,,,,,20.81,,imperial,,,3.4
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-04-05 15:14:29,Few clouds,,,,47,,,,,,,,10.53,,imperial,,,4.6
-,Capstone_tobi,Chicago,,,,,Rain,Rain,,,,,,,,,2023-04-06 15:14:29,Rain,,,,44,,,,,,,,14.45,,imperial,,,12.7
-,Capstone_tobi,Chicago,,,,,Light,Light rain,,,,,,,,,2023-04-07 15:14:29,Light rain,,,,57,,,,,,,,22.45,,imperial,,,21.4
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-04-08 15:14:29,Clear sky,,,,66,,,,,,,,16.72,,imperial,,,16.4
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-04-09 15:14:29,Clear sky,,,,30,,,,,,,,11.74,,imperial,,,9.0
-,Capstone_tobi,Chicago,,,,,Light,Light rain,,,,,,,,,2023-04-10 15:14:29,Light rain,,,,56,,,,,,,,22.52,,imperial,,,7.3
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-04-11 15:14:29,Clear sky,,,,57,,,,,,,,18.47,,imperial,,,7.7
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-04-12 15:14:29,Overcast clouds,,,,58,,,,,,,,18.98,,imperial,,,11.6
-,Capstone_tobi,Chicago,,,,,Rain,Rain,,,,,,,,,2023-04-13 15:14:29,Rain,,,,43,,,,,,,,17.58,,imperial,,,10.0
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-04-14 15:14:29,Few clouds,,,,55,,,,,,,,38.65,,imperial,,,5.9
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-04-15 15:14:29,Clear sky,,,,77,,,,,,,,17.28,,imperial,,,10.8
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-04-16 15:14:29,Overcast clouds,,,,68,,,,,,,,21.2,,imperial,,,15.2
-,Capstone_tobi,Chicago,,,,,Rain,Rain,,,,,,,,,2023-04-17 15:14:29,Rain,,,,24,,,,,,,,15.59,,imperial,,,14.4
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-04-18 15:14:29,Clear sky,,,,56,,,,,,,,18.24,,imperial,,,6.4
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-04-19 15:14:29,Overcast clouds,,,,41,,,,,,,,20.67,,imperial,,,8.5
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-04-20 15:14:29,Clear sky,,,,50,,,,,,,,29.4,,imperial,,,11.3
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-04-21 15:14:29,Few clouds,,,,71,,,,,,,,28.17,,imperial,,,8.6
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-04-22 15:14:29,Overcast clouds,,,,88,,,,,,,,29.01,,imperial,,,8.4
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-04-23 15:14:29,Overcast clouds,,,,35,,,,,,,,36.09,,imperial,,,7.0
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-04-24 15:14:29,Clear sky,,,,48,,,,,,,,29.85,,imperial,,,3.0
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-04-25 15:14:29,Clear sky,,,,42,,,,,,,,18.53,,imperial,,,3.7
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-04-26 15:14:29,Few clouds,,,,84,,,,,,,,26.5,,imperial,,,6.9
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-04-27 15:14:29,Clear sky,,,,38,,,,,,,,30.13,,imperial,,,11.3
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-04-28 15:14:29,Clear sky,,,,71,,,,,,,,21.79,,imperial,,,5.2
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-04-29 15:14:29,Few clouds,,,,41,,,,,,,,19.28,,imperial,,,18.9
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-04-30 15:14:29,Few clouds,,,,46,,,,,,,,22.66,,imperial,,,8.5
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-05-01 15:14:29,Overcast clouds,,,,25,,,,,,,,21.24,,imperial,,,12.3
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-05-02 15:14:29,Scattered clouds,,,,48,,,,,,,,26.69,,imperial,,,9.7
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-05-03 15:14:29,Clear sky,,,,60,,,,,,,,20.82,,imperial,,,15.9
-,Capstone_tobi,Chicago,,,,,Thunderstorm,Thunderstorm,,,,,,,,,2023-05-04 15:14:29,Thunderstorm,,,,59,,,,,,,,7.77,,imperial,,,5.6
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-05-05 15:14:29,Few clouds,,,,76,,,,,,,,22.98,,imperial,,,12.6
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-05-06 15:14:29,Clear sky,,,,45,,,,,,,,18.06,,imperial,,,6.5
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-05-07 15:14:29,Clear sky,,,,57,,,,,,,,8.59,,imperial,,,3.2
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-05-08 15:14:29,Clear sky,,,,59,,,,,,,,16.77,,imperial,,,13.7
-,Capstone_tobi,Chicago,,,,,Rain,Rain,,,,,,,,,2023-05-09 15:14:29,Rain,,,,61,,,,,,,,14.46,,imperial,,,3.0
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-05-10 15:14:29,Overcast clouds,,,,47,,,,,,,,32.26,,imperial,,,9.4
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-05-11 15:14:29,Clear sky,,,,71,,,,,,,,26.56,,imperial,,,6.9
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-05-12 15:14:29,Clear sky,,,,61,,,,,,,,28.76,,imperial,,,14.7
-,Capstone_tobi,Chicago,,,,,Light,Light rain,,,,,,,,,2023-05-13 15:14:29,Light rain,,,,32,,,,,,,,25.08,,imperial,,,5.9
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-05-14 15:14:29,Clear sky,,,,61,,,,,,,,24.53,,imperial,,,15.3
-,Capstone_tobi,Chicago,,,,,Light,Light rain,,,,,,,,,2023-05-15 15:14:29,Light rain,,,,46,,,,,,,,47.35,,imperial,,,8.7
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-05-16 15:14:29,Scattered clouds,,,,80,,,,,,,,27.59,,imperial,,,15.9
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-05-17 15:14:29,Scattered clouds,,,,40,,,,,,,,24.14,,imperial,,,8.2
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-05-18 15:14:29,Clear sky,,,,69,,,,,,,,28.32,,imperial,,,12.6
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-05-19 15:14:29,Clear sky,,,,53,,,,,,,,27.05,,imperial,,,3.3
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-05-20 15:14:29,Few clouds,,,,91,,,,,,,,27.96,,imperial,,,11.9
-,Capstone_tobi,Chicago,,,,,Thunderstorm,Thunderstorm,,,,,,,,,2023-05-21 15:14:29,Thunderstorm,,,,60,,,,,,,,34.14,,imperial,,,5.6
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-05-22 15:14:29,Few clouds,,,,45,,,,,,,,37.76,,imperial,,,9.8
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-05-23 15:14:29,Scattered clouds,,,,66,,,,,,,,44.14,,imperial,,,1.8
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-05-24 15:14:29,Overcast clouds,,,,48,,,,,,,,19.4,,imperial,,,3.4
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-05-25 15:14:29,Few clouds,,,,71,,,,,,,,30.09,,imperial,,,8.3
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-05-26 15:14:29,Overcast clouds,,,,89,,,,,,,,36.3,,imperial,,,9.5
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-05-27 15:14:29,Clear sky,,,,61,,,,,,,,30.4,,imperial,,,17.7
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-05-28 15:14:29,Overcast clouds,,,,21,,,,,,,,38.3,,imperial,,,4.7
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-05-29 15:14:29,Few clouds,,,,56,,,,,,,,37.75,,imperial,,,8.5
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-05-30 15:14:29,Scattered clouds,,,,24,,,,,,,,48.36,,imperial,,,9.9
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-05-31 15:14:29,Few clouds,,,,62,,,,,,,,33.63,,imperial,,,7.5
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-06-01 15:14:29,Few clouds,,,,39,,,,,,,,51.98,,imperial,,,4.7
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-06-02 15:14:29,Few clouds,,,,51,,,,,,,,43.67,,imperial,,,13.5
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-06-03 15:14:29,Clear sky,,,,77,,,,,,,,37.31,,imperial,,,5.1
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-06-04 15:14:29,Clear sky,,,,58,,,,,,,,38.38,,imperial,,,13.2
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-06-05 15:14:29,Few clouds,,,,57,,,,,,,,51.47,,imperial,,,10.1
-,Capstone_tobi,Chicago,,,,,Light,Light rain,,,,,,,,,2023-06-06 15:14:29,Light rain,,,,33,,,,,,,,41.46,,imperial,,,12.8
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-06-07 15:14:29,Clear sky,,,,64,,,,,,,,48.42,,imperial,,,5.8
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-06-08 15:14:29,Overcast clouds,,,,55,,,,,,,,28.79,,imperial,,,13.3
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-06-09 15:14:29,Few clouds,,,,32,,,,,,,,49.47,,imperial,,,9.4
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-06-10 15:14:29,Clear sky,,,,26,,,,,,,,47.37,,imperial,,,11.4
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-06-11 15:14:29,Clear sky,,,,66,,,,,,,,35.63,,imperial,,,11.3
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-06-12 15:14:29,Clear sky,,,,54,,,,,,,,46.11,,imperial,,,12.5
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-06-13 15:14:29,Clear sky,,,,69,,,,,,,,50.83,,imperial,,,16.1
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-06-14 15:14:29,Scattered clouds,,,,32,,,,,,,,44.35,,imperial,,,11.3
-,Capstone_tobi,Chicago,,,,,Snow,Snow,,,,,,,,,2023-06-15 15:14:29,Snow,,,,39,,,,,,,,45.04,,imperial,,,7.8
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-06-16 15:14:29,Overcast clouds,,,,50,,,,,,,,40.68,,imperial,,,4.3
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-06-17 15:14:29,Clear sky,,,,19,,,,,,,,43.22,,imperial,,,9.0
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-06-18 15:14:29,Clear sky,,,,47,,,,,,,,53.39,,imperial,,,0.2
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-06-19 15:14:29,Few clouds,,,,72,,,,,,,,50.14,,imperial,,,7.0
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-06-20 15:14:29,Scattered clouds,,,,24,,,,,,,,53.81,,imperial,,,10.7
-,Capstone_tobi,Chicago,,,,,Rain,Rain,,,,,,,,,2023-06-21 15:14:29,Rain,,,,37,,,,,,,,33.6,,imperial,,,6.4
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-06-22 15:14:29,Overcast clouds,,,,40,,,,,,,,54.44,,imperial,,,5.1
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-06-23 15:14:29,Few clouds,,,,76,,,,,,,,47.93,,imperial,,,12.1
-,Capstone_tobi,Chicago,,,,,Thunderstorm,Thunderstorm,,,,,,,,,2023-06-24 15:14:29,Thunderstorm,,,,63,,,,,,,,45.37,,imperial,,,4.3
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-06-25 15:14:29,Clear sky,,,,52,,,,,,,,38.36,,imperial,,,17.7
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-06-26 15:14:29,Clear sky,,,,54,,,,,,,,44.91,,imperial,,,3.2
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-06-27 15:14:29,Few clouds,,,,49,,,,,,,,55.93,,imperial,,,3.8
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-06-28 15:14:29,Scattered clouds,,,,51,,,,,,,,45.98,,imperial,,,14.2
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-06-29 15:14:29,Overcast clouds,,,,38,,,,,,,,58.06,,imperial,,,8.8
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-06-30 15:14:29,Few clouds,,,,69,,,,,,,,58.87,,imperial,,,12.7
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-07-01 15:14:29,Clear sky,,,,59,,,,,,,,54.56,,imperial,,,14.7
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-07-02 15:14:29,Few clouds,,,,38,,,,,,,,48.2,,imperial,,,11.8
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-07-03 15:14:29,Clear sky,,,,47,,,,,,,,53.16,,imperial,,,1.0
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-07-04 15:14:29,Clear sky,,,,47,,,,,,,,64.5,,imperial,,,8.1
-,Capstone_tobi,Chicago,,,,,Rain,Rain,,,,,,,,,2023-07-05 15:14:29,Rain,,,,76,,,,,,,,60.0,,imperial,,,4.9
-,Capstone_tobi,Chicago,,,,,Rain,Rain,,,,,,,,,2023-07-06 15:14:29,Rain,,,,59,,,,,,,,53.58,,imperial,,,17.8
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-07-07 15:14:29,Few clouds,,,,34,,,,,,,,59.16,,imperial,,,12.2
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-07-08 15:14:29,Clear sky,,,,43,,,,,,,,56.41,,imperial,,,8.8
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-07-09 15:14:29,Clear sky,,,,53,,,,,,,,62.39,,imperial,,,6.1
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-07-10 15:14:29,Scattered clouds,,,,68,,,,,,,,42.43,,imperial,,,4.8
-,Capstone_tobi,Chicago,,,,,Thunderstorm,Thunderstorm,,,,,,,,,2023-07-11 15:14:29,Thunderstorm,,,,43,,,,,,,,57.28,,imperial,,,6.3
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-07-12 15:14:29,Clear sky,,,,60,,,,,,,,71.71,,imperial,,,1.4
-,Capstone_tobi,Chicago,,,,,Snow,Snow,,,,,,,,,2023-07-13 15:14:29,Snow,,,,66,,,,,,,,56.7,,imperial,,,3.6
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-07-14 15:14:29,Few clouds,,,,76,,,,,,,,59.34,,imperial,,,6.2
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-07-15 15:14:29,Clear sky,,,,60,,,,,,,,59.09,,imperial,,,15.7
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-07-16 15:14:29,Clear sky,,,,56,,,,,,,,61.98,,imperial,,,4.8
-,Capstone_tobi,Chicago,,,,,Rain,Rain,,,,,,,,,2023-07-17 15:14:29,Rain,,,,65,,,,,,,,76.41,,imperial,,,4.5
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-07-18 15:14:29,Clear sky,,,,64,,,,,,,,80.07,,imperial,,,5.2
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-07-19 15:14:29,Clear sky,,,,71,,,,,,,,55.36,,imperial,,,8.1
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-07-20 15:14:29,Scattered clouds,,,,19,,,,,,,,68.64,,imperial,,,12.3
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-07-21 15:14:29,Few clouds,,,,52,,,,,,,,61.95,,imperial,,,9.4
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-07-22 15:14:29,Overcast clouds,,,,70,,,,,,,,71.5,,imperial,,,10.7
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-07-23 15:14:29,Scattered clouds,,,,63,,,,,,,,63.71,,imperial,,,3.9
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-07-24 15:14:29,Few clouds,,,,30,,,,,,,,65.77,,imperial,,,0.1
-,Capstone_tobi,Chicago,,,,,Snow,Snow,,,,,,,,,2023-07-25 15:14:29,Snow,,,,47,,,,,,,,76.52,,imperial,,,20.7
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-07-26 15:14:29,Clear sky,,,,77,,,,,,,,63.49,,imperial,,,7.7
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-07-27 15:14:29,Clear sky,,,,37,,,,,,,,74.97,,imperial,,,11.2
-,Capstone_tobi,Chicago,,,,,Light,Light rain,,,,,,,,,2023-07-28 15:14:29,Light rain,,,,41,,,,,,,,67.38,,imperial,,,6.0
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-07-29 15:14:29,Overcast clouds,,,,54,,,,,,,,77.05,,imperial,,,5.5
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-07-30 15:14:29,Few clouds,,,,43,,,,,,,,82.59,,imperial,,,10.9
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-07-31 15:14:29,Few clouds,,,,50,,,,,,,,75.46,,imperial,,,5.6
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-08-01 15:14:29,Clear sky,,,,73,,,,,,,,79.09,,imperial,,,8.4
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-08-02 15:14:29,Scattered clouds,,,,33,,,,,,,,75.08,,imperial,,,3.7
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-08-03 15:14:29,Overcast clouds,,,,48,,,,,,,,68.1,,imperial,,,6.1
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-08-04 15:14:29,Clear sky,,,,62,,,,,,,,64.5,,imperial,,,12.0
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-08-05 15:14:29,Clear sky,,,,46,,,,,,,,60.35,,imperial,,,5.5
-,Capstone_tobi,Chicago,,,,,Light,Light rain,,,,,,,,,2023-08-06 15:14:29,Light rain,,,,56,,,,,,,,68.91,,imperial,,,7.2
-,Capstone_tobi,Chicago,,,,,Thunderstorm,Thunderstorm,,,,,,,,,2023-08-07 15:14:29,Thunderstorm,,,,56,,,,,,,,66.98,,imperial,,,0.1
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-08-08 15:14:29,Few clouds,,,,69,,,,,,,,82.58,,imperial,,,18.2
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-08-09 15:14:29,Scattered clouds,,,,15,,,,,,,,66.19,,imperial,,,6.8
-,Capstone_tobi,Chicago,,,,,Thunderstorm,Thunderstorm,,,,,,,,,2023-08-10 15:14:29,Thunderstorm,,,,74,,,,,,,,76.53,,imperial,,,6.3
-,Capstone_tobi,Chicago,,,,,Rain,Rain,,,,,,,,,2023-08-11 15:14:29,Rain,,,,57,,,,,,,,70.9,,imperial,,,10.0
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-08-12 15:14:29,Few clouds,,,,75,,,,,,,,78.72,,imperial,,,13.5
-,Capstone_tobi,Chicago,,,,,Thunderstorm,Thunderstorm,,,,,,,,,2023-08-13 15:14:29,Thunderstorm,,,,67,,,,,,,,76.52,,imperial,,,5.7
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-08-14 15:14:29,Clear sky,,,,41,,,,,,,,77.11,,imperial,,,15.5
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-08-15 15:14:29,Clear sky,,,,33,,,,,,,,69.43,,imperial,,,6.3
-,Capstone_tobi,Chicago,,,,,Rain,Rain,,,,,,,,,2023-08-16 15:14:29,Rain,,,,67,,,,,,,,85.86,,imperial,,,12.1
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-08-17 15:14:29,Few clouds,,,,58,,,,,,,,93.89,,imperial,,,10.4
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-08-18 15:14:29,Clear sky,,,,44,,,,,,,,77.9,,imperial,,,20.0
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-08-19 15:14:29,Few clouds,,,,37,,,,,,,,81.45,,imperial,,,2.4
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-08-20 15:14:29,Clear sky,,,,48,,,,,,,,75.67,,imperial,,,0.1
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-08-21 15:14:29,Clear sky,,,,30,,,,,,,,79.76,,imperial,,,4.8
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-08-22 15:14:29,Few clouds,,,,53,,,,,,,,74.85,,imperial,,,2.5
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-08-23 15:14:29,Overcast clouds,,,,61,,,,,,,,90.39,,imperial,,,2.7
-,Capstone_tobi,Chicago,,,,,Overcast,Overcast clouds,,,,,,,,,2023-08-24 15:14:29,Overcast clouds,,,,66,,,,,,,,78.09,,imperial,,,9.5
-,Capstone_tobi,Chicago,,,,,Light,Light rain,,,,,,,,,2023-08-25 15:14:29,Light rain,,,,56,,,,,,,,80.97,,imperial,,,10.0
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-08-26 15:14:29,Clear sky,,,,71,,,,,,,,79.38,,imperial,,,6.6
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-08-27 15:14:29,Scattered clouds,,,,66,,,,,,,,79.58,,imperial,,,0.2
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-08-28 15:14:29,Scattered clouds,,,,52,,,,,,,,82.11,,imperial,,,12.6
-,Capstone_tobi,Chicago,,,,,Thunderstorm,Thunderstorm,,,,,,,,,2023-08-29 15:14:29,Thunderstorm,,,,62,,,,,,,,91.08,,imperial,,,7.2
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-08-30 15:14:29,Few clouds,,,,55,,,,,,,,78.07,,imperial,,,4.5
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-08-31 15:14:29,Few clouds,,,,38,,,,,,,,91.42,,imperial,,,16.4
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-09-01 15:14:29,Few clouds,,,,56,,,,,,,,79.99,,imperial,,,7.0
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-09-02 15:14:29,Clear sky,,,,58,,,,,,,,81.94,,imperial,,,12.1
-,Capstone_tobi,Chicago,,,,,Few,Few clouds,,,,,,,,,2023-09-03 15:14:29,Few clouds,,,,39,,,,,,,,85.12,,imperial,,,9.5
-,Capstone_tobi,Chicago,,,,,Scattered,Scattered clouds,,,,,,,,,2023-09-04 15:14:29,Scattered clouds,,,,61,,,,,,,,93.06,,imperial,,,7.4
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-09-05 15:14:29,Clear sky,,,,42,,,,,,,,73.31,,imperial,,,17.7
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-09-06 15:14:29,Clear sky,,,,46,,,,,,,,77.78,,imperial,,,0.1
-,Capstone_tobi,Chicago,,,,,Clear,Clear sky,,,,,,,,,2023-09-07 15:14:29,Clear sky,,,,31,,,,,,,,82.1,,imperial,,,14.7
-,Capstone_tobi,Denver,,,,,Thunderstorm,Thunderstorm,,,,,,,,,2023-01-01 15:14:29,Thunderstorm,,,,55,,,,,,,,27.46,,imperial,,,22.3
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-01-02 15:14:29,Few clouds,,,,47,,,,,,,,51.75,,imperial,,,3.6
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-01-03 15:14:29,Clear sky,,,,34,,,,,,,,39.17,,imperial,,,5.5
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-01-04 15:14:29,Clear sky,,,,63,,,,,,,,38.2,,imperial,,,6.2
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-01-05 15:14:29,Clear sky,,,,56,,,,,,,,36.78,,imperial,,,10.7
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-01-06 15:14:29,Few clouds,,,,80,,,,,,,,56.31,,imperial,,,9.3
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-01-07 15:14:29,Overcast clouds,,,,84,,,,,,,,35.08,,imperial,,,10.1
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-01-08 15:14:29,Few clouds,,,,19,,,,,,,,38.66,,imperial,,,9.3
-,Capstone_tobi,Denver,,,,,Rain,Rain,,,,,,,,,2023-01-09 15:14:29,Rain,,,,59,,,,,,,,43.54,,imperial,,,10.8
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-01-10 15:14:29,Scattered clouds,,,,51,,,,,,,,41.08,,imperial,,,12.9
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-01-11 15:14:29,Light rain,,,,22,,,,,,,,43.48,,imperial,,,13.0
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-01-12 15:14:29,Overcast clouds,,,,82,,,,,,,,33.32,,imperial,,,11.5
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-01-13 15:14:29,Few clouds,,,,53,,,,,,,,38.35,,imperial,,,3.2
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-01-14 15:14:29,Clear sky,,,,65,,,,,,,,24.79,,imperial,,,7.9
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-01-15 15:14:29,Few clouds,,,,65,,,,,,,,44.75,,imperial,,,6.7
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-01-16 15:14:29,Scattered clouds,,,,51,,,,,,,,43.22,,imperial,,,13.2
-,Capstone_tobi,Denver,,,,,Snow,Snow,,,,,,,,,2023-01-17 15:14:29,Snow,,,,56,,,,,,,,33.11,,imperial,,,8.8
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-01-18 15:14:29,Clear sky,,,,60,,,,,,,,26.32,,imperial,,,13.9
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-01-19 15:14:29,Few clouds,,,,39,,,,,,,,37.26,,imperial,,,12.1
-,Capstone_tobi,Denver,,,,,Rain,Rain,,,,,,,,,2023-01-20 15:14:29,Rain,,,,50,,,,,,,,20.36,,imperial,,,9.3
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-01-21 15:14:29,Clear sky,,,,45,,,,,,,,33.25,,imperial,,,3.5
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-01-22 15:14:29,Few clouds,,,,68,,,,,,,,28.89,,imperial,,,2.7
-,Capstone_tobi,Denver,,,,,Snow,Snow,,,,,,,,,2023-01-23 15:14:29,Snow,,,,54,,,,,,,,37.7,,imperial,,,15.9
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-01-24 15:14:29,Scattered clouds,,,,56,,,,,,,,26.12,,imperial,,,14.0
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-01-25 15:14:29,Clear sky,,,,61,,,,,,,,33.0,,imperial,,,12.9
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-01-26 15:14:29,Clear sky,,,,31,,,,,,,,30.65,,imperial,,,6.4
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-01-27 15:14:29,Few clouds,,,,25,,,,,,,,35.04,,imperial,,,13.3
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-01-28 15:14:29,Clear sky,,,,54,,,,,,,,25.96,,imperial,,,10.0
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-01-29 15:14:29,Scattered clouds,,,,45,,,,,,,,36.36,,imperial,,,5.7
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-01-30 15:14:29,Clear sky,,,,30,,,,,,,,32.35,,imperial,,,11.4
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-01-31 15:14:29,Clear sky,,,,42,,,,,,,,26.3,,imperial,,,13.4
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-02-01 15:14:29,Scattered clouds,,,,48,,,,,,,,19.63,,imperial,,,7.0
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-02-02 15:14:29,Clear sky,,,,51,,,,,,,,29.16,,imperial,,,8.7
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-02-03 15:14:29,Scattered clouds,,,,36,,,,,,,,34.18,,imperial,,,14.9
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-02-04 15:14:29,Few clouds,,,,70,,,,,,,,33.16,,imperial,,,12.9
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-02-05 15:14:29,Clear sky,,,,61,,,,,,,,20.67,,imperial,,,17.7
-,Capstone_tobi,Denver,,,,,Thunderstorm,Thunderstorm,,,,,,,,,2023-02-06 15:14:29,Thunderstorm,,,,63,,,,,,,,18.6,,imperial,,,7.3
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-02-07 15:14:29,Scattered clouds,,,,48,,,,,,,,42.49,,imperial,,,19.4
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-02-08 15:14:29,Light rain,,,,60,,,,,,,,23.99,,imperial,,,1.8
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-02-09 15:14:29,Overcast clouds,,,,44,,,,,,,,23.97,,imperial,,,1.6
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-02-10 15:14:29,Light rain,,,,63,,,,,,,,20.69,,imperial,,,13.3
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-02-11 15:14:29,Light rain,,,,69,,,,,,,,34.99,,imperial,,,1.2
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-02-12 15:14:29,Few clouds,,,,46,,,,,,,,29.62,,imperial,,,7.4
-,Capstone_tobi,Denver,,,,,Snow,Snow,,,,,,,,,2023-02-13 15:14:29,Snow,,,,64,,,,,,,,32.14,,imperial,,,6.2
-,Capstone_tobi,Denver,,,,,Snow,Snow,,,,,,,,,2023-02-14 15:14:29,Snow,,,,58,,,,,,,,33.88,,imperial,,,9.5
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-02-15 15:14:29,Overcast clouds,,,,46,,,,,,,,28.18,,imperial,,,6.6
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-02-16 15:14:29,Clear sky,,,,50,,,,,,,,24.84,,imperial,,,13.3
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-02-17 15:14:29,Few clouds,,,,62,,,,,,,,29.89,,imperial,,,14.3
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-02-18 15:14:29,Few clouds,,,,46,,,,,,,,31.91,,imperial,,,16.9
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-02-19 15:14:29,Scattered clouds,,,,48,,,,,,,,27.25,,imperial,,,5.0
-,Capstone_tobi,Denver,,,,,Rain,Rain,,,,,,,,,2023-02-20 15:14:29,Rain,,,,52,,,,,,,,23.25,,imperial,,,4.7
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-02-21 15:14:29,Clear sky,,,,77,,,,,,,,8.99,,imperial,,,9.9
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-02-22 15:14:29,Clear sky,,,,49,,,,,,,,29.5,,imperial,,,13.0
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-02-23 15:14:29,Clear sky,,,,63,,,,,,,,14.47,,imperial,,,6.1
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-02-24 15:14:29,Clear sky,,,,56,,,,,,,,31.19,,imperial,,,12.1
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-02-25 15:14:29,Light rain,,,,39,,,,,,,,28.27,,imperial,,,2.3
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-02-26 15:14:29,Few clouds,,,,85,,,,,,,,18.65,,imperial,,,6.4
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-02-27 15:14:29,Few clouds,,,,71,,,,,,,,21.93,,imperial,,,10.8
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-02-28 15:14:29,Clear sky,,,,39,,,,,,,,31.26,,imperial,,,14.8
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-03-01 15:14:29,Few clouds,,,,55,,,,,,,,32.51,,imperial,,,6.4
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-03-02 15:14:29,Clear sky,,,,56,,,,,,,,22.04,,imperial,,,11.2
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-03-03 15:14:29,Few clouds,,,,32,,,,,,,,29.65,,imperial,,,4.5
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-03-04 15:14:29,Clear sky,,,,52,,,,,,,,9.56,,imperial,,,12.8
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-03-05 15:14:29,Few clouds,,,,61,,,,,,,,29.56,,imperial,,,12.0
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-03-06 15:14:29,Scattered clouds,,,,67,,,,,,,,7.53,,imperial,,,5.2
-,Capstone_tobi,Denver,,,,,Rain,Rain,,,,,,,,,2023-03-07 15:14:29,Rain,,,,68,,,,,,,,32.33,,imperial,,,9.8
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-03-08 15:14:29,Light rain,,,,48,,,,,,,,11.74,,imperial,,,13.2
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-03-09 15:14:29,Scattered clouds,,,,23,,,,,,,,19.49,,imperial,,,7.7
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-03-10 15:14:29,Overcast clouds,,,,62,,,,,,,,7.03,,imperial,,,6.8
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-03-11 15:14:29,Scattered clouds,,,,60,,,,,,,,21.21,,imperial,,,13.2
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-03-12 15:14:29,Clear sky,,,,27,,,,,,,,20.4,,imperial,,,1.0
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-03-13 15:14:29,Overcast clouds,,,,62,,,,,,,,16.82,,imperial,,,5.3
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-03-14 15:14:29,Few clouds,,,,72,,,,,,,,23.08,,imperial,,,9.3
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-03-15 15:14:29,Few clouds,,,,40,,,,,,,,13.1,,imperial,,,6.8
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-03-16 15:14:29,Few clouds,,,,39,,,,,,,,23.59,,imperial,,,9.9
-,Capstone_tobi,Denver,,,,,Snow,Snow,,,,,,,,,2023-03-17 15:14:29,Snow,,,,25,,,,,,,,29.75,,imperial,,,8.0
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-03-18 15:14:29,Few clouds,,,,63,,,,,,,,26.58,,imperial,,,4.0
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-03-19 15:14:29,Clear sky,,,,69,,,,,,,,18.99,,imperial,,,13.1
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-03-20 15:14:29,Light rain,,,,55,,,,,,,,18.14,,imperial,,,15.3
-,Capstone_tobi,Denver,,,,,Thunderstorm,Thunderstorm,,,,,,,,,2023-03-21 15:14:29,Thunderstorm,,,,64,,,,,,,,25.35,,imperial,,,8.3
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-03-22 15:14:29,Overcast clouds,,,,56,,,,,,,,24.39,,imperial,,,10.3
-,Capstone_tobi,Denver,,,,,Snow,Snow,,,,,,,,,2023-03-23 15:14:29,Snow,,,,31,,,,,,,,15.44,,imperial,,,10.4
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-03-24 15:14:29,Few clouds,,,,48,,,,,,,,20.49,,imperial,,,3.9
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-03-25 15:14:29,Overcast clouds,,,,51,,,,,,,,12.69,,imperial,,,16.7
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-03-26 15:14:29,Clear sky,,,,78,,,,,,,,17.27,,imperial,,,10.6
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-03-27 15:14:29,Few clouds,,,,32,,,,,,,,18.39,,imperial,,,14.9
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-03-28 15:14:29,Overcast clouds,,,,51,,,,,,,,25.56,,imperial,,,13.6
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-03-29 15:14:29,Clear sky,,,,64,,,,,,,,23.68,,imperial,,,11.8
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-03-30 15:14:29,Light rain,,,,74,,,,,,,,8.33,,imperial,,,11.8
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-03-31 15:14:29,Few clouds,,,,54,,,,,,,,26.67,,imperial,,,3.7
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-04-01 15:14:29,Clear sky,,,,38,,,,,,,,34.9,,imperial,,,1.1
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-04-02 15:14:29,Scattered clouds,,,,66,,,,,,,,12.67,,imperial,,,12.5
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-04-03 15:14:29,Overcast clouds,,,,75,,,,,,,,5.65,,imperial,,,12.0
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-04-04 15:14:29,Few clouds,,,,81,,,,,,,,4.14,,imperial,,,8.3
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-04-05 15:14:29,Clear sky,,,,43,,,,,,,,19.86,,imperial,,,9.1
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-04-06 15:14:29,Few clouds,,,,71,,,,,,,,22.49,,imperial,,,8.3
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-04-07 15:14:29,Scattered clouds,,,,48,,,,,,,,22.4,,imperial,,,7.0
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-04-08 15:14:29,Clear sky,,,,61,,,,,,,,29.67,,imperial,,,16.1
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-04-09 15:14:29,Few clouds,,,,54,,,,,,,,19.53,,imperial,,,8.4
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-04-10 15:14:29,Clear sky,,,,55,,,,,,,,5.57,,imperial,,,10.8
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-04-11 15:14:29,Few clouds,,,,47,,,,,,,,21.39,,imperial,,,5.6
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-04-12 15:14:29,Few clouds,,,,50,,,,,,,,20.87,,imperial,,,7.3
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-04-13 15:14:29,Few clouds,,,,78,,,,,,,,25.03,,imperial,,,5.8
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-04-14 15:14:29,Clear sky,,,,24,,,,,,,,29.42,,imperial,,,7.8
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-04-15 15:14:29,Few clouds,,,,82,,,,,,,,26.85,,imperial,,,8.8
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-04-16 15:14:29,Few clouds,,,,38,,,,,,,,13.83,,imperial,,,6.9
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-04-17 15:14:29,Clear sky,,,,58,,,,,,,,31.38,,imperial,,,15.9
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-04-18 15:14:29,Clear sky,,,,48,,,,,,,,23.39,,imperial,,,10.3
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-04-19 15:14:29,Few clouds,,,,44,,,,,,,,11.38,,imperial,,,6.5
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-04-20 15:14:29,Clear sky,,,,38,,,,,,,,22.37,,imperial,,,14.1
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-04-21 15:14:29,Overcast clouds,,,,75,,,,,,,,20.61,,imperial,,,9.4
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-04-22 15:14:29,Scattered clouds,,,,66,,,,,,,,23.29,,imperial,,,6.8
-,Capstone_tobi,Denver,,,,,Rain,Rain,,,,,,,,,2023-04-23 15:14:29,Rain,,,,35,,,,,,,,8.97,,imperial,,,10.2
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-04-24 15:14:29,Clear sky,,,,45,,,,,,,,29.63,,imperial,,,3.2
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-04-25 15:14:29,Scattered clouds,,,,47,,,,,,,,26.44,,imperial,,,7.0
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-04-26 15:14:29,Overcast clouds,,,,27,,,,,,,,38.35,,imperial,,,13.3
-,Capstone_tobi,Denver,,,,,Rain,Rain,,,,,,,,,2023-04-27 15:14:29,Rain,,,,68,,,,,,,,18.64,,imperial,,,12.7
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-04-28 15:14:29,Clear sky,,,,34,,,,,,,,27.59,,imperial,,,4.1
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-04-29 15:14:29,Overcast clouds,,,,50,,,,,,,,24.56,,imperial,,,7.6
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-04-30 15:14:29,Overcast clouds,,,,67,,,,,,,,24.5,,imperial,,,5.1
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-05-01 15:14:29,Scattered clouds,,,,48,,,,,,,,21.77,,imperial,,,4.9
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-05-02 15:14:29,Clear sky,,,,61,,,,,,,,30.89,,imperial,,,9.6
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-05-03 15:14:29,Clear sky,,,,47,,,,,,,,37.73,,imperial,,,5.6
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-05-04 15:14:29,Light rain,,,,55,,,,,,,,39.76,,imperial,,,5.9
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-05-05 15:14:29,Scattered clouds,,,,79,,,,,,,,23.51,,imperial,,,5.2
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-05-06 15:14:29,Few clouds,,,,22,,,,,,,,14.93,,imperial,,,5.1
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-05-07 15:14:29,Clear sky,,,,54,,,,,,,,21.78,,imperial,,,4.4
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-05-08 15:14:29,Scattered clouds,,,,66,,,,,,,,38.63,,imperial,,,4.9
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-05-09 15:14:29,Clear sky,,,,55,,,,,,,,33.24,,imperial,,,6.3
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-05-10 15:14:29,Clear sky,,,,74,,,,,,,,31.45,,imperial,,,2.2
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-05-11 15:14:29,Overcast clouds,,,,67,,,,,,,,22.84,,imperial,,,12.3
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-05-12 15:14:29,Scattered clouds,,,,76,,,,,,,,33.48,,imperial,,,7.2
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-05-13 15:14:29,Scattered clouds,,,,48,,,,,,,,27.32,,imperial,,,7.9
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-05-14 15:14:29,Light rain,,,,47,,,,,,,,37.09,,imperial,,,6.6
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-05-15 15:14:29,Clear sky,,,,58,,,,,,,,22.16,,imperial,,,8.2
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-05-16 15:14:29,Light rain,,,,50,,,,,,,,30.27,,imperial,,,6.3
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-05-17 15:14:29,Scattered clouds,,,,76,,,,,,,,29.93,,imperial,,,5.6
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-05-18 15:14:29,Clear sky,,,,71,,,,,,,,32.67,,imperial,,,8.1
-,Capstone_tobi,Denver,,,,,Snow,Snow,,,,,,,,,2023-05-19 15:14:29,Snow,,,,24,,,,,,,,31.67,,imperial,,,4.8
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-05-20 15:14:29,Clear sky,,,,60,,,,,,,,39.6,,imperial,,,5.0
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-05-21 15:14:29,Light rain,,,,53,,,,,,,,28.84,,imperial,,,6.8
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-05-22 15:14:29,Scattered clouds,,,,58,,,,,,,,37.43,,imperial,,,0.4
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-05-23 15:14:29,Scattered clouds,,,,35,,,,,,,,15.55,,imperial,,,6.5
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-05-24 15:14:29,Clear sky,,,,58,,,,,,,,35.19,,imperial,,,5.0
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-05-25 15:14:29,Clear sky,,,,41,,,,,,,,32.52,,imperial,,,7.6
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-05-26 15:14:29,Scattered clouds,,,,62,,,,,,,,34.69,,imperial,,,12.9
-,Capstone_tobi,Denver,,,,,Rain,Rain,,,,,,,,,2023-05-27 15:14:29,Rain,,,,67,,,,,,,,29.87,,imperial,,,16.0
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-05-28 15:14:29,Overcast clouds,,,,41,,,,,,,,35.83,,imperial,,,7.6
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-05-29 15:14:29,Few clouds,,,,67,,,,,,,,41.25,,imperial,,,12.4
-,Capstone_tobi,Denver,,,,,Snow,Snow,,,,,,,,,2023-05-30 15:14:29,Snow,,,,44,,,,,,,,43.25,,imperial,,,6.6
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-05-31 15:14:29,Clear sky,,,,40,,,,,,,,39.07,,imperial,,,8.7
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-06-01 15:14:29,Few clouds,,,,57,,,,,,,,44.14,,imperial,,,4.8
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-06-02 15:14:29,Light rain,,,,90,,,,,,,,47.99,,imperial,,,8.9
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-06-03 15:14:29,Few clouds,,,,47,,,,,,,,48.21,,imperial,,,6.8
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-06-04 15:14:29,Overcast clouds,,,,61,,,,,,,,35.78,,imperial,,,7.4
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-06-05 15:14:29,Few clouds,,,,67,,,,,,,,41.44,,imperial,,,13.9
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-06-06 15:14:29,Scattered clouds,,,,72,,,,,,,,43.59,,imperial,,,16.9
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-06-07 15:14:29,Clear sky,,,,53,,,,,,,,39.82,,imperial,,,15.5
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-06-08 15:14:29,Scattered clouds,,,,49,,,,,,,,44.4,,imperial,,,14.9
-,Capstone_tobi,Denver,,,,,Rain,Rain,,,,,,,,,2023-06-09 15:14:29,Rain,,,,66,,,,,,,,39.59,,imperial,,,1.6
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-06-10 15:14:29,Few clouds,,,,44,,,,,,,,43.59,,imperial,,,8.1
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-06-11 15:14:29,Few clouds,,,,60,,,,,,,,52.74,,imperial,,,5.3
-,Capstone_tobi,Denver,,,,,Rain,Rain,,,,,,,,,2023-06-12 15:14:29,Rain,,,,74,,,,,,,,36.69,,imperial,,,14.5
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-06-13 15:14:29,Few clouds,,,,65,,,,,,,,38.62,,imperial,,,12.1
-,Capstone_tobi,Denver,,,,,Rain,Rain,,,,,,,,,2023-06-14 15:14:29,Rain,,,,48,,,,,,,,47.72,,imperial,,,10.3
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-06-15 15:14:29,Clear sky,,,,51,,,,,,,,48.2,,imperial,,,15.6
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-06-16 15:14:29,Scattered clouds,,,,66,,,,,,,,37.89,,imperial,,,6.4
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-06-17 15:14:29,Clear sky,,,,49,,,,,,,,51.83,,imperial,,,14.2
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-06-18 15:14:29,Few clouds,,,,68,,,,,,,,46.21,,imperial,,,11.7
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-06-19 15:14:29,Overcast clouds,,,,30,,,,,,,,41.54,,imperial,,,5.9
-,Capstone_tobi,Denver,,,,,Rain,Rain,,,,,,,,,2023-06-20 15:14:29,Rain,,,,43,,,,,,,,54.8,,imperial,,,6.3
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-06-21 15:14:29,Few clouds,,,,55,,,,,,,,52.61,,imperial,,,8.9
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-06-22 15:14:29,Clear sky,,,,58,,,,,,,,54.61,,imperial,,,9.7
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-06-23 15:14:29,Clear sky,,,,59,,,,,,,,38.42,,imperial,,,8.2
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-06-24 15:14:29,Light rain,,,,60,,,,,,,,55.05,,imperial,,,6.4
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-06-25 15:14:29,Clear sky,,,,60,,,,,,,,50.86,,imperial,,,5.3
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-06-26 15:14:29,Clear sky,,,,65,,,,,,,,48.52,,imperial,,,0.7
-,Capstone_tobi,Denver,,,,,Snow,Snow,,,,,,,,,2023-06-27 15:14:29,Snow,,,,53,,,,,,,,53.99,,imperial,,,6.7
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-06-28 15:14:29,Clear sky,,,,57,,,,,,,,54.17,,imperial,,,14.9
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-06-29 15:14:29,Clear sky,,,,61,,,,,,,,46.51,,imperial,,,5.3
-,Capstone_tobi,Denver,,,,,Rain,Rain,,,,,,,,,2023-06-30 15:14:29,Rain,,,,58,,,,,,,,47.61,,imperial,,,6.7
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-07-01 15:14:29,Clear sky,,,,46,,,,,,,,50.01,,imperial,,,14.4
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-07-02 15:14:29,Clear sky,,,,58,,,,,,,,55.04,,imperial,,,2.4
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-07-03 15:14:29,Overcast clouds,,,,67,,,,,,,,44.56,,imperial,,,12.2
-,Capstone_tobi,Denver,,,,,Thunderstorm,Thunderstorm,,,,,,,,,2023-07-04 15:14:29,Thunderstorm,,,,73,,,,,,,,52.97,,imperial,,,8.1
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-07-05 15:14:29,Overcast clouds,,,,33,,,,,,,,54.73,,imperial,,,14.6
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-07-06 15:14:29,Few clouds,,,,50,,,,,,,,70.32,,imperial,,,10.0
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-07-07 15:14:29,Scattered clouds,,,,55,,,,,,,,53.95,,imperial,,,4.2
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-07-08 15:14:29,Clear sky,,,,48,,,,,,,,55.64,,imperial,,,10.2
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-07-09 15:14:29,Few clouds,,,,38,,,,,,,,54.34,,imperial,,,5.7
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-07-10 15:14:29,Few clouds,,,,44,,,,,,,,47.93,,imperial,,,7.3
-,Capstone_tobi,Denver,,,,,Rain,Rain,,,,,,,,,2023-07-11 15:14:29,Rain,,,,66,,,,,,,,64.57,,imperial,,,10.5
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-07-12 15:14:29,Clear sky,,,,62,,,,,,,,66.52,,imperial,,,14.7
-,Capstone_tobi,Denver,,,,,Rain,Rain,,,,,,,,,2023-07-13 15:14:29,Rain,,,,78,,,,,,,,62.59,,imperial,,,10.6
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-07-14 15:14:29,Clear sky,,,,73,,,,,,,,65.12,,imperial,,,15.3
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-07-15 15:14:29,Clear sky,,,,56,,,,,,,,57.39,,imperial,,,6.5
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-07-16 15:14:29,Overcast clouds,,,,68,,,,,,,,70.64,,imperial,,,9.4
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-07-17 15:14:29,Clear sky,,,,37,,,,,,,,59.38,,imperial,,,12.7
-,Capstone_tobi,Denver,,,,,Snow,Snow,,,,,,,,,2023-07-18 15:14:29,Snow,,,,43,,,,,,,,54.15,,imperial,,,3.6
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-07-19 15:14:29,Overcast clouds,,,,92,,,,,,,,65.04,,imperial,,,6.7
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-07-20 15:14:29,Few clouds,,,,33,,,,,,,,65.11,,imperial,,,2.4
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-07-21 15:14:29,Clear sky,,,,76,,,,,,,,66.54,,imperial,,,1.1
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-07-22 15:14:29,Clear sky,,,,44,,,,,,,,67.87,,imperial,,,7.9
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-07-23 15:14:29,Few clouds,,,,44,,,,,,,,57.63,,imperial,,,7.7
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-07-24 15:14:29,Light rain,,,,31,,,,,,,,54.93,,imperial,,,10.7
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-07-25 15:14:29,Few clouds,,,,39,,,,,,,,72.97,,imperial,,,7.1
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-07-26 15:14:29,Scattered clouds,,,,64,,,,,,,,64.34,,imperial,,,1.5
-,Capstone_tobi,Denver,,,,,Snow,Snow,,,,,,,,,2023-07-27 15:14:29,Snow,,,,58,,,,,,,,72.66,,imperial,,,9.7
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-07-28 15:14:29,Light rain,,,,54,,,,,,,,60.5,,imperial,,,13.6
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-07-29 15:14:29,Few clouds,,,,49,,,,,,,,54.26,,imperial,,,6.5
-,Capstone_tobi,Denver,,,,,Rain,Rain,,,,,,,,,2023-07-30 15:14:29,Rain,,,,82,,,,,,,,72.29,,imperial,,,7.8
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-07-31 15:14:29,Scattered clouds,,,,54,,,,,,,,64.11,,imperial,,,6.2
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-08-01 15:14:29,Clear sky,,,,52,,,,,,,,68.92,,imperial,,,16.6
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-08-02 15:14:29,Overcast clouds,,,,49,,,,,,,,68.82,,imperial,,,6.8
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-08-03 15:14:29,Scattered clouds,,,,52,,,,,,,,64.4,,imperial,,,13.0
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-08-04 15:14:29,Clear sky,,,,86,,,,,,,,67.71,,imperial,,,11.5
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-08-05 15:14:29,Overcast clouds,,,,71,,,,,,,,71.17,,imperial,,,0.3
-,Capstone_tobi,Denver,,,,,Rain,Rain,,,,,,,,,2023-08-06 15:14:29,Rain,,,,38,,,,,,,,78.69,,imperial,,,10.7
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-08-07 15:14:29,Few clouds,,,,32,,,,,,,,76.24,,imperial,,,8.4
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-08-08 15:14:29,Clear sky,,,,48,,,,,,,,80.66,,imperial,,,8.9
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-08-09 15:14:29,Light rain,,,,66,,,,,,,,78.98,,imperial,,,0.7
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-08-10 15:14:29,Clear sky,,,,41,,,,,,,,62.87,,imperial,,,8.7
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-08-11 15:14:29,Clear sky,,,,66,,,,,,,,57.84,,imperial,,,14.7
-,Capstone_tobi,Denver,,,,,Thunderstorm,Thunderstorm,,,,,,,,,2023-08-12 15:14:29,Thunderstorm,,,,46,,,,,,,,74.76,,imperial,,,10.8
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-08-13 15:14:29,Few clouds,,,,52,,,,,,,,68.69,,imperial,,,10.0
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-08-14 15:14:29,Light rain,,,,47,,,,,,,,71.41,,imperial,,,11.1
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-08-15 15:14:29,Few clouds,,,,59,,,,,,,,70.47,,imperial,,,8.2
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-08-16 15:14:29,Scattered clouds,,,,34,,,,,,,,74.35,,imperial,,,9.8
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-08-17 15:14:29,Light rain,,,,46,,,,,,,,77.51,,imperial,,,10.7
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-08-18 15:14:29,Clear sky,,,,68,,,,,,,,87.47,,imperial,,,11.9
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-08-19 15:14:29,Clear sky,,,,62,,,,,,,,70.9,,imperial,,,11.4
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-08-20 15:14:29,Clear sky,,,,50,,,,,,,,80.49,,imperial,,,12.8
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-08-21 15:14:29,Clear sky,,,,38,,,,,,,,85.0,,imperial,,,17.7
-,Capstone_tobi,Denver,,,,,Scattered,Scattered clouds,,,,,,,,,2023-08-22 15:14:29,Scattered clouds,,,,80,,,,,,,,68.75,,imperial,,,5.7
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-08-23 15:14:29,Clear sky,,,,32,,,,,,,,60.23,,imperial,,,3.4
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-08-24 15:14:29,Overcast clouds,,,,37,,,,,,,,66.01,,imperial,,,13.4
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-08-25 15:14:29,Clear sky,,,,29,,,,,,,,84.36,,imperial,,,5.8
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-08-26 15:14:29,Light rain,,,,82,,,,,,,,63.6,,imperial,,,2.2
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-08-27 15:14:29,Few clouds,,,,34,,,,,,,,63.99,,imperial,,,1.9
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-08-28 15:14:29,Clear sky,,,,53,,,,,,,,69.21,,imperial,,,8.4
-,Capstone_tobi,Denver,,,,,Light,Light rain,,,,,,,,,2023-08-29 15:14:29,Light rain,,,,52,,,,,,,,65.82,,imperial,,,20.1
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-08-30 15:14:29,Overcast clouds,,,,56,,,,,,,,78.11,,imperial,,,9.2
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-08-31 15:14:29,Clear sky,,,,42,,,,,,,,68.91,,imperial,,,12.3
-,Capstone_tobi,Denver,,,,,Few,Few clouds,,,,,,,,,2023-09-01 15:14:29,Few clouds,,,,51,,,,,,,,74.46,,imperial,,,5.3
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-09-02 15:14:29,Clear sky,,,,73,,,,,,,,69.53,,imperial,,,7.9
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-09-03 15:14:29,Overcast clouds,,,,76,,,,,,,,76.84,,imperial,,,9.5
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-09-04 15:14:29,Clear sky,,,,70,,,,,,,,67.94,,imperial,,,10.6
-,Capstone_tobi,Denver,,,,,Rain,Rain,,,,,,,,,2023-09-05 15:14:29,Rain,,,,67,,,,,,,,82.83,,imperial,,,9.8
-,Capstone_tobi,Denver,,,,,Overcast,Overcast clouds,,,,,,,,,2023-09-06 15:14:29,Overcast clouds,,,,33,,,,,,,,72.51,,imperial,,,5.4
-,Capstone_tobi,Denver,,,,,Clear,Clear sky,,,,,,,,,2023-09-07 15:14:29,Clear sky,,,,51,,,,,,,,78.31,,imperial,,,3.1
-,Elizabeth,,,28.77,77.0,,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 00:45:05,,,,1,Miami,,4.63,,,28.77,,,,,,
-,Elizabeth,,,28.76,77.0,,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 00:56:03,,,,2,Miami,,4.63,,,28.76,,,,,,
-,Elizabeth,,,25.49,80.0,,Clear,clear sky,,,,,,,,,,clear sky,2025-07-10 00:56:40,,,,3,Charleston,,2.57,,,25.49,,,,,,
-,Elizabeth,,,18.99,70.0,,Overcast,overcast clouds,,,,,,,,,,overcast clouds,2025-07-10 00:57:23,,,,4,London,,1.02,,,18.99,,,,,,
-,Elizabeth,,,33.09,58.0,,Few,few clouds,,,,,,,,,,few clouds,2025-07-10 00:59:56,,,,5,Tokyo,,5.14,,,33.09,,,,,,
-,Elizabeth,,,16.84,78.0,,Fog,fog,,,,,,,,,,fog,2025-07-10 00:55:17,,,,6,San Francisco,,11.83,,,16.84,,,,,,
-,Elizabeth,,,28.76,77.0,,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 00:51:12,,,,7,Miami,,4.63,,,28.76,,,,,,
-,Elizabeth,,,29.16,66.0,,Light,light rain,,,,,,,,,,light rain,2025-07-10 01:02:03,,,,8,New York,,3.13,,,29.16,,,,,,
-,Elizabeth,,,28.17,80.0,,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 02:13:05,,,,9,Miami,,4.12,,,28.17,,,,,,
-,Elizabeth,,,23.8,87.0,,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 02:20:08,,,,10,Dayton,,2.57,,,23.8,,,,,,
-,Elizabeth,,,28.17,80.0,,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 02:13:05,,,,11,Miami,,4.12,,,28.17,,,,,,
-,Elizabeth,,,23.8,87.0,,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 02:20:08,,,,12,Dayton,,2.57,,,23.8,,,,,,
-,Elizabeth,,,32.59,68.0,,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 18:53:02,,,,13,Miami,,5.14,,,32.59,,,,,,
-,Elizabeth,,,30.83,65.0,,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 19:07:13,,,,14,Culloden,,2.24,,,30.83,,,,,,
-,Elizabeth,,,30.83,65.0,,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 19:07:13,,,,15,Culloden,,2.24,,,30.83,,,,,,
-,Elizabeth,,,26.0,68.0,,Overcast,overcast clouds,,,,,,,,,,overcast clouds,2025-07-12 00:50:40,,,,16,Miami,,3.09,,,26.0,,,,,,
-,Elizabeth,,,26.0,68.0,,Overcast,overcast clouds,,,,,,,,,,overcast clouds,2025-07-12 00:50:40,,,,17,Miami,,3.09,,,26.0,,,,,,
-,Elizabeth,,,26.0,68.0,,Overcast,overcast clouds,,,,,,,,,,overcast clouds,2025-07-12 00:50:40,,,,18,Miami,,3.09,,,26.0,,,,,,
-,Elizabeth,,,30.29,76.0,,Thunderstorm,thunderstorm,,,,,,,,,,thunderstorm,2025-07-13 19:20:40,,,,19,Miami,,0.0,,,30.29,,,,,,
-,Elizabeth,,,30.01,55.0,,Few,few clouds,,,,,,,,,,few clouds,2025-07-22 21:31:29,,,,20,Culloden,,1.01,,,86.02,,,,,,
-,Elizabeth,,,25.49,93.0,,Drizzle,drizzle,,,,,,,,,,drizzle,2025-07-22 21:30:00,,,,21,Charleston,,3.44,,,77.88,,,,,,
-,Elizabeth,,,30.01,55.0,,Few,few clouds,,,,,,,,,,few clouds,2025-07-22 21:31:29,,,,22,Culloden,,0.45,,,30.01,,,,,,
-,Elizabeth,,,25.45,93.0,,Drizzle,drizzle,,,,,,,,,,drizzle,2025-07-22 21:35:52,,,,23,Charleston,,1.54,,,25.45,,,,,,
-,Elizabeth,,,25.45,93.0,,Drizzle,drizzle,,,,,,,,,,drizzle,2025-07-22 21:35:52,,,,24,Charleston,,1.54,,,25.45,,,,,,
-,Elizabeth,,,30.01,55.0,,Few,few clouds,,,,,,,,,,few clouds,2025-07-22 21:31:29,,,,25,Culloden,,0.45,,,30.01,,,,,,
-,Elizabeth,,,30.01,55.0,,Few,few clouds,,,,,,,,,,few clouds,2025-07-22 21:31:29,,,,26,Culloden,,0.45,,,30.01,,,,,,
-,Elizabeth,,,29.63,55.0,,Few,few clouds,,,,,,,,,,few clouds,2025-07-22 21:44:01,,,,27,Culloden,,0.45,,,29.63,,,,,,
-,Elizabeth,,,25.93,93.0,,Mist,mist,,,,,,,,,,mist,2025-07-22 23:38:43,,,,28,Charleston,,1.54,,,25.93,,,,,,
-,Elizabeth,,,23.28,64.0,,Overcast,overcast clouds,,,,,,,,,,overcast clouds,2025-07-23 00:04:50,,,,29,New York,,5.14,,,23.28,,,,,,
-,Elizabeth,,,31.69,69.0,,Clear,clear sky,,,,,,,,,,clear sky,2025-07-23 18:34:50,,,,30,Charleston,,5.66,,,31.69,,,,,,
-,Elizabeth,,,32.14,65.0,,Scattered,scattered clouds,,,,,,,,,,scattered clouds,2025-07-23 18:38:57,,,,31,Culloden,,2.24,,,32.14,,,,,,
-,Elizabeth,,,32.14,65.0,,Scattered,scattered clouds,,,,,,,,,,scattered clouds,2025-07-23 18:38:57,,,,32,Culloden,,2.24,,,32.14,,,,,,
-,Elizabeth,,,31.69,69.0,,Clear,clear sky,,,,,,,,,,clear sky,2025-07-23 18:34:50,,,,33,Charleston,,5.66,,,31.69,,,,,,
-,Elizabeth,,,33.03,58.0,,Scattered,scattered clouds,,,,,,,,,,scattered clouds,2025-07-25 17:13:07,,,,34,Charlotte,,2.06,,,33.03,,,,,,
-,Elizabeth,,,34.56,54.0,,Clear,clear sky,,,,,,,,,,clear sky,2025-07-25 17:03:17,,,,35,New York,,5.66,,,34.56,,,,,,
-,Elizabeth,,,27.98,74.0,,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-29 22:33:58,88.11,,,36,Charlotte,,5.75,,,82.36,,,,,,
-,Elizabeth,,,29.8,82.0,,Mist,mist,,,,,,,,,,mist,2025-07-29 22:39:48,98.24,,,37,Charleston,,1.99,,,85.64,,,,,,
-,Elizabeth,,,35.28,47.0,,Clear,clear sky,,,,,,,,,,clear sky,2025-07-29 22:28:03,104.31,,,38,New York,,14.97,,,95.5,,,,,,
+2023-01-01 15:14:29,Capstone_tobi,Chicago,,8.01,60.0,4.52,Few,Few clouds,,,,,,,,,2023-01-01 15:14:29,Few clouds,,,,60,,,,,,,,46.42,,imperial,,,10.1
+2023-01-02 15:14:29,Capstone_tobi,Chicago,,4.47,47.0,6.12,Clear,Clear sky,,,,,,,,,2023-01-02 15:14:29,Clear sky,,,,47,,,,,,,,40.04,,imperial,,,13.7
+2023-01-03 15:14:29,Capstone_tobi,Chicago,,4.06,62.0,3.89,Light,Light rain,,,,,,,,,2023-01-03 15:14:29,Light rain,,,,62,,,,,,,,39.3,,imperial,,,8.7
+2023-01-04 15:14:29,Capstone_tobi,Chicago,,8.42,46.0,3.17,Overcast,Overcast clouds,,,,,,,,,2023-01-04 15:14:29,Overcast clouds,,,,46,,,,,,,,47.16,,imperial,,,7.1
+2023-01-05 15:14:29,Capstone_tobi,Chicago,,0.21,33.0,2.41,Few,Few clouds,,,,,,,,,2023-01-05 15:14:29,Few clouds,,,,33,,,,,,,,32.37,,imperial,,,5.4
+2023-01-06 15:14:29,Capstone_tobi,Chicago,,6.89,40.0,2.59,Scattered,Scattered clouds,,,,,,,,,2023-01-06 15:14:29,Scattered clouds,,,,40,,,,,,,,44.41,,imperial,,,5.8
+2023-01-07 15:14:29,Capstone_tobi,Chicago,,2.76,49.0,1.65,Overcast,Overcast clouds,,,,,,,,,2023-01-07 15:14:29,Overcast clouds,,,,49,,,,,,,,36.96,,imperial,,,3.7
+2023-01-08 15:14:29,Capstone_tobi,Chicago,,6.64,34.0,5.01,Few,Few clouds,,,,,,,,,2023-01-08 15:14:29,Few clouds,,,,34,,,,,,,,43.95,,imperial,,,11.2
+2023-01-09 15:14:29,Capstone_tobi,Chicago,,5.35,21.0,4.16,Overcast,Overcast clouds,,,,,,,,,2023-01-09 15:14:29,Overcast clouds,,,,21,,,,,,,,41.63,,imperial,,,9.3
+2023-01-10 15:14:29,Capstone_tobi,Chicago,,3.36,42.0,3.49,Scattered,Scattered clouds,,,,,,,,,2023-01-10 15:14:29,Scattered clouds,,,,42,,,,,,,,38.04,,imperial,,,7.8
+2023-01-11 15:14:29,Capstone_tobi,Chicago,,-1.06,32.0,3.76,Overcast,Overcast clouds,,,,,,,,,2023-01-11 15:14:29,Overcast clouds,,,,32,,,,,,,,30.1,,imperial,,,8.4
+2023-01-12 15:14:29,Capstone_tobi,Chicago,,2.2,69.0,6.04,Few,Few clouds,,,,,,,,,2023-01-12 15:14:29,Few clouds,,,,69,,,,,,,,35.96,,imperial,,,13.5
+2023-01-13 15:14:29,Capstone_tobi,Chicago,,3.53,66.0,5.41,Clear,Clear sky,,,,,,,,,2023-01-13 15:14:29,Clear sky,,,,66,,,,,,,,38.35,,imperial,,,12.1
+2023-01-14 15:14:29,Capstone_tobi,Chicago,,1.9,68.0,4.11,Scattered,Scattered clouds,,,,,,,,,2023-01-14 15:14:29,Scattered clouds,,,,68,,,,,,,,35.42,,imperial,,,9.2
+2023-01-15 15:14:29,Capstone_tobi,Chicago,,1.04,31.0,3.31,Few,Few clouds,,,,,,,,,2023-01-15 15:14:29,Few clouds,,,,31,,,,,,,,33.88,,imperial,,,7.4
+2023-01-16 15:14:29,Capstone_tobi,Chicago,,3.83,50.0,4.6,Clear,Clear sky,,,,,,,,,2023-01-16 15:14:29,Clear sky,,,,50,,,,,,,,38.89,,imperial,,,10.3
+2023-01-17 15:14:29,Capstone_tobi,Chicago,,3.3,88.0,5.14,Clear,Clear sky,,,,,,,,,2023-01-17 15:14:29,Clear sky,,,,88,,,,,,,,37.94,,imperial,,,11.5
+2023-01-18 15:14:29,Capstone_tobi,Chicago,,-2.76,80.0,5.41,Snow,Snow,,,,,,,,,2023-01-18 15:14:29,Snow,,,,80,,,,,,,,27.04,,imperial,,,12.1
+2023-01-19 15:14:29,Capstone_tobi,Chicago,,-0.18,57.0,5.81,Clear,Clear sky,,,,,,,,,2023-01-19 15:14:29,Clear sky,,,,57,,,,,,,,31.68,,imperial,,,13.0
+2023-01-20 15:14:29,Capstone_tobi,Chicago,,1.52,67.0,5.36,Clear,Clear sky,,,,,,,,,2023-01-20 15:14:29,Clear sky,,,,67,,,,,,,,34.73,,imperial,,,12.0
+2023-01-21 15:14:29,Capstone_tobi,Chicago,,5.23,46.0,2.1,Overcast,Overcast clouds,,,,,,,,,2023-01-21 15:14:29,Overcast clouds,,,,46,,,,,,,,41.41,,imperial,,,4.7
+2023-01-22 15:14:29,Capstone_tobi,Chicago,,1.12,57.0,3.44,Clear,Clear sky,,,,,,,,,2023-01-22 15:14:29,Clear sky,,,,57,,,,,,,,34.02,,imperial,,,7.7
+2023-01-23 15:14:29,Capstone_tobi,Chicago,,-0.11,68.0,9.52,Clear,Clear sky,,,,,,,,,2023-01-23 15:14:29,Clear sky,,,,68,,,,,,,,31.81,,imperial,,,21.3
+2023-01-24 15:14:29,Capstone_tobi,Chicago,,1.55,56.0,4.6,Overcast,Overcast clouds,,,,,,,,,2023-01-24 15:14:29,Overcast clouds,,,,56,,,,,,,,34.79,,imperial,,,10.3
+2023-01-25 15:14:29,Capstone_tobi,Chicago,,-4.24,79.0,1.21,Overcast,Overcast clouds,,,,,,,,,2023-01-25 15:14:29,Overcast clouds,,,,79,,,,,,,,24.37,,imperial,,,2.7
+2023-01-26 15:14:29,Capstone_tobi,Chicago,,6.46,55.0,5.19,Few,Few clouds,,,,,,,,,2023-01-26 15:14:29,Few clouds,,,,55,,,,,,,,43.62,,imperial,,,11.6
+2023-01-27 15:14:29,Capstone_tobi,Chicago,,-8.87,56.0,3.08,Light,Light rain,,,,,,,,,2023-01-27 15:14:29,Light rain,,,,56,,,,,,,,16.03,,imperial,,,6.9
+2023-01-28 15:14:29,Capstone_tobi,Chicago,,3.87,50.0,2.82,Clear,Clear sky,,,,,,,,,2023-01-28 15:14:29,Clear sky,,,,50,,,,,,,,38.97,,imperial,,,6.3
+2023-01-29 15:14:29,Capstone_tobi,Chicago,,-2.55,55.0,2.91,Few,Few clouds,,,,,,,,,2023-01-29 15:14:29,Few clouds,,,,55,,,,,,,,27.41,,imperial,,,6.5
+2023-01-30 15:14:29,Capstone_tobi,Chicago,,0.52,35.0,5.01,Few,Few clouds,,,,,,,,,2023-01-30 15:14:29,Few clouds,,,,35,,,,,,,,32.93,,imperial,,,11.2
+2023-01-31 15:14:29,Capstone_tobi,Chicago,,-1.91,48.0,4.65,Scattered,Scattered clouds,,,,,,,,,2023-01-31 15:14:29,Scattered clouds,,,,48,,,,,,,,28.57,,imperial,,,10.4
+2023-02-01 15:14:29,Capstone_tobi,Chicago,,-4.96,78.0,3.17,Overcast,Overcast clouds,,,,,,,,,2023-02-01 15:14:29,Overcast clouds,,,,78,,,,,,,,23.07,,imperial,,,7.1
+2023-02-02 15:14:29,Capstone_tobi,Chicago,,-2.22,70.0,2.1,Light,Light rain,,,,,,,,,2023-02-02 15:14:29,Light rain,,,,70,,,,,,,,28.01,,imperial,,,4.7
+2023-02-03 15:14:29,Capstone_tobi,Chicago,,-4.48,69.0,2.64,Snow,Snow,,,,,,,,,2023-02-03 15:14:29,Snow,,,,69,,,,,,,,23.94,,imperial,,,5.9
+2023-02-04 15:14:29,Capstone_tobi,Chicago,,-4.33,60.0,5.99,Few,Few clouds,,,,,,,,,2023-02-04 15:14:29,Few clouds,,,,60,,,,,,,,24.21,,imperial,,,13.4
+2023-02-05 15:14:29,Capstone_tobi,Chicago,,-1.74,19.0,1.88,Overcast,Overcast clouds,,,,,,,,,2023-02-05 15:14:29,Overcast clouds,,,,19,,,,,,,,28.86,,imperial,,,4.2
+2023-02-06 15:14:29,Capstone_tobi,Chicago,,-1.87,37.0,1.88,Clear,Clear sky,,,,,,,,,2023-02-06 15:14:29,Clear sky,,,,37,,,,,,,,28.63,,imperial,,,4.2
+2023-02-07 15:14:29,Capstone_tobi,Chicago,,-4.28,57.0,7.6,Few,Few clouds,,,,,,,,,2023-02-07 15:14:29,Few clouds,,,,57,,,,,,,,24.29,,imperial,,,17.0
+2023-02-08 15:14:29,Capstone_tobi,Chicago,,2.41,67.0,8.58,Light,Light rain,,,,,,,,,2023-02-08 15:14:29,Light rain,,,,67,,,,,,,,36.33,,imperial,,,19.2
+2023-02-09 15:14:29,Capstone_tobi,Chicago,,-4.83,55.0,3.13,Few,Few clouds,,,,,,,,,2023-02-09 15:14:29,Few clouds,,,,55,,,,,,,,23.31,,imperial,,,7.0
+2023-02-10 15:14:29,Capstone_tobi,Chicago,,0.94,60.0,1.25,Scattered,Scattered clouds,,,,,,,,,2023-02-10 15:14:29,Scattered clouds,,,,60,,,,,,,,33.7,,imperial,,,2.8
+2023-02-11 15:14:29,Capstone_tobi,Chicago,,-1.09,63.0,3.08,Scattered,Scattered clouds,,,,,,,,,2023-02-11 15:14:29,Scattered clouds,,,,63,,,,,,,,30.04,,imperial,,,6.9
+2023-02-12 15:14:29,Capstone_tobi,Chicago,,-6.1,32.0,3.26,Scattered,Scattered clouds,,,,,,,,,2023-02-12 15:14:29,Scattered clouds,,,,32,,,,,,,,21.02,,imperial,,,7.3
+2023-02-13 15:14:29,Capstone_tobi,Chicago,,-7.12,62.0,5.86,Few,Few clouds,,,,,,,,,2023-02-13 15:14:29,Few clouds,,,,62,,,,,,,,19.18,,imperial,,,13.1
+2023-02-14 15:14:29,Capstone_tobi,Chicago,,-0.52,49.0,7.69,Few,Few clouds,,,,,,,,,2023-02-14 15:14:29,Few clouds,,,,49,,,,,,,,31.07,,imperial,,,17.2
+2023-02-15 15:14:29,Capstone_tobi,Chicago,,-6.91,43.0,5.14,Overcast,Overcast clouds,,,,,,,,,2023-02-15 15:14:29,Overcast clouds,,,,43,,,,,,,,19.56,,imperial,,,11.5
+2023-02-16 15:14:29,Capstone_tobi,Chicago,,0.97,61.0,3.62,Clear,Clear sky,,,,,,,,,2023-02-16 15:14:29,Clear sky,,,,61,,,,,,,,33.74,,imperial,,,8.1
+2023-02-17 15:14:29,Capstone_tobi,Chicago,,3.21,31.0,2.37,Clear,Clear sky,,,,,,,,,2023-02-17 15:14:29,Clear sky,,,,31,,,,,,,,37.78,,imperial,,,5.3
+2023-02-18 15:14:29,Capstone_tobi,Chicago,,2.04,45.0,2.91,Overcast,Overcast clouds,,,,,,,,,2023-02-18 15:14:29,Overcast clouds,,,,45,,,,,,,,35.68,,imperial,,,6.5
+2023-02-19 15:14:29,Capstone_tobi,Chicago,,-6.62,57.0,3.62,Few,Few clouds,,,,,,,,,2023-02-19 15:14:29,Few clouds,,,,57,,,,,,,,20.08,,imperial,,,8.1
+2023-02-20 15:14:29,Capstone_tobi,Chicago,,-8.48,72.0,3.93,Snow,Snow,,,,,,,,,2023-02-20 15:14:29,Snow,,,,72,,,,,,,,16.74,,imperial,,,8.8
+2023-02-21 15:14:29,Capstone_tobi,Chicago,,-12.14,57.0,0.4,Clear,Clear sky,,,,,,,,,2023-02-21 15:14:29,Clear sky,,,,57,,,,,,,,10.14,,imperial,,,0.9
+2023-02-22 15:14:29,Capstone_tobi,Chicago,,-2.33,48.0,3.0,Clear,Clear sky,,,,,,,,,2023-02-22 15:14:29,Clear sky,,,,48,,,,,,,,27.81,,imperial,,,6.7
+2023-02-23 15:14:29,Capstone_tobi,Chicago,,-12.16,53.0,8.76,Snow,Snow,,,,,,,,,2023-02-23 15:14:29,Snow,,,,53,,,,,,,,10.11,,imperial,,,19.6
+2023-02-24 15:14:29,Capstone_tobi,Chicago,,-8.37,58.0,7.11,Clear,Clear sky,,,,,,,,,2023-02-24 15:14:29,Clear sky,,,,58,,,,,,,,16.94,,imperial,,,15.9
+2023-02-25 15:14:29,Capstone_tobi,Chicago,,-5.38,63.0,4.87,Overcast,Overcast clouds,,,,,,,,,2023-02-25 15:14:29,Overcast clouds,,,,63,,,,,,,,22.32,,imperial,,,10.9
+2023-02-26 15:14:29,Capstone_tobi,Chicago,,-5.49,18.0,1.65,Scattered,Scattered clouds,,,,,,,,,2023-02-26 15:14:29,Scattered clouds,,,,18,,,,,,,,22.11,,imperial,,,3.7
+2023-02-27 15:14:29,Capstone_tobi,Chicago,,-0.89,80.0,4.96,Light,Light rain,,,,,,,,,2023-02-27 15:14:29,Light rain,,,,80,,,,,,,,30.4,,imperial,,,11.1
+2023-02-28 15:14:29,Capstone_tobi,Chicago,,-6.07,38.0,0.76,Clear,Clear sky,,,,,,,,,2023-02-28 15:14:29,Clear sky,,,,38,,,,,,,,21.08,,imperial,,,1.7
+2023-03-01 15:14:29,Capstone_tobi,Chicago,,-1.18,63.0,3.89,Rain,Rain,,,,,,,,,2023-03-01 15:14:29,Rain,,,,63,,,,,,,,29.87,,imperial,,,8.7
+2023-03-02 15:14:29,Capstone_tobi,Chicago,,0.01,55.0,5.45,Clear,Clear sky,,,,,,,,,2023-03-02 15:14:29,Clear sky,,,,55,,,,,,,,32.02,,imperial,,,12.2
+2023-03-03 15:14:29,Capstone_tobi,Chicago,,-9.14,57.0,5.23,Clear,Clear sky,,,,,,,,,2023-03-03 15:14:29,Clear sky,,,,57,,,,,,,,15.55,,imperial,,,11.7
+2023-03-04 15:14:29,Capstone_tobi,Chicago,,-9.11,52.0,3.22,Few,Few clouds,,,,,,,,,2023-03-04 15:14:29,Few clouds,,,,52,,,,,,,,15.61,,imperial,,,7.2
+2023-03-05 15:14:29,Capstone_tobi,Chicago,,-4.95,66.0,3.62,Few,Few clouds,,,,,,,,,2023-03-05 15:14:29,Few clouds,,,,66,,,,,,,,23.09,,imperial,,,8.1
+2023-03-06 15:14:29,Capstone_tobi,Chicago,,0.14,57.0,6.35,Clear,Clear sky,,,,,,,,,2023-03-06 15:14:29,Clear sky,,,,57,,,,,,,,32.26,,imperial,,,14.2
+2023-03-07 15:14:29,Capstone_tobi,Chicago,,-11.13,92.0,2.64,Clear,Clear sky,,,,,,,,,2023-03-07 15:14:29,Clear sky,,,,92,,,,,,,,11.96,,imperial,,,5.9
+2023-03-08 15:14:29,Capstone_tobi,Chicago,,-11.22,37.0,2.06,Clear,Clear sky,,,,,,,,,2023-03-08 15:14:29,Clear sky,,,,37,,,,,,,,11.8,,imperial,,,4.6
+2023-03-09 15:14:29,Capstone_tobi,Chicago,,-14.37,71.0,2.95,Clear,Clear sky,,,,,,,,,2023-03-09 15:14:29,Clear sky,,,,71,,,,,,,,6.13,,imperial,,,6.6
+2023-03-10 15:14:29,Capstone_tobi,Chicago,,0.05,48.0,4.43,Scattered,Scattered clouds,,,,,,,,,2023-03-10 15:14:29,Scattered clouds,,,,48,,,,,,,,32.09,,imperial,,,9.9
+2023-03-11 15:14:29,Capstone_tobi,Chicago,,-15.03,92.0,4.16,Light,Light rain,,,,,,,,,2023-03-11 15:14:29,Light rain,,,,92,,,,,,,,4.95,,imperial,,,9.3
+2023-03-12 15:14:29,Capstone_tobi,Chicago,,-12.57,51.0,1.03,Few,Few clouds,,,,,,,,,2023-03-12 15:14:29,Few clouds,,,,51,,,,,,,,9.38,,imperial,,,2.3
+2023-03-13 15:14:29,Capstone_tobi,Chicago,,-5.64,39.0,6.39,Overcast,Overcast clouds,,,,,,,,,2023-03-13 15:14:29,Overcast clouds,,,,39,,,,,,,,21.84,,imperial,,,14.3
+2023-03-14 15:14:29,Capstone_tobi,Chicago,,-9.21,60.0,5.36,Few,Few clouds,,,,,,,,,2023-03-14 15:14:29,Few clouds,,,,60,,,,,,,,15.43,,imperial,,,12.0
+2023-03-15 15:14:29,Capstone_tobi,Chicago,,-6.24,48.0,5.81,Snow,Snow,,,,,,,,,2023-03-15 15:14:29,Snow,,,,48,,,,,,,,20.77,,imperial,,,13.0
+2023-03-16 15:14:29,Capstone_tobi,Chicago,,-7.27,51.0,3.53,Clear,Clear sky,,,,,,,,,2023-03-16 15:14:29,Clear sky,,,,51,,,,,,,,18.91,,imperial,,,7.9
+2023-03-17 15:14:29,Capstone_tobi,Chicago,,-11.08,59.0,6.66,Clear,Clear sky,,,,,,,,,2023-03-17 15:14:29,Clear sky,,,,59,,,,,,,,12.06,,imperial,,,14.9
+2023-03-18 15:14:29,Capstone_tobi,Chicago,,-13.42,74.0,2.55,Light,Light rain,,,,,,,,,2023-03-18 15:14:29,Light rain,,,,74,,,,,,,,7.85,,imperial,,,5.7
+2023-03-19 15:14:29,Capstone_tobi,Chicago,,-8.0,59.0,3.58,Snow,Snow,,,,,,,,,2023-03-19 15:14:29,Snow,,,,59,,,,,,,,17.6,,imperial,,,8.0
+2023-03-20 15:14:29,Capstone_tobi,Chicago,,0.21,58.0,6.57,Thunderstorm,Thunderstorm,,,,,,,,,2023-03-20 15:14:29,Thunderstorm,,,,58,,,,,,,,32.37,,imperial,,,14.7
+2023-03-21 15:14:29,Capstone_tobi,Chicago,,-15.16,65.0,2.59,Overcast,Overcast clouds,,,,,,,,,2023-03-21 15:14:29,Overcast clouds,,,,65,,,,,,,,4.72,,imperial,,,5.8
+2023-03-22 15:14:29,Capstone_tobi,Chicago,,-8.61,64.0,1.65,Snow,Snow,,,,,,,,,2023-03-22 15:14:29,Snow,,,,64,,,,,,,,16.5,,imperial,,,3.7
+2023-03-23 15:14:29,Capstone_tobi,Chicago,,-5.75,71.0,1.97,Scattered,Scattered clouds,,,,,,,,,2023-03-23 15:14:29,Scattered clouds,,,,71,,,,,,,,21.65,,imperial,,,4.4
+2023-03-24 15:14:29,Capstone_tobi,Chicago,,-6.17,62.0,5.63,Snow,Snow,,,,,,,,,2023-03-24 15:14:29,Snow,,,,62,,,,,,,,20.9,,imperial,,,12.6
+2023-03-25 15:14:29,Capstone_tobi,Chicago,,-8.41,53.0,4.78,Rain,Rain,,,,,,,,,2023-03-25 15:14:29,Rain,,,,53,,,,,,,,16.86,,imperial,,,10.7
+2023-03-26 15:14:29,Capstone_tobi,Chicago,,-8.4,44.0,2.19,Clear,Clear sky,,,,,,,,,2023-03-26 15:14:29,Clear sky,,,,44,,,,,,,,16.88,,imperial,,,4.9
+2023-03-27 15:14:29,Capstone_tobi,Chicago,,-8.6,56.0,3.58,Rain,Rain,,,,,,,,,2023-03-27 15:14:29,Rain,,,,56,,,,,,,,16.52,,imperial,,,8.0
+2023-03-28 15:14:29,Capstone_tobi,Chicago,,-12.03,51.0,3.0,Thunderstorm,Thunderstorm,,,,,,,,,2023-03-28 15:14:29,Thunderstorm,,,,51,,,,,,,,10.34,,imperial,,,6.7
+2023-03-29 15:14:29,Capstone_tobi,Chicago,,-5.4,34.0,4.74,Overcast,Overcast clouds,,,,,,,,,2023-03-29 15:14:29,Overcast clouds,,,,34,,,,,,,,22.28,,imperial,,,10.6
+2023-03-30 15:14:29,Capstone_tobi,Chicago,,-8.68,49.0,2.28,Clear,Clear sky,,,,,,,,,2023-03-30 15:14:29,Clear sky,,,,49,,,,,,,,16.37,,imperial,,,5.1
+2023-03-31 15:14:29,Capstone_tobi,Chicago,,-6.99,42.0,4.87,Overcast,Overcast clouds,,,,,,,,,2023-03-31 15:14:29,Overcast clouds,,,,42,,,,,,,,19.41,,imperial,,,10.9
+2023-04-01 15:14:29,Capstone_tobi,Chicago,,-9.92,79.0,4.34,Thunderstorm,Thunderstorm,,,,,,,,,2023-04-01 15:14:29,Thunderstorm,,,,79,,,,,,,,14.15,,imperial,,,9.7
+2023-04-02 15:14:29,Capstone_tobi,Chicago,,-11.5,24.0,2.01,Overcast,Overcast clouds,,,,,,,,,2023-04-02 15:14:29,Overcast clouds,,,,24,,,,,,,,11.3,,imperial,,,4.5
+2023-04-03 15:14:29,Capstone_tobi,Chicago,,-11.52,58.0,5.59,Few,Few clouds,,,,,,,,,2023-04-03 15:14:29,Few clouds,,,,58,,,,,,,,11.27,,imperial,,,12.5
+2023-04-04 15:14:29,Capstone_tobi,Chicago,,-6.22,47.0,1.52,Overcast,Overcast clouds,,,,,,,,,2023-04-04 15:14:29,Overcast clouds,,,,47,,,,,,,,20.81,,imperial,,,3.4
+2023-04-05 15:14:29,Capstone_tobi,Chicago,,-11.93,47.0,2.06,Few,Few clouds,,,,,,,,,2023-04-05 15:14:29,Few clouds,,,,47,,,,,,,,10.53,,imperial,,,4.6
+2023-04-06 15:14:29,Capstone_tobi,Chicago,,-9.75,44.0,5.68,Rain,Rain,,,,,,,,,2023-04-06 15:14:29,Rain,,,,44,,,,,,,,14.45,,imperial,,,12.7
+2023-04-07 15:14:29,Capstone_tobi,Chicago,,-5.31,57.0,9.57,Light,Light rain,,,,,,,,,2023-04-07 15:14:29,Light rain,,,,57,,,,,,,,22.45,,imperial,,,21.4
+2023-04-08 15:14:29,Capstone_tobi,Chicago,,-8.49,66.0,7.33,Clear,Clear sky,,,,,,,,,2023-04-08 15:14:29,Clear sky,,,,66,,,,,,,,16.72,,imperial,,,16.4
+2023-04-09 15:14:29,Capstone_tobi,Chicago,,-11.26,30.0,4.02,Clear,Clear sky,,,,,,,,,2023-04-09 15:14:29,Clear sky,,,,30,,,,,,,,11.74,,imperial,,,9.0
+2023-04-10 15:14:29,Capstone_tobi,Chicago,,-5.27,56.0,3.26,Light,Light rain,,,,,,,,,2023-04-10 15:14:29,Light rain,,,,56,,,,,,,,22.52,,imperial,,,7.3
+2023-04-11 15:14:29,Capstone_tobi,Chicago,,-7.52,57.0,3.44,Clear,Clear sky,,,,,,,,,2023-04-11 15:14:29,Clear sky,,,,57,,,,,,,,18.47,,imperial,,,7.7
+2023-04-12 15:14:29,Capstone_tobi,Chicago,,-7.23,58.0,5.19,Overcast,Overcast clouds,,,,,,,,,2023-04-12 15:14:29,Overcast clouds,,,,58,,,,,,,,18.98,,imperial,,,11.6
+2023-04-13 15:14:29,Capstone_tobi,Chicago,,-8.01,43.0,4.47,Rain,Rain,,,,,,,,,2023-04-13 15:14:29,Rain,,,,43,,,,,,,,17.58,,imperial,,,10.0
+2023-04-14 15:14:29,Capstone_tobi,Chicago,,3.69,55.0,2.64,Few,Few clouds,,,,,,,,,2023-04-14 15:14:29,Few clouds,,,,55,,,,,,,,38.65,,imperial,,,5.9
+2023-04-15 15:14:29,Capstone_tobi,Chicago,,-8.18,77.0,4.83,Clear,Clear sky,,,,,,,,,2023-04-15 15:14:29,Clear sky,,,,77,,,,,,,,17.28,,imperial,,,10.8
+2023-04-16 15:14:29,Capstone_tobi,Chicago,,-6.0,68.0,6.8,Overcast,Overcast clouds,,,,,,,,,2023-04-16 15:14:29,Overcast clouds,,,,68,,,,,,,,21.2,,imperial,,,15.2
+2023-04-17 15:14:29,Capstone_tobi,Chicago,,-9.12,24.0,6.44,Rain,Rain,,,,,,,,,2023-04-17 15:14:29,Rain,,,,24,,,,,,,,15.59,,imperial,,,14.4
+2023-04-18 15:14:29,Capstone_tobi,Chicago,,-7.64,56.0,2.86,Clear,Clear sky,,,,,,,,,2023-04-18 15:14:29,Clear sky,,,,56,,,,,,,,18.24,,imperial,,,6.4
+2023-04-19 15:14:29,Capstone_tobi,Chicago,,-6.29,41.0,3.8,Overcast,Overcast clouds,,,,,,,,,2023-04-19 15:14:29,Overcast clouds,,,,41,,,,,,,,20.67,,imperial,,,8.5
+2023-04-20 15:14:29,Capstone_tobi,Chicago,,-1.44,50.0,5.05,Clear,Clear sky,,,,,,,,,2023-04-20 15:14:29,Clear sky,,,,50,,,,,,,,29.4,,imperial,,,11.3
+2023-04-21 15:14:29,Capstone_tobi,Chicago,,-2.13,71.0,3.84,Few,Few clouds,,,,,,,,,2023-04-21 15:14:29,Few clouds,,,,71,,,,,,,,28.17,,imperial,,,8.6
+2023-04-22 15:14:29,Capstone_tobi,Chicago,,-1.66,88.0,3.76,Overcast,Overcast clouds,,,,,,,,,2023-04-22 15:14:29,Overcast clouds,,,,88,,,,,,,,29.01,,imperial,,,8.4
+2023-04-23 15:14:29,Capstone_tobi,Chicago,,2.27,35.0,3.13,Overcast,Overcast clouds,,,,,,,,,2023-04-23 15:14:29,Overcast clouds,,,,35,,,,,,,,36.09,,imperial,,,7.0
+2023-04-24 15:14:29,Capstone_tobi,Chicago,,-1.19,48.0,1.34,Clear,Clear sky,,,,,,,,,2023-04-24 15:14:29,Clear sky,,,,48,,,,,,,,29.85,,imperial,,,3.0
+2023-04-25 15:14:29,Capstone_tobi,Chicago,,-7.48,42.0,1.65,Clear,Clear sky,,,,,,,,,2023-04-25 15:14:29,Clear sky,,,,42,,,,,,,,18.53,,imperial,,,3.7
+2023-04-26 15:14:29,Capstone_tobi,Chicago,,-3.06,84.0,3.08,Few,Few clouds,,,,,,,,,2023-04-26 15:14:29,Few clouds,,,,84,,,,,,,,26.5,,imperial,,,6.9
+2023-04-27 15:14:29,Capstone_tobi,Chicago,,-1.04,38.0,5.05,Clear,Clear sky,,,,,,,,,2023-04-27 15:14:29,Clear sky,,,,38,,,,,,,,30.13,,imperial,,,11.3
+2023-04-28 15:14:29,Capstone_tobi,Chicago,,-5.67,71.0,2.32,Clear,Clear sky,,,,,,,,,2023-04-28 15:14:29,Clear sky,,,,71,,,,,,,,21.79,,imperial,,,5.2
+2023-04-29 15:14:29,Capstone_tobi,Chicago,,-7.07,41.0,8.45,Few,Few clouds,,,,,,,,,2023-04-29 15:14:29,Few clouds,,,,41,,,,,,,,19.28,,imperial,,,18.9
+2023-04-30 15:14:29,Capstone_tobi,Chicago,,-5.19,46.0,3.8,Few,Few clouds,,,,,,,,,2023-04-30 15:14:29,Few clouds,,,,46,,,,,,,,22.66,,imperial,,,8.5
+2023-05-01 15:14:29,Capstone_tobi,Chicago,,-5.98,25.0,5.5,Overcast,Overcast clouds,,,,,,,,,2023-05-01 15:14:29,Overcast clouds,,,,25,,,,,,,,21.24,,imperial,,,12.3
+2023-05-02 15:14:29,Capstone_tobi,Chicago,,-2.95,48.0,4.34,Scattered,Scattered clouds,,,,,,,,,2023-05-02 15:14:29,Scattered clouds,,,,48,,,,,,,,26.69,,imperial,,,9.7
+2023-05-03 15:14:29,Capstone_tobi,Chicago,,-6.21,60.0,7.11,Clear,Clear sky,,,,,,,,,2023-05-03 15:14:29,Clear sky,,,,60,,,,,,,,20.82,,imperial,,,15.9
+2023-05-04 15:14:29,Capstone_tobi,Chicago,,-13.46,59.0,2.5,Thunderstorm,Thunderstorm,,,,,,,,,2023-05-04 15:14:29,Thunderstorm,,,,59,,,,,,,,7.77,,imperial,,,5.6
+2023-05-05 15:14:29,Capstone_tobi,Chicago,,-5.01,76.0,5.63,Few,Few clouds,,,,,,,,,2023-05-05 15:14:29,Few clouds,,,,76,,,,,,,,22.98,,imperial,,,12.6
+2023-05-06 15:14:29,Capstone_tobi,Chicago,,-7.74,45.0,2.91,Clear,Clear sky,,,,,,,,,2023-05-06 15:14:29,Clear sky,,,,45,,,,,,,,18.06,,imperial,,,6.5
+2023-05-07 15:14:29,Capstone_tobi,Chicago,,-13.01,57.0,1.43,Clear,Clear sky,,,,,,,,,2023-05-07 15:14:29,Clear sky,,,,57,,,,,,,,8.59,,imperial,,,3.2
+2023-05-08 15:14:29,Capstone_tobi,Chicago,,-8.46,59.0,6.12,Clear,Clear sky,,,,,,,,,2023-05-08 15:14:29,Clear sky,,,,59,,,,,,,,16.77,,imperial,,,13.7
+2023-05-09 15:14:29,Capstone_tobi,Chicago,,-9.74,61.0,1.34,Rain,Rain,,,,,,,,,2023-05-09 15:14:29,Rain,,,,61,,,,,,,,14.46,,imperial,,,3.0
+2023-05-10 15:14:29,Capstone_tobi,Chicago,,0.14,47.0,4.2,Overcast,Overcast clouds,,,,,,,,,2023-05-10 15:14:29,Overcast clouds,,,,47,,,,,,,,32.26,,imperial,,,9.4
+2023-05-11 15:14:29,Capstone_tobi,Chicago,,-3.02,71.0,3.08,Clear,Clear sky,,,,,,,,,2023-05-11 15:14:29,Clear sky,,,,71,,,,,,,,26.56,,imperial,,,6.9
+2023-05-12 15:14:29,Capstone_tobi,Chicago,,-1.8,61.0,6.57,Clear,Clear sky,,,,,,,,,2023-05-12 15:14:29,Clear sky,,,,61,,,,,,,,28.76,,imperial,,,14.7
+2023-05-13 15:14:29,Capstone_tobi,Chicago,,-3.84,32.0,2.64,Light,Light rain,,,,,,,,,2023-05-13 15:14:29,Light rain,,,,32,,,,,,,,25.08,,imperial,,,5.9
+2023-05-14 15:14:29,Capstone_tobi,Chicago,,-4.15,61.0,6.84,Clear,Clear sky,,,,,,,,,2023-05-14 15:14:29,Clear sky,,,,61,,,,,,,,24.53,,imperial,,,15.3
+2023-05-15 15:14:29,Capstone_tobi,Chicago,,8.53,46.0,3.89,Light,Light rain,,,,,,,,,2023-05-15 15:14:29,Light rain,,,,46,,,,,,,,47.35,,imperial,,,8.7
+2023-05-16 15:14:29,Capstone_tobi,Chicago,,-2.45,80.0,7.11,Scattered,Scattered clouds,,,,,,,,,2023-05-16 15:14:29,Scattered clouds,,,,80,,,,,,,,27.59,,imperial,,,15.9
+2023-05-17 15:14:29,Capstone_tobi,Chicago,,-4.37,40.0,3.67,Scattered,Scattered clouds,,,,,,,,,2023-05-17 15:14:29,Scattered clouds,,,,40,,,,,,,,24.14,,imperial,,,8.2
+2023-05-18 15:14:29,Capstone_tobi,Chicago,,-2.04,69.0,5.63,Clear,Clear sky,,,,,,,,,2023-05-18 15:14:29,Clear sky,,,,69,,,,,,,,28.32,,imperial,,,12.6
+2023-05-19 15:14:29,Capstone_tobi,Chicago,,-2.75,53.0,1.48,Clear,Clear sky,,,,,,,,,2023-05-19 15:14:29,Clear sky,,,,53,,,,,,,,27.05,,imperial,,,3.3
+2023-05-20 15:14:29,Capstone_tobi,Chicago,,-2.24,91.0,5.32,Few,Few clouds,,,,,,,,,2023-05-20 15:14:29,Few clouds,,,,91,,,,,,,,27.96,,imperial,,,11.9
+2023-05-21 15:14:29,Capstone_tobi,Chicago,,1.19,60.0,2.5,Thunderstorm,Thunderstorm,,,,,,,,,2023-05-21 15:14:29,Thunderstorm,,,,60,,,,,,,,34.14,,imperial,,,5.6
+2023-05-22 15:14:29,Capstone_tobi,Chicago,,3.2,45.0,4.38,Few,Few clouds,,,,,,,,,2023-05-22 15:14:29,Few clouds,,,,45,,,,,,,,37.76,,imperial,,,9.8
+2023-05-23 15:14:29,Capstone_tobi,Chicago,,6.74,66.0,0.8,Scattered,Scattered clouds,,,,,,,,,2023-05-23 15:14:29,Scattered clouds,,,,66,,,,,,,,44.14,,imperial,,,1.8
+2023-05-24 15:14:29,Capstone_tobi,Chicago,,-7.0,48.0,1.52,Overcast,Overcast clouds,,,,,,,,,2023-05-24 15:14:29,Overcast clouds,,,,48,,,,,,,,19.4,,imperial,,,3.4
+2023-05-25 15:14:29,Capstone_tobi,Chicago,,-1.06,71.0,3.71,Few,Few clouds,,,,,,,,,2023-05-25 15:14:29,Few clouds,,,,71,,,,,,,,30.09,,imperial,,,8.3
+2023-05-26 15:14:29,Capstone_tobi,Chicago,,2.39,89.0,4.25,Overcast,Overcast clouds,,,,,,,,,2023-05-26 15:14:29,Overcast clouds,,,,89,,,,,,,,36.3,,imperial,,,9.5
+2023-05-27 15:14:29,Capstone_tobi,Chicago,,-0.89,61.0,7.91,Clear,Clear sky,,,,,,,,,2023-05-27 15:14:29,Clear sky,,,,61,,,,,,,,30.4,,imperial,,,17.7
+2023-05-28 15:14:29,Capstone_tobi,Chicago,,3.5,21.0,2.1,Overcast,Overcast clouds,,,,,,,,,2023-05-28 15:14:29,Overcast clouds,,,,21,,,,,,,,38.3,,imperial,,,4.7
+2023-05-29 15:14:29,Capstone_tobi,Chicago,,3.19,56.0,3.8,Few,Few clouds,,,,,,,,,2023-05-29 15:14:29,Few clouds,,,,56,,,,,,,,37.75,,imperial,,,8.5
+2023-05-30 15:14:29,Capstone_tobi,Chicago,,9.09,24.0,4.43,Scattered,Scattered clouds,,,,,,,,,2023-05-30 15:14:29,Scattered clouds,,,,24,,,,,,,,48.36,,imperial,,,9.9
+2023-05-31 15:14:29,Capstone_tobi,Chicago,,0.91,62.0,3.35,Few,Few clouds,,,,,,,,,2023-05-31 15:14:29,Few clouds,,,,62,,,,,,,,33.63,,imperial,,,7.5
+2023-06-01 15:14:29,Capstone_tobi,Chicago,,11.1,39.0,2.1,Few,Few clouds,,,,,,,,,2023-06-01 15:14:29,Few clouds,,,,39,,,,,,,,51.98,,imperial,,,4.7
+2023-06-02 15:14:29,Capstone_tobi,Chicago,,6.48,51.0,6.04,Few,Few clouds,,,,,,,,,2023-06-02 15:14:29,Few clouds,,,,51,,,,,,,,43.67,,imperial,,,13.5
+2023-06-03 15:14:29,Capstone_tobi,Chicago,,2.95,77.0,2.28,Clear,Clear sky,,,,,,,,,2023-06-03 15:14:29,Clear sky,,,,77,,,,,,,,37.31,,imperial,,,5.1
+2023-06-04 15:14:29,Capstone_tobi,Chicago,,3.54,58.0,5.9,Clear,Clear sky,,,,,,,,,2023-06-04 15:14:29,Clear sky,,,,58,,,,,,,,38.38,,imperial,,,13.2
+2023-06-05 15:14:29,Capstone_tobi,Chicago,,10.82,57.0,4.52,Few,Few clouds,,,,,,,,,2023-06-05 15:14:29,Few clouds,,,,57,,,,,,,,51.47,,imperial,,,10.1
+2023-06-06 15:14:29,Capstone_tobi,Chicago,,5.26,33.0,5.72,Light,Light rain,,,,,,,,,2023-06-06 15:14:29,Light rain,,,,33,,,,,,,,41.46,,imperial,,,12.8
+2023-06-07 15:14:29,Capstone_tobi,Chicago,,9.12,64.0,2.59,Clear,Clear sky,,,,,,,,,2023-06-07 15:14:29,Clear sky,,,,64,,,,,,,,48.42,,imperial,,,5.8
+2023-06-08 15:14:29,Capstone_tobi,Chicago,,-1.78,55.0,5.95,Overcast,Overcast clouds,,,,,,,,,2023-06-08 15:14:29,Overcast clouds,,,,55,,,,,,,,28.79,,imperial,,,13.3
+2023-06-09 15:14:29,Capstone_tobi,Chicago,,9.71,32.0,4.2,Few,Few clouds,,,,,,,,,2023-06-09 15:14:29,Few clouds,,,,32,,,,,,,,49.47,,imperial,,,9.4
+2023-06-10 15:14:29,Capstone_tobi,Chicago,,8.54,26.0,5.1,Clear,Clear sky,,,,,,,,,2023-06-10 15:14:29,Clear sky,,,,26,,,,,,,,47.37,,imperial,,,11.4
+2023-06-11 15:14:29,Capstone_tobi,Chicago,,2.02,66.0,5.05,Clear,Clear sky,,,,,,,,,2023-06-11 15:14:29,Clear sky,,,,66,,,,,,,,35.63,,imperial,,,11.3
+2023-06-12 15:14:29,Capstone_tobi,Chicago,,7.84,54.0,5.59,Clear,Clear sky,,,,,,,,,2023-06-12 15:14:29,Clear sky,,,,54,,,,,,,,46.11,,imperial,,,12.5
+2023-06-13 15:14:29,Capstone_tobi,Chicago,,10.46,69.0,7.2,Clear,Clear sky,,,,,,,,,2023-06-13 15:14:29,Clear sky,,,,69,,,,,,,,50.83,,imperial,,,16.1
+2023-06-14 15:14:29,Capstone_tobi,Chicago,,6.86,32.0,5.05,Scattered,Scattered clouds,,,,,,,,,2023-06-14 15:14:29,Scattered clouds,,,,32,,,,,,,,44.35,,imperial,,,11.3
+2023-06-15 15:14:29,Capstone_tobi,Chicago,,7.24,39.0,3.49,Snow,Snow,,,,,,,,,2023-06-15 15:14:29,Snow,,,,39,,,,,,,,45.04,,imperial,,,7.8
+2023-06-16 15:14:29,Capstone_tobi,Chicago,,4.82,50.0,1.92,Overcast,Overcast clouds,,,,,,,,,2023-06-16 15:14:29,Overcast clouds,,,,50,,,,,,,,40.68,,imperial,,,4.3
+2023-06-17 15:14:29,Capstone_tobi,Chicago,,6.23,19.0,4.02,Clear,Clear sky,,,,,,,,,2023-06-17 15:14:29,Clear sky,,,,19,,,,,,,,43.22,,imperial,,,9.0
+2023-06-18 15:14:29,Capstone_tobi,Chicago,,11.88,47.0,0.09,Clear,Clear sky,,,,,,,,,2023-06-18 15:14:29,Clear sky,,,,47,,,,,,,,53.39,,imperial,,,0.2
+2023-06-19 15:14:29,Capstone_tobi,Chicago,,10.08,72.0,3.13,Few,Few clouds,,,,,,,,,2023-06-19 15:14:29,Few clouds,,,,72,,,,,,,,50.14,,imperial,,,7.0
+2023-06-20 15:14:29,Capstone_tobi,Chicago,,12.12,24.0,4.78,Scattered,Scattered clouds,,,,,,,,,2023-06-20 15:14:29,Scattered clouds,,,,24,,,,,,,,53.81,,imperial,,,10.7
+2023-06-21 15:14:29,Capstone_tobi,Chicago,,0.89,37.0,2.86,Rain,Rain,,,,,,,,,2023-06-21 15:14:29,Rain,,,,37,,,,,,,,33.6,,imperial,,,6.4
+2023-06-22 15:14:29,Capstone_tobi,Chicago,,12.47,40.0,2.28,Overcast,Overcast clouds,,,,,,,,,2023-06-22 15:14:29,Overcast clouds,,,,40,,,,,,,,54.44,,imperial,,,5.1
+2023-06-23 15:14:29,Capstone_tobi,Chicago,,8.85,76.0,5.41,Few,Few clouds,,,,,,,,,2023-06-23 15:14:29,Few clouds,,,,76,,,,,,,,47.93,,imperial,,,12.1
+2023-06-24 15:14:29,Capstone_tobi,Chicago,,7.43,63.0,1.92,Thunderstorm,Thunderstorm,,,,,,,,,2023-06-24 15:14:29,Thunderstorm,,,,63,,,,,,,,45.37,,imperial,,,4.3
+2023-06-25 15:14:29,Capstone_tobi,Chicago,,3.53,52.0,7.91,Clear,Clear sky,,,,,,,,,2023-06-25 15:14:29,Clear sky,,,,52,,,,,,,,38.36,,imperial,,,17.7
+2023-06-26 15:14:29,Capstone_tobi,Chicago,,7.17,54.0,1.43,Clear,Clear sky,,,,,,,,,2023-06-26 15:14:29,Clear sky,,,,54,,,,,,,,44.91,,imperial,,,3.2
+2023-06-27 15:14:29,Capstone_tobi,Chicago,,13.29,49.0,1.7,Few,Few clouds,,,,,,,,,2023-06-27 15:14:29,Few clouds,,,,49,,,,,,,,55.93,,imperial,,,3.8
+2023-06-28 15:14:29,Capstone_tobi,Chicago,,7.77,51.0,6.35,Scattered,Scattered clouds,,,,,,,,,2023-06-28 15:14:29,Scattered clouds,,,,51,,,,,,,,45.98,,imperial,,,14.2
+2023-06-29 15:14:29,Capstone_tobi,Chicago,,14.48,38.0,3.93,Overcast,Overcast clouds,,,,,,,,,2023-06-29 15:14:29,Overcast clouds,,,,38,,,,,,,,58.06,,imperial,,,8.8
+2023-06-30 15:14:29,Capstone_tobi,Chicago,,14.93,69.0,5.68,Few,Few clouds,,,,,,,,,2023-06-30 15:14:29,Few clouds,,,,69,,,,,,,,58.87,,imperial,,,12.7
+2023-07-01 15:14:29,Capstone_tobi,Chicago,,12.53,59.0,6.57,Clear,Clear sky,,,,,,,,,2023-07-01 15:14:29,Clear sky,,,,59,,,,,,,,54.56,,imperial,,,14.7
+2023-07-02 15:14:29,Capstone_tobi,Chicago,,9.0,38.0,5.28,Few,Few clouds,,,,,,,,,2023-07-02 15:14:29,Few clouds,,,,38,,,,,,,,48.2,,imperial,,,11.8
+2023-07-03 15:14:29,Capstone_tobi,Chicago,,11.76,47.0,0.45,Clear,Clear sky,,,,,,,,,2023-07-03 15:14:29,Clear sky,,,,47,,,,,,,,53.16,,imperial,,,1.0
+2023-07-04 15:14:29,Capstone_tobi,Chicago,,18.06,47.0,3.62,Clear,Clear sky,,,,,,,,,2023-07-04 15:14:29,Clear sky,,,,47,,,,,,,,64.5,,imperial,,,8.1
+2023-07-05 15:14:29,Capstone_tobi,Chicago,,15.56,76.0,2.19,Rain,Rain,,,,,,,,,2023-07-05 15:14:29,Rain,,,,76,,,,,,,,60.0,,imperial,,,4.9
+2023-07-06 15:14:29,Capstone_tobi,Chicago,,11.99,59.0,7.96,Rain,Rain,,,,,,,,,2023-07-06 15:14:29,Rain,,,,59,,,,,,,,53.58,,imperial,,,17.8
+2023-07-07 15:14:29,Capstone_tobi,Chicago,,15.09,34.0,5.45,Few,Few clouds,,,,,,,,,2023-07-07 15:14:29,Few clouds,,,,34,,,,,,,,59.16,,imperial,,,12.2
+2023-07-08 15:14:29,Capstone_tobi,Chicago,,13.56,43.0,3.93,Clear,Clear sky,,,,,,,,,2023-07-08 15:14:29,Clear sky,,,,43,,,,,,,,56.41,,imperial,,,8.8
+2023-07-09 15:14:29,Capstone_tobi,Chicago,,16.88,53.0,2.73,Clear,Clear sky,,,,,,,,,2023-07-09 15:14:29,Clear sky,,,,53,,,,,,,,62.39,,imperial,,,6.1
+2023-07-10 15:14:29,Capstone_tobi,Chicago,,5.79,68.0,2.15,Scattered,Scattered clouds,,,,,,,,,2023-07-10 15:14:29,Scattered clouds,,,,68,,,,,,,,42.43,,imperial,,,4.8
+2023-07-11 15:14:29,Capstone_tobi,Chicago,,14.04,43.0,2.82,Thunderstorm,Thunderstorm,,,,,,,,,2023-07-11 15:14:29,Thunderstorm,,,,43,,,,,,,,57.28,,imperial,,,6.3
+2023-07-12 15:14:29,Capstone_tobi,Chicago,,22.06,60.0,0.63,Clear,Clear sky,,,,,,,,,2023-07-12 15:14:29,Clear sky,,,,60,,,,,,,,71.71,,imperial,,,1.4
+2023-07-13 15:14:29,Capstone_tobi,Chicago,,13.72,66.0,1.61,Snow,Snow,,,,,,,,,2023-07-13 15:14:29,Snow,,,,66,,,,,,,,56.7,,imperial,,,3.6
+2023-07-14 15:14:29,Capstone_tobi,Chicago,,15.19,76.0,2.77,Few,Few clouds,,,,,,,,,2023-07-14 15:14:29,Few clouds,,,,76,,,,,,,,59.34,,imperial,,,6.2
+2023-07-15 15:14:29,Capstone_tobi,Chicago,,15.05,60.0,7.02,Clear,Clear sky,,,,,,,,,2023-07-15 15:14:29,Clear sky,,,,60,,,,,,,,59.09,,imperial,,,15.7
+2023-07-16 15:14:29,Capstone_tobi,Chicago,,16.66,56.0,2.15,Clear,Clear sky,,,,,,,,,2023-07-16 15:14:29,Clear sky,,,,56,,,,,,,,61.98,,imperial,,,4.8
+2023-07-17 15:14:29,Capstone_tobi,Chicago,,24.67,65.0,2.01,Rain,Rain,,,,,,,,,2023-07-17 15:14:29,Rain,,,,65,,,,,,,,76.41,,imperial,,,4.5
+2023-07-18 15:14:29,Capstone_tobi,Chicago,,26.71,64.0,2.32,Clear,Clear sky,,,,,,,,,2023-07-18 15:14:29,Clear sky,,,,64,,,,,,,,80.07,,imperial,,,5.2
+2023-07-19 15:14:29,Capstone_tobi,Chicago,,12.98,71.0,3.62,Clear,Clear sky,,,,,,,,,2023-07-19 15:14:29,Clear sky,,,,71,,,,,,,,55.36,,imperial,,,8.1
+2023-07-20 15:14:29,Capstone_tobi,Chicago,,20.36,19.0,5.5,Scattered,Scattered clouds,,,,,,,,,2023-07-20 15:14:29,Scattered clouds,,,,19,,,,,,,,68.64,,imperial,,,12.3
+2023-07-21 15:14:29,Capstone_tobi,Chicago,,16.64,52.0,4.2,Few,Few clouds,,,,,,,,,2023-07-21 15:14:29,Few clouds,,,,52,,,,,,,,61.95,,imperial,,,9.4
+2023-07-22 15:14:29,Capstone_tobi,Chicago,,21.94,70.0,4.78,Overcast,Overcast clouds,,,,,,,,,2023-07-22 15:14:29,Overcast clouds,,,,70,,,,,,,,71.5,,imperial,,,10.7
+2023-07-23 15:14:29,Capstone_tobi,Chicago,,17.62,63.0,1.74,Scattered,Scattered clouds,,,,,,,,,2023-07-23 15:14:29,Scattered clouds,,,,63,,,,,,,,63.71,,imperial,,,3.9
+2023-07-24 15:14:29,Capstone_tobi,Chicago,,18.76,30.0,0.04,Few,Few clouds,,,,,,,,,2023-07-24 15:14:29,Few clouds,,,,30,,,,,,,,65.77,,imperial,,,0.1
+2023-07-25 15:14:29,Capstone_tobi,Chicago,,24.73,47.0,9.25,Snow,Snow,,,,,,,,,2023-07-25 15:14:29,Snow,,,,47,,,,,,,,76.52,,imperial,,,20.7
+2023-07-26 15:14:29,Capstone_tobi,Chicago,,17.49,77.0,3.44,Clear,Clear sky,,,,,,,,,2023-07-26 15:14:29,Clear sky,,,,77,,,,,,,,63.49,,imperial,,,7.7
+2023-07-27 15:14:29,Capstone_tobi,Chicago,,23.87,37.0,5.01,Clear,Clear sky,,,,,,,,,2023-07-27 15:14:29,Clear sky,,,,37,,,,,,,,74.97,,imperial,,,11.2
+2023-07-28 15:14:29,Capstone_tobi,Chicago,,19.66,41.0,2.68,Light,Light rain,,,,,,,,,2023-07-28 15:14:29,Light rain,,,,41,,,,,,,,67.38,,imperial,,,6.0
+2023-07-29 15:14:29,Capstone_tobi,Chicago,,25.03,54.0,2.46,Overcast,Overcast clouds,,,,,,,,,2023-07-29 15:14:29,Overcast clouds,,,,54,,,,,,,,77.05,,imperial,,,5.5
+2023-07-30 15:14:29,Capstone_tobi,Chicago,,28.11,43.0,4.87,Few,Few clouds,,,,,,,,,2023-07-30 15:14:29,Few clouds,,,,43,,,,,,,,82.59,,imperial,,,10.9
+2023-07-31 15:14:29,Capstone_tobi,Chicago,,24.14,50.0,2.5,Few,Few clouds,,,,,,,,,2023-07-31 15:14:29,Few clouds,,,,50,,,,,,,,75.46,,imperial,,,5.6
+2023-08-01 15:14:29,Capstone_tobi,Chicago,,26.16,73.0,3.76,Clear,Clear sky,,,,,,,,,2023-08-01 15:14:29,Clear sky,,,,73,,,,,,,,79.09,,imperial,,,8.4
+2023-08-02 15:14:29,Capstone_tobi,Chicago,,23.93,33.0,1.65,Scattered,Scattered clouds,,,,,,,,,2023-08-02 15:14:29,Scattered clouds,,,,33,,,,,,,,75.08,,imperial,,,3.7
+2023-08-03 15:14:29,Capstone_tobi,Chicago,,20.06,48.0,2.73,Overcast,Overcast clouds,,,,,,,,,2023-08-03 15:14:29,Overcast clouds,,,,48,,,,,,,,68.1,,imperial,,,6.1
+2023-08-04 15:14:29,Capstone_tobi,Chicago,,18.06,62.0,5.36,Clear,Clear sky,,,,,,,,,2023-08-04 15:14:29,Clear sky,,,,62,,,,,,,,64.5,,imperial,,,12.0
+2023-08-05 15:14:29,Capstone_tobi,Chicago,,15.75,46.0,2.46,Clear,Clear sky,,,,,,,,,2023-08-05 15:14:29,Clear sky,,,,46,,,,,,,,60.35,,imperial,,,5.5
+2023-08-06 15:14:29,Capstone_tobi,Chicago,,20.51,56.0,3.22,Light,Light rain,,,,,,,,,2023-08-06 15:14:29,Light rain,,,,56,,,,,,,,68.91,,imperial,,,7.2
+2023-08-07 15:14:29,Capstone_tobi,Chicago,,19.43,56.0,0.04,Thunderstorm,Thunderstorm,,,,,,,,,2023-08-07 15:14:29,Thunderstorm,,,,56,,,,,,,,66.98,,imperial,,,0.1
+2023-08-08 15:14:29,Capstone_tobi,Chicago,,28.1,69.0,8.14,Few,Few clouds,,,,,,,,,2023-08-08 15:14:29,Few clouds,,,,69,,,,,,,,82.58,,imperial,,,18.2
+2023-08-09 15:14:29,Capstone_tobi,Chicago,,18.99,15.0,3.04,Scattered,Scattered clouds,,,,,,,,,2023-08-09 15:14:29,Scattered clouds,,,,15,,,,,,,,66.19,,imperial,,,6.8
+2023-08-10 15:14:29,Capstone_tobi,Chicago,,24.74,74.0,2.82,Thunderstorm,Thunderstorm,,,,,,,,,2023-08-10 15:14:29,Thunderstorm,,,,74,,,,,,,,76.53,,imperial,,,6.3
+2023-08-11 15:14:29,Capstone_tobi,Chicago,,21.61,57.0,4.47,Rain,Rain,,,,,,,,,2023-08-11 15:14:29,Rain,,,,57,,,,,,,,70.9,,imperial,,,10.0
+2023-08-12 15:14:29,Capstone_tobi,Chicago,,25.96,75.0,6.04,Few,Few clouds,,,,,,,,,2023-08-12 15:14:29,Few clouds,,,,75,,,,,,,,78.72,,imperial,,,13.5
+2023-08-13 15:14:29,Capstone_tobi,Chicago,,24.73,67.0,2.55,Thunderstorm,Thunderstorm,,,,,,,,,2023-08-13 15:14:29,Thunderstorm,,,,67,,,,,,,,76.52,,imperial,,,5.7
+2023-08-14 15:14:29,Capstone_tobi,Chicago,,25.06,41.0,6.93,Clear,Clear sky,,,,,,,,,2023-08-14 15:14:29,Clear sky,,,,41,,,,,,,,77.11,,imperial,,,15.5
+2023-08-15 15:14:29,Capstone_tobi,Chicago,,20.79,33.0,2.82,Clear,Clear sky,,,,,,,,,2023-08-15 15:14:29,Clear sky,,,,33,,,,,,,,69.43,,imperial,,,6.3
+2023-08-16 15:14:29,Capstone_tobi,Chicago,,29.92,67.0,5.41,Rain,Rain,,,,,,,,,2023-08-16 15:14:29,Rain,,,,67,,,,,,,,85.86,,imperial,,,12.1
+2023-08-17 15:14:29,Capstone_tobi,Chicago,,34.38,58.0,4.65,Few,Few clouds,,,,,,,,,2023-08-17 15:14:29,Few clouds,,,,58,,,,,,,,93.89,,imperial,,,10.4
+2023-08-18 15:14:29,Capstone_tobi,Chicago,,25.5,44.0,8.94,Clear,Clear sky,,,,,,,,,2023-08-18 15:14:29,Clear sky,,,,44,,,,,,,,77.9,,imperial,,,20.0
+2023-08-19 15:14:29,Capstone_tobi,Chicago,,27.47,37.0,1.07,Few,Few clouds,,,,,,,,,2023-08-19 15:14:29,Few clouds,,,,37,,,,,,,,81.45,,imperial,,,2.4
+2023-08-20 15:14:29,Capstone_tobi,Chicago,,24.26,48.0,0.04,Clear,Clear sky,,,,,,,,,2023-08-20 15:14:29,Clear sky,,,,48,,,,,,,,75.67,,imperial,,,0.1
+2023-08-21 15:14:29,Capstone_tobi,Chicago,,26.53,30.0,2.15,Clear,Clear sky,,,,,,,,,2023-08-21 15:14:29,Clear sky,,,,30,,,,,,,,79.76,,imperial,,,4.8
+2023-08-22 15:14:29,Capstone_tobi,Chicago,,23.81,53.0,1.12,Few,Few clouds,,,,,,,,,2023-08-22 15:14:29,Few clouds,,,,53,,,,,,,,74.85,,imperial,,,2.5
+2023-08-23 15:14:29,Capstone_tobi,Chicago,,32.44,61.0,1.21,Overcast,Overcast clouds,,,,,,,,,2023-08-23 15:14:29,Overcast clouds,,,,61,,,,,,,,90.39,,imperial,,,2.7
+2023-08-24 15:14:29,Capstone_tobi,Chicago,,25.61,66.0,4.25,Overcast,Overcast clouds,,,,,,,,,2023-08-24 15:14:29,Overcast clouds,,,,66,,,,,,,,78.09,,imperial,,,9.5
+2023-08-25 15:14:29,Capstone_tobi,Chicago,,27.21,56.0,4.47,Light,Light rain,,,,,,,,,2023-08-25 15:14:29,Light rain,,,,56,,,,,,,,80.97,,imperial,,,10.0
+2023-08-26 15:14:29,Capstone_tobi,Chicago,,26.32,71.0,2.95,Clear,Clear sky,,,,,,,,,2023-08-26 15:14:29,Clear sky,,,,71,,,,,,,,79.38,,imperial,,,6.6
+2023-08-27 15:14:29,Capstone_tobi,Chicago,,26.43,66.0,0.09,Scattered,Scattered clouds,,,,,,,,,2023-08-27 15:14:29,Scattered clouds,,,,66,,,,,,,,79.58,,imperial,,,0.2
+2023-08-28 15:14:29,Capstone_tobi,Chicago,,27.84,52.0,5.63,Scattered,Scattered clouds,,,,,,,,,2023-08-28 15:14:29,Scattered clouds,,,,52,,,,,,,,82.11,,imperial,,,12.6
+2023-08-29 15:14:29,Capstone_tobi,Chicago,,32.82,62.0,3.22,Thunderstorm,Thunderstorm,,,,,,,,,2023-08-29 15:14:29,Thunderstorm,,,,62,,,,,,,,91.08,,imperial,,,7.2
+2023-08-30 15:14:29,Capstone_tobi,Chicago,,25.59,55.0,2.01,Few,Few clouds,,,,,,,,,2023-08-30 15:14:29,Few clouds,,,,55,,,,,,,,78.07,,imperial,,,4.5
+2023-08-31 15:14:29,Capstone_tobi,Chicago,,33.01,38.0,7.33,Few,Few clouds,,,,,,,,,2023-08-31 15:14:29,Few clouds,,,,38,,,,,,,,91.42,,imperial,,,16.4
+2023-09-01 15:14:29,Capstone_tobi,Chicago,,26.66,56.0,3.13,Few,Few clouds,,,,,,,,,2023-09-01 15:14:29,Few clouds,,,,56,,,,,,,,79.99,,imperial,,,7.0
+2023-09-02 15:14:29,Capstone_tobi,Chicago,,27.74,58.0,5.41,Clear,Clear sky,,,,,,,,,2023-09-02 15:14:29,Clear sky,,,,58,,,,,,,,81.94,,imperial,,,12.1
+2023-09-03 15:14:29,Capstone_tobi,Chicago,,29.51,39.0,4.25,Few,Few clouds,,,,,,,,,2023-09-03 15:14:29,Few clouds,,,,39,,,,,,,,85.12,,imperial,,,9.5
+2023-09-04 15:14:29,Capstone_tobi,Chicago,,33.92,61.0,3.31,Scattered,Scattered clouds,,,,,,,,,2023-09-04 15:14:29,Scattered clouds,,,,61,,,,,,,,93.06,,imperial,,,7.4
+2023-09-05 15:14:29,Capstone_tobi,Chicago,,22.95,42.0,7.91,Clear,Clear sky,,,,,,,,,2023-09-05 15:14:29,Clear sky,,,,42,,,,,,,,73.31,,imperial,,,17.7
+2023-09-06 15:14:29,Capstone_tobi,Chicago,,25.43,46.0,0.04,Clear,Clear sky,,,,,,,,,2023-09-06 15:14:29,Clear sky,,,,46,,,,,,,,77.78,,imperial,,,0.1
+2023-09-07 15:14:29,Capstone_tobi,Chicago,,27.83,31.0,6.57,Clear,Clear sky,,,,,,,,,2023-09-07 15:14:29,Clear sky,,,,31,,,,,,,,82.1,,imperial,,,14.7
+2023-01-01 15:14:29,Capstone_tobi,Denver,,-2.52,55.0,9.97,Thunderstorm,Thunderstorm,,,,,,,,,2023-01-01 15:14:29,Thunderstorm,,,,55,,,,,,,,27.46,,imperial,,,22.3
+2023-01-02 15:14:29,Capstone_tobi,Denver,,10.97,47.0,1.61,Few,Few clouds,,,,,,,,,2023-01-02 15:14:29,Few clouds,,,,47,,,,,,,,51.75,,imperial,,,3.6
+2023-01-03 15:14:29,Capstone_tobi,Denver,,3.98,34.0,2.46,Clear,Clear sky,,,,,,,,,2023-01-03 15:14:29,Clear sky,,,,34,,,,,,,,39.17,,imperial,,,5.5
+2023-01-04 15:14:29,Capstone_tobi,Denver,,3.44,63.0,2.77,Clear,Clear sky,,,,,,,,,2023-01-04 15:14:29,Clear sky,,,,63,,,,,,,,38.2,,imperial,,,6.2
+2023-01-05 15:14:29,Capstone_tobi,Denver,,2.66,56.0,4.78,Clear,Clear sky,,,,,,,,,2023-01-05 15:14:29,Clear sky,,,,56,,,,,,,,36.78,,imperial,,,10.7
+2023-01-06 15:14:29,Capstone_tobi,Denver,,13.51,80.0,4.16,Few,Few clouds,,,,,,,,,2023-01-06 15:14:29,Few clouds,,,,80,,,,,,,,56.31,,imperial,,,9.3
+2023-01-07 15:14:29,Capstone_tobi,Denver,,1.71,84.0,4.52,Overcast,Overcast clouds,,,,,,,,,2023-01-07 15:14:29,Overcast clouds,,,,84,,,,,,,,35.08,,imperial,,,10.1
+2023-01-08 15:14:29,Capstone_tobi,Denver,,3.7,19.0,4.16,Few,Few clouds,,,,,,,,,2023-01-08 15:14:29,Few clouds,,,,19,,,,,,,,38.66,,imperial,,,9.3
+2023-01-09 15:14:29,Capstone_tobi,Denver,,6.41,59.0,4.83,Rain,Rain,,,,,,,,,2023-01-09 15:14:29,Rain,,,,59,,,,,,,,43.54,,imperial,,,10.8
+2023-01-10 15:14:29,Capstone_tobi,Denver,,5.04,51.0,5.77,Scattered,Scattered clouds,,,,,,,,,2023-01-10 15:14:29,Scattered clouds,,,,51,,,,,,,,41.08,,imperial,,,12.9
+2023-01-11 15:14:29,Capstone_tobi,Denver,,6.38,22.0,5.81,Light,Light rain,,,,,,,,,2023-01-11 15:14:29,Light rain,,,,22,,,,,,,,43.48,,imperial,,,13.0
+2023-01-12 15:14:29,Capstone_tobi,Denver,,0.73,82.0,5.14,Overcast,Overcast clouds,,,,,,,,,2023-01-12 15:14:29,Overcast clouds,,,,82,,,,,,,,33.32,,imperial,,,11.5
+2023-01-13 15:14:29,Capstone_tobi,Denver,,3.53,53.0,1.43,Few,Few clouds,,,,,,,,,2023-01-13 15:14:29,Few clouds,,,,53,,,,,,,,38.35,,imperial,,,3.2
+2023-01-14 15:14:29,Capstone_tobi,Denver,,-4.01,65.0,3.53,Clear,Clear sky,,,,,,,,,2023-01-14 15:14:29,Clear sky,,,,65,,,,,,,,24.79,,imperial,,,7.9
+2023-01-15 15:14:29,Capstone_tobi,Denver,,7.08,65.0,3.0,Few,Few clouds,,,,,,,,,2023-01-15 15:14:29,Few clouds,,,,65,,,,,,,,44.75,,imperial,,,6.7
+2023-01-16 15:14:29,Capstone_tobi,Denver,,6.23,51.0,5.9,Scattered,Scattered clouds,,,,,,,,,2023-01-16 15:14:29,Scattered clouds,,,,51,,,,,,,,43.22,,imperial,,,13.2
+2023-01-17 15:14:29,Capstone_tobi,Denver,,0.62,56.0,3.93,Snow,Snow,,,,,,,,,2023-01-17 15:14:29,Snow,,,,56,,,,,,,,33.11,,imperial,,,8.8
+2023-01-18 15:14:29,Capstone_tobi,Denver,,-3.16,60.0,6.21,Clear,Clear sky,,,,,,,,,2023-01-18 15:14:29,Clear sky,,,,60,,,,,,,,26.32,,imperial,,,13.9
+2023-01-19 15:14:29,Capstone_tobi,Denver,,2.92,39.0,5.41,Few,Few clouds,,,,,,,,,2023-01-19 15:14:29,Few clouds,,,,39,,,,,,,,37.26,,imperial,,,12.1
+2023-01-20 15:14:29,Capstone_tobi,Denver,,-6.47,50.0,4.16,Rain,Rain,,,,,,,,,2023-01-20 15:14:29,Rain,,,,50,,,,,,,,20.36,,imperial,,,9.3
+2023-01-21 15:14:29,Capstone_tobi,Denver,,0.69,45.0,1.56,Clear,Clear sky,,,,,,,,,2023-01-21 15:14:29,Clear sky,,,,45,,,,,,,,33.25,,imperial,,,3.5
+2023-01-22 15:14:29,Capstone_tobi,Denver,,-1.73,68.0,1.21,Few,Few clouds,,,,,,,,,2023-01-22 15:14:29,Few clouds,,,,68,,,,,,,,28.89,,imperial,,,2.7
+2023-01-23 15:14:29,Capstone_tobi,Denver,,3.17,54.0,7.11,Snow,Snow,,,,,,,,,2023-01-23 15:14:29,Snow,,,,54,,,,,,,,37.7,,imperial,,,15.9
+2023-01-24 15:14:29,Capstone_tobi,Denver,,-3.27,56.0,6.26,Scattered,Scattered clouds,,,,,,,,,2023-01-24 15:14:29,Scattered clouds,,,,56,,,,,,,,26.12,,imperial,,,14.0
+2023-01-25 15:14:29,Capstone_tobi,Denver,,0.56,61.0,5.77,Clear,Clear sky,,,,,,,,,2023-01-25 15:14:29,Clear sky,,,,61,,,,,,,,33.0,,imperial,,,12.9
+2023-01-26 15:14:29,Capstone_tobi,Denver,,-0.75,31.0,2.86,Clear,Clear sky,,,,,,,,,2023-01-26 15:14:29,Clear sky,,,,31,,,,,,,,30.65,,imperial,,,6.4
+2023-01-27 15:14:29,Capstone_tobi,Denver,,1.69,25.0,5.95,Few,Few clouds,,,,,,,,,2023-01-27 15:14:29,Few clouds,,,,25,,,,,,,,35.04,,imperial,,,13.3
+2023-01-28 15:14:29,Capstone_tobi,Denver,,-3.36,54.0,4.47,Clear,Clear sky,,,,,,,,,2023-01-28 15:14:29,Clear sky,,,,54,,,,,,,,25.96,,imperial,,,10.0
+2023-01-29 15:14:29,Capstone_tobi,Denver,,2.42,45.0,2.55,Scattered,Scattered clouds,,,,,,,,,2023-01-29 15:14:29,Scattered clouds,,,,45,,,,,,,,36.36,,imperial,,,5.7
+2023-01-30 15:14:29,Capstone_tobi,Denver,,0.19,30.0,5.1,Clear,Clear sky,,,,,,,,,2023-01-30 15:14:29,Clear sky,,,,30,,,,,,,,32.35,,imperial,,,11.4
+2023-01-31 15:14:29,Capstone_tobi,Denver,,-3.17,42.0,5.99,Clear,Clear sky,,,,,,,,,2023-01-31 15:14:29,Clear sky,,,,42,,,,,,,,26.3,,imperial,,,13.4
+2023-02-01 15:14:29,Capstone_tobi,Denver,,-6.87,48.0,3.13,Scattered,Scattered clouds,,,,,,,,,2023-02-01 15:14:29,Scattered clouds,,,,48,,,,,,,,19.63,,imperial,,,7.0
+2023-02-02 15:14:29,Capstone_tobi,Denver,,-1.58,51.0,3.89,Clear,Clear sky,,,,,,,,,2023-02-02 15:14:29,Clear sky,,,,51,,,,,,,,29.16,,imperial,,,8.7
+2023-02-03 15:14:29,Capstone_tobi,Denver,,1.21,36.0,6.66,Scattered,Scattered clouds,,,,,,,,,2023-02-03 15:14:29,Scattered clouds,,,,36,,,,,,,,34.18,,imperial,,,14.9
+2023-02-04 15:14:29,Capstone_tobi,Denver,,0.64,70.0,5.77,Few,Few clouds,,,,,,,,,2023-02-04 15:14:29,Few clouds,,,,70,,,,,,,,33.16,,imperial,,,12.9
+2023-02-05 15:14:29,Capstone_tobi,Denver,,-6.29,61.0,7.91,Clear,Clear sky,,,,,,,,,2023-02-05 15:14:29,Clear sky,,,,61,,,,,,,,20.67,,imperial,,,17.7
+2023-02-06 15:14:29,Capstone_tobi,Denver,,-7.44,63.0,3.26,Thunderstorm,Thunderstorm,,,,,,,,,2023-02-06 15:14:29,Thunderstorm,,,,63,,,,,,,,18.6,,imperial,,,7.3
+2023-02-07 15:14:29,Capstone_tobi,Denver,,5.83,48.0,8.67,Scattered,Scattered clouds,,,,,,,,,2023-02-07 15:14:29,Scattered clouds,,,,48,,,,,,,,42.49,,imperial,,,19.4
+2023-02-08 15:14:29,Capstone_tobi,Denver,,-4.45,60.0,0.8,Light,Light rain,,,,,,,,,2023-02-08 15:14:29,Light rain,,,,60,,,,,,,,23.99,,imperial,,,1.8
+2023-02-09 15:14:29,Capstone_tobi,Denver,,-4.46,44.0,0.72,Overcast,Overcast clouds,,,,,,,,,2023-02-09 15:14:29,Overcast clouds,,,,44,,,,,,,,23.97,,imperial,,,1.6
+2023-02-10 15:14:29,Capstone_tobi,Denver,,-6.28,63.0,5.95,Light,Light rain,,,,,,,,,2023-02-10 15:14:29,Light rain,,,,63,,,,,,,,20.69,,imperial,,,13.3
+2023-02-11 15:14:29,Capstone_tobi,Denver,,1.66,69.0,0.54,Light,Light rain,,,,,,,,,2023-02-11 15:14:29,Light rain,,,,69,,,,,,,,34.99,,imperial,,,1.2
+2023-02-12 15:14:29,Capstone_tobi,Denver,,-1.32,46.0,3.31,Few,Few clouds,,,,,,,,,2023-02-12 15:14:29,Few clouds,,,,46,,,,,,,,29.62,,imperial,,,7.4
+2023-02-13 15:14:29,Capstone_tobi,Denver,,0.08,64.0,2.77,Snow,Snow,,,,,,,,,2023-02-13 15:14:29,Snow,,,,64,,,,,,,,32.14,,imperial,,,6.2
+2023-02-14 15:14:29,Capstone_tobi,Denver,,1.04,58.0,4.25,Snow,Snow,,,,,,,,,2023-02-14 15:14:29,Snow,,,,58,,,,,,,,33.88,,imperial,,,9.5
+2023-02-15 15:14:29,Capstone_tobi,Denver,,-2.12,46.0,2.95,Overcast,Overcast clouds,,,,,,,,,2023-02-15 15:14:29,Overcast clouds,,,,46,,,,,,,,28.18,,imperial,,,6.6
+2023-02-16 15:14:29,Capstone_tobi,Denver,,-3.98,50.0,5.95,Clear,Clear sky,,,,,,,,,2023-02-16 15:14:29,Clear sky,,,,50,,,,,,,,24.84,,imperial,,,13.3
+2023-02-17 15:14:29,Capstone_tobi,Denver,,-1.17,62.0,6.39,Few,Few clouds,,,,,,,,,2023-02-17 15:14:29,Few clouds,,,,62,,,,,,,,29.89,,imperial,,,14.3
+2023-02-18 15:14:29,Capstone_tobi,Denver,,-0.05,46.0,7.55,Few,Few clouds,,,,,,,,,2023-02-18 15:14:29,Few clouds,,,,46,,,,,,,,31.91,,imperial,,,16.9
+2023-02-19 15:14:29,Capstone_tobi,Denver,,-2.64,48.0,2.24,Scattered,Scattered clouds,,,,,,,,,2023-02-19 15:14:29,Scattered clouds,,,,48,,,,,,,,27.25,,imperial,,,5.0
+2023-02-20 15:14:29,Capstone_tobi,Denver,,-4.86,52.0,2.1,Rain,Rain,,,,,,,,,2023-02-20 15:14:29,Rain,,,,52,,,,,,,,23.25,,imperial,,,4.7
+2023-02-21 15:14:29,Capstone_tobi,Denver,,-12.78,77.0,4.43,Clear,Clear sky,,,,,,,,,2023-02-21 15:14:29,Clear sky,,,,77,,,,,,,,8.99,,imperial,,,9.9
+2023-02-22 15:14:29,Capstone_tobi,Denver,,-1.39,49.0,5.81,Clear,Clear sky,,,,,,,,,2023-02-22 15:14:29,Clear sky,,,,49,,,,,,,,29.5,,imperial,,,13.0
+2023-02-23 15:14:29,Capstone_tobi,Denver,,-9.74,63.0,2.73,Clear,Clear sky,,,,,,,,,2023-02-23 15:14:29,Clear sky,,,,63,,,,,,,,14.47,,imperial,,,6.1
+2023-02-24 15:14:29,Capstone_tobi,Denver,,-0.45,56.0,5.41,Clear,Clear sky,,,,,,,,,2023-02-24 15:14:29,Clear sky,,,,56,,,,,,,,31.19,,imperial,,,12.1
+2023-02-25 15:14:29,Capstone_tobi,Denver,,-2.07,39.0,1.03,Light,Light rain,,,,,,,,,2023-02-25 15:14:29,Light rain,,,,39,,,,,,,,28.27,,imperial,,,2.3
+2023-02-26 15:14:29,Capstone_tobi,Denver,,-7.42,85.0,2.86,Few,Few clouds,,,,,,,,,2023-02-26 15:14:29,Few clouds,,,,85,,,,,,,,18.65,,imperial,,,6.4
+2023-02-27 15:14:29,Capstone_tobi,Denver,,-5.59,71.0,4.83,Few,Few clouds,,,,,,,,,2023-02-27 15:14:29,Few clouds,,,,71,,,,,,,,21.93,,imperial,,,10.8
+2023-02-28 15:14:29,Capstone_tobi,Denver,,-0.41,39.0,6.62,Clear,Clear sky,,,,,,,,,2023-02-28 15:14:29,Clear sky,,,,39,,,,,,,,31.26,,imperial,,,14.8
+2023-03-01 15:14:29,Capstone_tobi,Denver,,0.28,55.0,2.86,Few,Few clouds,,,,,,,,,2023-03-01 15:14:29,Few clouds,,,,55,,,,,,,,32.51,,imperial,,,6.4
+2023-03-02 15:14:29,Capstone_tobi,Denver,,-5.53,56.0,5.01,Clear,Clear sky,,,,,,,,,2023-03-02 15:14:29,Clear sky,,,,56,,,,,,,,22.04,,imperial,,,11.2
+2023-03-03 15:14:29,Capstone_tobi,Denver,,-1.31,32.0,2.01,Few,Few clouds,,,,,,,,,2023-03-03 15:14:29,Few clouds,,,,32,,,,,,,,29.65,,imperial,,,4.5
+2023-03-04 15:14:29,Capstone_tobi,Denver,,-12.47,52.0,5.72,Clear,Clear sky,,,,,,,,,2023-03-04 15:14:29,Clear sky,,,,52,,,,,,,,9.56,,imperial,,,12.8
+2023-03-05 15:14:29,Capstone_tobi,Denver,,-1.36,61.0,5.36,Few,Few clouds,,,,,,,,,2023-03-05 15:14:29,Few clouds,,,,61,,,,,,,,29.56,,imperial,,,12.0
+2023-03-06 15:14:29,Capstone_tobi,Denver,,-13.59,67.0,2.32,Scattered,Scattered clouds,,,,,,,,,2023-03-06 15:14:29,Scattered clouds,,,,67,,,,,,,,7.53,,imperial,,,5.2
+2023-03-07 15:14:29,Capstone_tobi,Denver,,0.18,68.0,4.38,Rain,Rain,,,,,,,,,2023-03-07 15:14:29,Rain,,,,68,,,,,,,,32.33,,imperial,,,9.8
+2023-03-08 15:14:29,Capstone_tobi,Denver,,-11.26,48.0,5.9,Light,Light rain,,,,,,,,,2023-03-08 15:14:29,Light rain,,,,48,,,,,,,,11.74,,imperial,,,13.2
+2023-03-09 15:14:29,Capstone_tobi,Denver,,-6.95,23.0,3.44,Scattered,Scattered clouds,,,,,,,,,2023-03-09 15:14:29,Scattered clouds,,,,23,,,,,,,,19.49,,imperial,,,7.7
+2023-03-10 15:14:29,Capstone_tobi,Denver,,-13.87,62.0,3.04,Overcast,Overcast clouds,,,,,,,,,2023-03-10 15:14:29,Overcast clouds,,,,62,,,,,,,,7.03,,imperial,,,6.8
+2023-03-11 15:14:29,Capstone_tobi,Denver,,-5.99,60.0,5.9,Scattered,Scattered clouds,,,,,,,,,2023-03-11 15:14:29,Scattered clouds,,,,60,,,,,,,,21.21,,imperial,,,13.2
+2023-03-12 15:14:29,Capstone_tobi,Denver,,-6.44,27.0,0.45,Clear,Clear sky,,,,,,,,,2023-03-12 15:14:29,Clear sky,,,,27,,,,,,,,20.4,,imperial,,,1.0
+2023-03-13 15:14:29,Capstone_tobi,Denver,,-8.43,62.0,2.37,Overcast,Overcast clouds,,,,,,,,,2023-03-13 15:14:29,Overcast clouds,,,,62,,,,,,,,16.82,,imperial,,,5.3
+2023-03-14 15:14:29,Capstone_tobi,Denver,,-4.96,72.0,4.16,Few,Few clouds,,,,,,,,,2023-03-14 15:14:29,Few clouds,,,,72,,,,,,,,23.08,,imperial,,,9.3
+2023-03-15 15:14:29,Capstone_tobi,Denver,,-10.5,40.0,3.04,Few,Few clouds,,,,,,,,,2023-03-15 15:14:29,Few clouds,,,,40,,,,,,,,13.1,,imperial,,,6.8
+2023-03-16 15:14:29,Capstone_tobi,Denver,,-4.67,39.0,4.43,Few,Few clouds,,,,,,,,,2023-03-16 15:14:29,Few clouds,,,,39,,,,,,,,23.59,,imperial,,,9.9
+2023-03-17 15:14:29,Capstone_tobi,Denver,,-1.25,25.0,3.58,Snow,Snow,,,,,,,,,2023-03-17 15:14:29,Snow,,,,25,,,,,,,,29.75,,imperial,,,8.0
+2023-03-18 15:14:29,Capstone_tobi,Denver,,-3.01,63.0,1.79,Few,Few clouds,,,,,,,,,2023-03-18 15:14:29,Few clouds,,,,63,,,,,,,,26.58,,imperial,,,4.0
+2023-03-19 15:14:29,Capstone_tobi,Denver,,-7.23,69.0,5.86,Clear,Clear sky,,,,,,,,,2023-03-19 15:14:29,Clear sky,,,,69,,,,,,,,18.99,,imperial,,,13.1
+2023-03-20 15:14:29,Capstone_tobi,Denver,,-7.7,55.0,6.84,Light,Light rain,,,,,,,,,2023-03-20 15:14:29,Light rain,,,,55,,,,,,,,18.14,,imperial,,,15.3
+2023-03-21 15:14:29,Capstone_tobi,Denver,,-3.69,64.0,3.71,Thunderstorm,Thunderstorm,,,,,,,,,2023-03-21 15:14:29,Thunderstorm,,,,64,,,,,,,,25.35,,imperial,,,8.3
+2023-03-22 15:14:29,Capstone_tobi,Denver,,-4.23,56.0,4.6,Overcast,Overcast clouds,,,,,,,,,2023-03-22 15:14:29,Overcast clouds,,,,56,,,,,,,,24.39,,imperial,,,10.3
+2023-03-23 15:14:29,Capstone_tobi,Denver,,-9.2,31.0,4.65,Snow,Snow,,,,,,,,,2023-03-23 15:14:29,Snow,,,,31,,,,,,,,15.44,,imperial,,,10.4
+2023-03-24 15:14:29,Capstone_tobi,Denver,,-6.39,48.0,1.74,Few,Few clouds,,,,,,,,,2023-03-24 15:14:29,Few clouds,,,,48,,,,,,,,20.49,,imperial,,,3.9
+2023-03-25 15:14:29,Capstone_tobi,Denver,,-10.73,51.0,7.47,Overcast,Overcast clouds,,,,,,,,,2023-03-25 15:14:29,Overcast clouds,,,,51,,,,,,,,12.69,,imperial,,,16.7
+2023-03-26 15:14:29,Capstone_tobi,Denver,,-8.18,78.0,4.74,Clear,Clear sky,,,,,,,,,2023-03-26 15:14:29,Clear sky,,,,78,,,,,,,,17.27,,imperial,,,10.6
+2023-03-27 15:14:29,Capstone_tobi,Denver,,-7.56,32.0,6.66,Few,Few clouds,,,,,,,,,2023-03-27 15:14:29,Few clouds,,,,32,,,,,,,,18.39,,imperial,,,14.9
+2023-03-28 15:14:29,Capstone_tobi,Denver,,-3.58,51.0,6.08,Overcast,Overcast clouds,,,,,,,,,2023-03-28 15:14:29,Overcast clouds,,,,51,,,,,,,,25.56,,imperial,,,13.6
+2023-03-29 15:14:29,Capstone_tobi,Denver,,-4.62,64.0,5.28,Clear,Clear sky,,,,,,,,,2023-03-29 15:14:29,Clear sky,,,,64,,,,,,,,23.68,,imperial,,,11.8
+2023-03-30 15:14:29,Capstone_tobi,Denver,,-13.15,74.0,5.28,Light,Light rain,,,,,,,,,2023-03-30 15:14:29,Light rain,,,,74,,,,,,,,8.33,,imperial,,,11.8
+2023-03-31 15:14:29,Capstone_tobi,Denver,,-2.96,54.0,1.65,Few,Few clouds,,,,,,,,,2023-03-31 15:14:29,Few clouds,,,,54,,,,,,,,26.67,,imperial,,,3.7
+2023-04-01 15:14:29,Capstone_tobi,Denver,,1.61,38.0,0.49,Clear,Clear sky,,,,,,,,,2023-04-01 15:14:29,Clear sky,,,,38,,,,,,,,34.9,,imperial,,,1.1
+2023-04-02 15:14:29,Capstone_tobi,Denver,,-10.74,66.0,5.59,Scattered,Scattered clouds,,,,,,,,,2023-04-02 15:14:29,Scattered clouds,,,,66,,,,,,,,12.67,,imperial,,,12.5
+2023-04-03 15:14:29,Capstone_tobi,Denver,,-14.64,75.0,5.36,Overcast,Overcast clouds,,,,,,,,,2023-04-03 15:14:29,Overcast clouds,,,,75,,,,,,,,5.65,,imperial,,,12.0
+2023-04-04 15:14:29,Capstone_tobi,Denver,,-15.48,81.0,3.71,Few,Few clouds,,,,,,,,,2023-04-04 15:14:29,Few clouds,,,,81,,,,,,,,4.14,,imperial,,,8.3
+2023-04-05 15:14:29,Capstone_tobi,Denver,,-6.74,43.0,4.07,Clear,Clear sky,,,,,,,,,2023-04-05 15:14:29,Clear sky,,,,43,,,,,,,,19.86,,imperial,,,9.1
+2023-04-06 15:14:29,Capstone_tobi,Denver,,-5.28,71.0,3.71,Few,Few clouds,,,,,,,,,2023-04-06 15:14:29,Few clouds,,,,71,,,,,,,,22.49,,imperial,,,8.3
+2023-04-07 15:14:29,Capstone_tobi,Denver,,-5.33,48.0,3.13,Scattered,Scattered clouds,,,,,,,,,2023-04-07 15:14:29,Scattered clouds,,,,48,,,,,,,,22.4,,imperial,,,7.0
+2023-04-08 15:14:29,Capstone_tobi,Denver,,-1.29,61.0,7.2,Clear,Clear sky,,,,,,,,,2023-04-08 15:14:29,Clear sky,,,,61,,,,,,,,29.67,,imperial,,,16.1
+2023-04-09 15:14:29,Capstone_tobi,Denver,,-6.93,54.0,3.76,Few,Few clouds,,,,,,,,,2023-04-09 15:14:29,Few clouds,,,,54,,,,,,,,19.53,,imperial,,,8.4
+2023-04-10 15:14:29,Capstone_tobi,Denver,,-14.68,55.0,4.83,Clear,Clear sky,,,,,,,,,2023-04-10 15:14:29,Clear sky,,,,55,,,,,,,,5.57,,imperial,,,10.8
+2023-04-11 15:14:29,Capstone_tobi,Denver,,-5.89,47.0,2.5,Few,Few clouds,,,,,,,,,2023-04-11 15:14:29,Few clouds,,,,47,,,,,,,,21.39,,imperial,,,5.6
+2023-04-12 15:14:29,Capstone_tobi,Denver,,-6.18,50.0,3.26,Few,Few clouds,,,,,,,,,2023-04-12 15:14:29,Few clouds,,,,50,,,,,,,,20.87,,imperial,,,7.3
+2023-04-13 15:14:29,Capstone_tobi,Denver,,-3.87,78.0,2.59,Few,Few clouds,,,,,,,,,2023-04-13 15:14:29,Few clouds,,,,78,,,,,,,,25.03,,imperial,,,5.8
+2023-04-14 15:14:29,Capstone_tobi,Denver,,-1.43,24.0,3.49,Clear,Clear sky,,,,,,,,,2023-04-14 15:14:29,Clear sky,,,,24,,,,,,,,29.42,,imperial,,,7.8
+2023-04-15 15:14:29,Capstone_tobi,Denver,,-2.86,82.0,3.93,Few,Few clouds,,,,,,,,,2023-04-15 15:14:29,Few clouds,,,,82,,,,,,,,26.85,,imperial,,,8.8
+2023-04-16 15:14:29,Capstone_tobi,Denver,,-10.09,38.0,3.08,Few,Few clouds,,,,,,,,,2023-04-16 15:14:29,Few clouds,,,,38,,,,,,,,13.83,,imperial,,,6.9
+2023-04-17 15:14:29,Capstone_tobi,Denver,,-0.34,58.0,7.11,Clear,Clear sky,,,,,,,,,2023-04-17 15:14:29,Clear sky,,,,58,,,,,,,,31.38,,imperial,,,15.9
+2023-04-18 15:14:29,Capstone_tobi,Denver,,-4.78,48.0,4.6,Clear,Clear sky,,,,,,,,,2023-04-18 15:14:29,Clear sky,,,,48,,,,,,,,23.39,,imperial,,,10.3
+2023-04-19 15:14:29,Capstone_tobi,Denver,,-11.46,44.0,2.91,Few,Few clouds,,,,,,,,,2023-04-19 15:14:29,Few clouds,,,,44,,,,,,,,11.38,,imperial,,,6.5
+2023-04-20 15:14:29,Capstone_tobi,Denver,,-5.35,38.0,6.3,Clear,Clear sky,,,,,,,,,2023-04-20 15:14:29,Clear sky,,,,38,,,,,,,,22.37,,imperial,,,14.1
+2023-04-21 15:14:29,Capstone_tobi,Denver,,-6.33,75.0,4.2,Overcast,Overcast clouds,,,,,,,,,2023-04-21 15:14:29,Overcast clouds,,,,75,,,,,,,,20.61,,imperial,,,9.4
+2023-04-22 15:14:29,Capstone_tobi,Denver,,-4.84,66.0,3.04,Scattered,Scattered clouds,,,,,,,,,2023-04-22 15:14:29,Scattered clouds,,,,66,,,,,,,,23.29,,imperial,,,6.8
+2023-04-23 15:14:29,Capstone_tobi,Denver,,-12.79,35.0,4.56,Rain,Rain,,,,,,,,,2023-04-23 15:14:29,Rain,,,,35,,,,,,,,8.97,,imperial,,,10.2
+2023-04-24 15:14:29,Capstone_tobi,Denver,,-1.32,45.0,1.43,Clear,Clear sky,,,,,,,,,2023-04-24 15:14:29,Clear sky,,,,45,,,,,,,,29.63,,imperial,,,3.2
+2023-04-25 15:14:29,Capstone_tobi,Denver,,-3.09,47.0,3.13,Scattered,Scattered clouds,,,,,,,,,2023-04-25 15:14:29,Scattered clouds,,,,47,,,,,,,,26.44,,imperial,,,7.0
+2023-04-26 15:14:29,Capstone_tobi,Denver,,3.53,27.0,5.95,Overcast,Overcast clouds,,,,,,,,,2023-04-26 15:14:29,Overcast clouds,,,,27,,,,,,,,38.35,,imperial,,,13.3
+2023-04-27 15:14:29,Capstone_tobi,Denver,,-7.42,68.0,5.68,Rain,Rain,,,,,,,,,2023-04-27 15:14:29,Rain,,,,68,,,,,,,,18.64,,imperial,,,12.7
+2023-04-28 15:14:29,Capstone_tobi,Denver,,-2.45,34.0,1.83,Clear,Clear sky,,,,,,,,,2023-04-28 15:14:29,Clear sky,,,,34,,,,,,,,27.59,,imperial,,,4.1
+2023-04-29 15:14:29,Capstone_tobi,Denver,,-4.13,50.0,3.4,Overcast,Overcast clouds,,,,,,,,,2023-04-29 15:14:29,Overcast clouds,,,,50,,,,,,,,24.56,,imperial,,,7.6
+2023-04-30 15:14:29,Capstone_tobi,Denver,,-4.17,67.0,2.28,Overcast,Overcast clouds,,,,,,,,,2023-04-30 15:14:29,Overcast clouds,,,,67,,,,,,,,24.5,,imperial,,,5.1
+2023-05-01 15:14:29,Capstone_tobi,Denver,,-5.68,48.0,2.19,Scattered,Scattered clouds,,,,,,,,,2023-05-01 15:14:29,Scattered clouds,,,,48,,,,,,,,21.77,,imperial,,,4.9
+2023-05-02 15:14:29,Capstone_tobi,Denver,,-0.62,61.0,4.29,Clear,Clear sky,,,,,,,,,2023-05-02 15:14:29,Clear sky,,,,61,,,,,,,,30.89,,imperial,,,9.6
+2023-05-03 15:14:29,Capstone_tobi,Denver,,3.18,47.0,2.5,Clear,Clear sky,,,,,,,,,2023-05-03 15:14:29,Clear sky,,,,47,,,,,,,,37.73,,imperial,,,5.6
+2023-05-04 15:14:29,Capstone_tobi,Denver,,4.31,55.0,2.64,Light,Light rain,,,,,,,,,2023-05-04 15:14:29,Light rain,,,,55,,,,,,,,39.76,,imperial,,,5.9
+2023-05-05 15:14:29,Capstone_tobi,Denver,,-4.72,79.0,2.32,Scattered,Scattered clouds,,,,,,,,,2023-05-05 15:14:29,Scattered clouds,,,,79,,,,,,,,23.51,,imperial,,,5.2
+2023-05-06 15:14:29,Capstone_tobi,Denver,,-9.48,22.0,2.28,Few,Few clouds,,,,,,,,,2023-05-06 15:14:29,Few clouds,,,,22,,,,,,,,14.93,,imperial,,,5.1
+2023-05-07 15:14:29,Capstone_tobi,Denver,,-5.68,54.0,1.97,Clear,Clear sky,,,,,,,,,2023-05-07 15:14:29,Clear sky,,,,54,,,,,,,,21.78,,imperial,,,4.4
+2023-05-08 15:14:29,Capstone_tobi,Denver,,3.68,66.0,2.19,Scattered,Scattered clouds,,,,,,,,,2023-05-08 15:14:29,Scattered clouds,,,,66,,,,,,,,38.63,,imperial,,,4.9
+2023-05-09 15:14:29,Capstone_tobi,Denver,,0.69,55.0,2.82,Clear,Clear sky,,,,,,,,,2023-05-09 15:14:29,Clear sky,,,,55,,,,,,,,33.24,,imperial,,,6.3
+2023-05-10 15:14:29,Capstone_tobi,Denver,,-0.31,74.0,0.98,Clear,Clear sky,,,,,,,,,2023-05-10 15:14:29,Clear sky,,,,74,,,,,,,,31.45,,imperial,,,2.2
+2023-05-11 15:14:29,Capstone_tobi,Denver,,-5.09,67.0,5.5,Overcast,Overcast clouds,,,,,,,,,2023-05-11 15:14:29,Overcast clouds,,,,67,,,,,,,,22.84,,imperial,,,12.3
+2023-05-12 15:14:29,Capstone_tobi,Denver,,0.82,76.0,3.22,Scattered,Scattered clouds,,,,,,,,,2023-05-12 15:14:29,Scattered clouds,,,,76,,,,,,,,33.48,,imperial,,,7.2
+2023-05-13 15:14:29,Capstone_tobi,Denver,,-2.6,48.0,3.53,Scattered,Scattered clouds,,,,,,,,,2023-05-13 15:14:29,Scattered clouds,,,,48,,,,,,,,27.32,,imperial,,,7.9
+2023-05-14 15:14:29,Capstone_tobi,Denver,,2.83,47.0,2.95,Light,Light rain,,,,,,,,,2023-05-14 15:14:29,Light rain,,,,47,,,,,,,,37.09,,imperial,,,6.6
+2023-05-15 15:14:29,Capstone_tobi,Denver,,-5.47,58.0,3.67,Clear,Clear sky,,,,,,,,,2023-05-15 15:14:29,Clear sky,,,,58,,,,,,,,22.16,,imperial,,,8.2
+2023-05-16 15:14:29,Capstone_tobi,Denver,,-0.96,50.0,2.82,Light,Light rain,,,,,,,,,2023-05-16 15:14:29,Light rain,,,,50,,,,,,,,30.27,,imperial,,,6.3
+2023-05-17 15:14:29,Capstone_tobi,Denver,,-1.15,76.0,2.5,Scattered,Scattered clouds,,,,,,,,,2023-05-17 15:14:29,Scattered clouds,,,,76,,,,,,,,29.93,,imperial,,,5.6
+2023-05-18 15:14:29,Capstone_tobi,Denver,,0.37,71.0,3.62,Clear,Clear sky,,,,,,,,,2023-05-18 15:14:29,Clear sky,,,,71,,,,,,,,32.67,,imperial,,,8.1
+2023-05-19 15:14:29,Capstone_tobi,Denver,,-0.18,24.0,2.15,Snow,Snow,,,,,,,,,2023-05-19 15:14:29,Snow,,,,24,,,,,,,,31.67,,imperial,,,4.8
+2023-05-20 15:14:29,Capstone_tobi,Denver,,4.22,60.0,2.24,Clear,Clear sky,,,,,,,,,2023-05-20 15:14:29,Clear sky,,,,60,,,,,,,,39.6,,imperial,,,5.0
+2023-05-21 15:14:29,Capstone_tobi,Denver,,-1.76,53.0,3.04,Light,Light rain,,,,,,,,,2023-05-21 15:14:29,Light rain,,,,53,,,,,,,,28.84,,imperial,,,6.8
+2023-05-22 15:14:29,Capstone_tobi,Denver,,3.02,58.0,0.18,Scattered,Scattered clouds,,,,,,,,,2023-05-22 15:14:29,Scattered clouds,,,,58,,,,,,,,37.43,,imperial,,,0.4
+2023-05-23 15:14:29,Capstone_tobi,Denver,,-9.14,35.0,2.91,Scattered,Scattered clouds,,,,,,,,,2023-05-23 15:14:29,Scattered clouds,,,,35,,,,,,,,15.55,,imperial,,,6.5
+2023-05-24 15:14:29,Capstone_tobi,Denver,,1.77,58.0,2.24,Clear,Clear sky,,,,,,,,,2023-05-24 15:14:29,Clear sky,,,,58,,,,,,,,35.19,,imperial,,,5.0
+2023-05-25 15:14:29,Capstone_tobi,Denver,,0.29,41.0,3.4,Clear,Clear sky,,,,,,,,,2023-05-25 15:14:29,Clear sky,,,,41,,,,,,,,32.52,,imperial,,,7.6
+2023-05-26 15:14:29,Capstone_tobi,Denver,,1.49,62.0,5.77,Scattered,Scattered clouds,,,,,,,,,2023-05-26 15:14:29,Scattered clouds,,,,62,,,,,,,,34.69,,imperial,,,12.9
+2023-05-27 15:14:29,Capstone_tobi,Denver,,-1.18,67.0,7.15,Rain,Rain,,,,,,,,,2023-05-27 15:14:29,Rain,,,,67,,,,,,,,29.87,,imperial,,,16.0
+2023-05-28 15:14:29,Capstone_tobi,Denver,,2.13,41.0,3.4,Overcast,Overcast clouds,,,,,,,,,2023-05-28 15:14:29,Overcast clouds,,,,41,,,,,,,,35.83,,imperial,,,7.6
+2023-05-29 15:14:29,Capstone_tobi,Denver,,5.14,67.0,5.54,Few,Few clouds,,,,,,,,,2023-05-29 15:14:29,Few clouds,,,,67,,,,,,,,41.25,,imperial,,,12.4
+2023-05-30 15:14:29,Capstone_tobi,Denver,,6.25,44.0,2.95,Snow,Snow,,,,,,,,,2023-05-30 15:14:29,Snow,,,,44,,,,,,,,43.25,,imperial,,,6.6
+2023-05-31 15:14:29,Capstone_tobi,Denver,,3.93,40.0,3.89,Clear,Clear sky,,,,,,,,,2023-05-31 15:14:29,Clear sky,,,,40,,,,,,,,39.07,,imperial,,,8.7
+2023-06-01 15:14:29,Capstone_tobi,Denver,,6.74,57.0,2.15,Few,Few clouds,,,,,,,,,2023-06-01 15:14:29,Few clouds,,,,57,,,,,,,,44.14,,imperial,,,4.8
+2023-06-02 15:14:29,Capstone_tobi,Denver,,8.88,90.0,3.98,Light,Light rain,,,,,,,,,2023-06-02 15:14:29,Light rain,,,,90,,,,,,,,47.99,,imperial,,,8.9
+2023-06-03 15:14:29,Capstone_tobi,Denver,,9.01,47.0,3.04,Few,Few clouds,,,,,,,,,2023-06-03 15:14:29,Few clouds,,,,47,,,,,,,,48.21,,imperial,,,6.8
+2023-06-04 15:14:29,Capstone_tobi,Denver,,2.1,61.0,3.31,Overcast,Overcast clouds,,,,,,,,,2023-06-04 15:14:29,Overcast clouds,,,,61,,,,,,,,35.78,,imperial,,,7.4
+2023-06-05 15:14:29,Capstone_tobi,Denver,,5.24,67.0,6.21,Few,Few clouds,,,,,,,,,2023-06-05 15:14:29,Few clouds,,,,67,,,,,,,,41.44,,imperial,,,13.9
+2023-06-06 15:14:29,Capstone_tobi,Denver,,6.44,72.0,7.55,Scattered,Scattered clouds,,,,,,,,,2023-06-06 15:14:29,Scattered clouds,,,,72,,,,,,,,43.59,,imperial,,,16.9
+2023-06-07 15:14:29,Capstone_tobi,Denver,,4.34,53.0,6.93,Clear,Clear sky,,,,,,,,,2023-06-07 15:14:29,Clear sky,,,,53,,,,,,,,39.82,,imperial,,,15.5
+2023-06-08 15:14:29,Capstone_tobi,Denver,,6.89,49.0,6.66,Scattered,Scattered clouds,,,,,,,,,2023-06-08 15:14:29,Scattered clouds,,,,49,,,,,,,,44.4,,imperial,,,14.9
+2023-06-09 15:14:29,Capstone_tobi,Denver,,4.22,66.0,0.72,Rain,Rain,,,,,,,,,2023-06-09 15:14:29,Rain,,,,66,,,,,,,,39.59,,imperial,,,1.6
+2023-06-10 15:14:29,Capstone_tobi,Denver,,6.44,44.0,3.62,Few,Few clouds,,,,,,,,,2023-06-10 15:14:29,Few clouds,,,,44,,,,,,,,43.59,,imperial,,,8.1
+2023-06-11 15:14:29,Capstone_tobi,Denver,,11.52,60.0,2.37,Few,Few clouds,,,,,,,,,2023-06-11 15:14:29,Few clouds,,,,60,,,,,,,,52.74,,imperial,,,5.3
+2023-06-12 15:14:29,Capstone_tobi,Denver,,2.61,74.0,6.48,Rain,Rain,,,,,,,,,2023-06-12 15:14:29,Rain,,,,74,,,,,,,,36.69,,imperial,,,14.5
+2023-06-13 15:14:29,Capstone_tobi,Denver,,3.68,65.0,5.41,Few,Few clouds,,,,,,,,,2023-06-13 15:14:29,Few clouds,,,,65,,,,,,,,38.62,,imperial,,,12.1
+2023-06-14 15:14:29,Capstone_tobi,Denver,,8.73,48.0,4.6,Rain,Rain,,,,,,,,,2023-06-14 15:14:29,Rain,,,,48,,,,,,,,47.72,,imperial,,,10.3
+2023-06-15 15:14:29,Capstone_tobi,Denver,,9.0,51.0,6.97,Clear,Clear sky,,,,,,,,,2023-06-15 15:14:29,Clear sky,,,,51,,,,,,,,48.2,,imperial,,,15.6
+2023-06-16 15:14:29,Capstone_tobi,Denver,,3.27,66.0,2.86,Scattered,Scattered clouds,,,,,,,,,2023-06-16 15:14:29,Scattered clouds,,,,66,,,,,,,,37.89,,imperial,,,6.4
+2023-06-17 15:14:29,Capstone_tobi,Denver,,11.02,49.0,6.35,Clear,Clear sky,,,,,,,,,2023-06-17 15:14:29,Clear sky,,,,49,,,,,,,,51.83,,imperial,,,14.2
+2023-06-18 15:14:29,Capstone_tobi,Denver,,7.89,68.0,5.23,Few,Few clouds,,,,,,,,,2023-06-18 15:14:29,Few clouds,,,,68,,,,,,,,46.21,,imperial,,,11.7
+2023-06-19 15:14:29,Capstone_tobi,Denver,,5.3,30.0,2.64,Overcast,Overcast clouds,,,,,,,,,2023-06-19 15:14:29,Overcast clouds,,,,30,,,,,,,,41.54,,imperial,,,5.9
+2023-06-20 15:14:29,Capstone_tobi,Denver,,12.67,43.0,2.82,Rain,Rain,,,,,,,,,2023-06-20 15:14:29,Rain,,,,43,,,,,,,,54.8,,imperial,,,6.3
+2023-06-21 15:14:29,Capstone_tobi,Denver,,11.45,55.0,3.98,Few,Few clouds,,,,,,,,,2023-06-21 15:14:29,Few clouds,,,,55,,,,,,,,52.61,,imperial,,,8.9
+2023-06-22 15:14:29,Capstone_tobi,Denver,,12.56,58.0,4.34,Clear,Clear sky,,,,,,,,,2023-06-22 15:14:29,Clear sky,,,,58,,,,,,,,54.61,,imperial,,,9.7
+2023-06-23 15:14:29,Capstone_tobi,Denver,,3.57,59.0,3.67,Clear,Clear sky,,,,,,,,,2023-06-23 15:14:29,Clear sky,,,,59,,,,,,,,38.42,,imperial,,,8.2
+2023-06-24 15:14:29,Capstone_tobi,Denver,,12.81,60.0,2.86,Light,Light rain,,,,,,,,,2023-06-24 15:14:29,Light rain,,,,60,,,,,,,,55.05,,imperial,,,6.4
+2023-06-25 15:14:29,Capstone_tobi,Denver,,10.48,60.0,2.37,Clear,Clear sky,,,,,,,,,2023-06-25 15:14:29,Clear sky,,,,60,,,,,,,,50.86,,imperial,,,5.3
+2023-06-26 15:14:29,Capstone_tobi,Denver,,9.18,65.0,0.31,Clear,Clear sky,,,,,,,,,2023-06-26 15:14:29,Clear sky,,,,65,,,,,,,,48.52,,imperial,,,0.7
+2023-06-27 15:14:29,Capstone_tobi,Denver,,12.22,53.0,3.0,Snow,Snow,,,,,,,,,2023-06-27 15:14:29,Snow,,,,53,,,,,,,,53.99,,imperial,,,6.7
+2023-06-28 15:14:29,Capstone_tobi,Denver,,12.32,57.0,6.66,Clear,Clear sky,,,,,,,,,2023-06-28 15:14:29,Clear sky,,,,57,,,,,,,,54.17,,imperial,,,14.9
+2023-06-29 15:14:29,Capstone_tobi,Denver,,8.06,61.0,2.37,Clear,Clear sky,,,,,,,,,2023-06-29 15:14:29,Clear sky,,,,61,,,,,,,,46.51,,imperial,,,5.3
+2023-06-30 15:14:29,Capstone_tobi,Denver,,8.67,58.0,3.0,Rain,Rain,,,,,,,,,2023-06-30 15:14:29,Rain,,,,58,,,,,,,,47.61,,imperial,,,6.7
+2023-07-01 15:14:29,Capstone_tobi,Denver,,10.01,46.0,6.44,Clear,Clear sky,,,,,,,,,2023-07-01 15:14:29,Clear sky,,,,46,,,,,,,,50.01,,imperial,,,14.4
+2023-07-02 15:14:29,Capstone_tobi,Denver,,12.8,58.0,1.07,Clear,Clear sky,,,,,,,,,2023-07-02 15:14:29,Clear sky,,,,58,,,,,,,,55.04,,imperial,,,2.4
+2023-07-03 15:14:29,Capstone_tobi,Denver,,6.98,67.0,5.45,Overcast,Overcast clouds,,,,,,,,,2023-07-03 15:14:29,Overcast clouds,,,,67,,,,,,,,44.56,,imperial,,,12.2
+2023-07-04 15:14:29,Capstone_tobi,Denver,,11.65,73.0,3.62,Thunderstorm,Thunderstorm,,,,,,,,,2023-07-04 15:14:29,Thunderstorm,,,,73,,,,,,,,52.97,,imperial,,,8.1
+2023-07-05 15:14:29,Capstone_tobi,Denver,,12.63,33.0,6.53,Overcast,Overcast clouds,,,,,,,,,2023-07-05 15:14:29,Overcast clouds,,,,33,,,,,,,,54.73,,imperial,,,14.6
+2023-07-06 15:14:29,Capstone_tobi,Denver,,21.29,50.0,4.47,Few,Few clouds,,,,,,,,,2023-07-06 15:14:29,Few clouds,,,,50,,,,,,,,70.32,,imperial,,,10.0
+2023-07-07 15:14:29,Capstone_tobi,Denver,,12.19,55.0,1.88,Scattered,Scattered clouds,,,,,,,,,2023-07-07 15:14:29,Scattered clouds,,,,55,,,,,,,,53.95,,imperial,,,4.2
+2023-07-08 15:14:29,Capstone_tobi,Denver,,13.13,48.0,4.56,Clear,Clear sky,,,,,,,,,2023-07-08 15:14:29,Clear sky,,,,48,,,,,,,,55.64,,imperial,,,10.2
+2023-07-09 15:14:29,Capstone_tobi,Denver,,12.41,38.0,2.55,Few,Few clouds,,,,,,,,,2023-07-09 15:14:29,Few clouds,,,,38,,,,,,,,54.34,,imperial,,,5.7
+2023-07-10 15:14:29,Capstone_tobi,Denver,,8.85,44.0,3.26,Few,Few clouds,,,,,,,,,2023-07-10 15:14:29,Few clouds,,,,44,,,,,,,,47.93,,imperial,,,7.3
+2023-07-11 15:14:29,Capstone_tobi,Denver,,18.09,66.0,4.69,Rain,Rain,,,,,,,,,2023-07-11 15:14:29,Rain,,,,66,,,,,,,,64.57,,imperial,,,10.5
+2023-07-12 15:14:29,Capstone_tobi,Denver,,19.18,62.0,6.57,Clear,Clear sky,,,,,,,,,2023-07-12 15:14:29,Clear sky,,,,62,,,,,,,,66.52,,imperial,,,14.7
+2023-07-13 15:14:29,Capstone_tobi,Denver,,16.99,78.0,4.74,Rain,Rain,,,,,,,,,2023-07-13 15:14:29,Rain,,,,78,,,,,,,,62.59,,imperial,,,10.6
+2023-07-14 15:14:29,Capstone_tobi,Denver,,18.4,73.0,6.84,Clear,Clear sky,,,,,,,,,2023-07-14 15:14:29,Clear sky,,,,73,,,,,,,,65.12,,imperial,,,15.3
+2023-07-15 15:14:29,Capstone_tobi,Denver,,14.11,56.0,2.91,Clear,Clear sky,,,,,,,,,2023-07-15 15:14:29,Clear sky,,,,56,,,,,,,,57.39,,imperial,,,6.5
+2023-07-16 15:14:29,Capstone_tobi,Denver,,21.47,68.0,4.2,Overcast,Overcast clouds,,,,,,,,,2023-07-16 15:14:29,Overcast clouds,,,,68,,,,,,,,70.64,,imperial,,,9.4
+2023-07-17 15:14:29,Capstone_tobi,Denver,,15.21,37.0,5.68,Clear,Clear sky,,,,,,,,,2023-07-17 15:14:29,Clear sky,,,,37,,,,,,,,59.38,,imperial,,,12.7
+2023-07-18 15:14:29,Capstone_tobi,Denver,,12.31,43.0,1.61,Snow,Snow,,,,,,,,,2023-07-18 15:14:29,Snow,,,,43,,,,,,,,54.15,,imperial,,,3.6
+2023-07-19 15:14:29,Capstone_tobi,Denver,,18.36,92.0,3.0,Overcast,Overcast clouds,,,,,,,,,2023-07-19 15:14:29,Overcast clouds,,,,92,,,,,,,,65.04,,imperial,,,6.7
+2023-07-20 15:14:29,Capstone_tobi,Denver,,18.39,33.0,1.07,Few,Few clouds,,,,,,,,,2023-07-20 15:14:29,Few clouds,,,,33,,,,,,,,65.11,,imperial,,,2.4
+2023-07-21 15:14:29,Capstone_tobi,Denver,,19.19,76.0,0.49,Clear,Clear sky,,,,,,,,,2023-07-21 15:14:29,Clear sky,,,,76,,,,,,,,66.54,,imperial,,,1.1
+2023-07-22 15:14:29,Capstone_tobi,Denver,,19.93,44.0,3.53,Clear,Clear sky,,,,,,,,,2023-07-22 15:14:29,Clear sky,,,,44,,,,,,,,67.87,,imperial,,,7.9
+2023-07-23 15:14:29,Capstone_tobi,Denver,,14.24,44.0,3.44,Few,Few clouds,,,,,,,,,2023-07-23 15:14:29,Few clouds,,,,44,,,,,,,,57.63,,imperial,,,7.7
+2023-07-24 15:14:29,Capstone_tobi,Denver,,12.74,31.0,4.78,Light,Light rain,,,,,,,,,2023-07-24 15:14:29,Light rain,,,,31,,,,,,,,54.93,,imperial,,,10.7
+2023-07-25 15:14:29,Capstone_tobi,Denver,,22.76,39.0,3.17,Few,Few clouds,,,,,,,,,2023-07-25 15:14:29,Few clouds,,,,39,,,,,,,,72.97,,imperial,,,7.1
+2023-07-26 15:14:29,Capstone_tobi,Denver,,17.97,64.0,0.67,Scattered,Scattered clouds,,,,,,,,,2023-07-26 15:14:29,Scattered clouds,,,,64,,,,,,,,64.34,,imperial,,,1.5
+2023-07-27 15:14:29,Capstone_tobi,Denver,,22.59,58.0,4.34,Snow,Snow,,,,,,,,,2023-07-27 15:14:29,Snow,,,,58,,,,,,,,72.66,,imperial,,,9.7
+2023-07-28 15:14:29,Capstone_tobi,Denver,,15.83,54.0,6.08,Light,Light rain,,,,,,,,,2023-07-28 15:14:29,Light rain,,,,54,,,,,,,,60.5,,imperial,,,13.6
+2023-07-29 15:14:29,Capstone_tobi,Denver,,12.37,49.0,2.91,Few,Few clouds,,,,,,,,,2023-07-29 15:14:29,Few clouds,,,,49,,,,,,,,54.26,,imperial,,,6.5
+2023-07-30 15:14:29,Capstone_tobi,Denver,,22.38,82.0,3.49,Rain,Rain,,,,,,,,,2023-07-30 15:14:29,Rain,,,,82,,,,,,,,72.29,,imperial,,,7.8
+2023-07-31 15:14:29,Capstone_tobi,Denver,,17.84,54.0,2.77,Scattered,Scattered clouds,,,,,,,,,2023-07-31 15:14:29,Scattered clouds,,,,54,,,,,,,,64.11,,imperial,,,6.2
+2023-08-01 15:14:29,Capstone_tobi,Denver,,20.51,52.0,7.42,Clear,Clear sky,,,,,,,,,2023-08-01 15:14:29,Clear sky,,,,52,,,,,,,,68.92,,imperial,,,16.6
+2023-08-02 15:14:29,Capstone_tobi,Denver,,20.46,49.0,3.04,Overcast,Overcast clouds,,,,,,,,,2023-08-02 15:14:29,Overcast clouds,,,,49,,,,,,,,68.82,,imperial,,,6.8
+2023-08-03 15:14:29,Capstone_tobi,Denver,,18.0,52.0,5.81,Scattered,Scattered clouds,,,,,,,,,2023-08-03 15:14:29,Scattered clouds,,,,52,,,,,,,,64.4,,imperial,,,13.0
+2023-08-04 15:14:29,Capstone_tobi,Denver,,19.84,86.0,5.14,Clear,Clear sky,,,,,,,,,2023-08-04 15:14:29,Clear sky,,,,86,,,,,,,,67.71,,imperial,,,11.5
+2023-08-05 15:14:29,Capstone_tobi,Denver,,21.76,71.0,0.13,Overcast,Overcast clouds,,,,,,,,,2023-08-05 15:14:29,Overcast clouds,,,,71,,,,,,,,71.17,,imperial,,,0.3
+2023-08-06 15:14:29,Capstone_tobi,Denver,,25.94,38.0,4.78,Rain,Rain,,,,,,,,,2023-08-06 15:14:29,Rain,,,,38,,,,,,,,78.69,,imperial,,,10.7
+2023-08-07 15:14:29,Capstone_tobi,Denver,,24.58,32.0,3.76,Few,Few clouds,,,,,,,,,2023-08-07 15:14:29,Few clouds,,,,32,,,,,,,,76.24,,imperial,,,8.4
+2023-08-08 15:14:29,Capstone_tobi,Denver,,27.03,48.0,3.98,Clear,Clear sky,,,,,,,,,2023-08-08 15:14:29,Clear sky,,,,48,,,,,,,,80.66,,imperial,,,8.9
+2023-08-09 15:14:29,Capstone_tobi,Denver,,26.1,66.0,0.31,Light,Light rain,,,,,,,,,2023-08-09 15:14:29,Light rain,,,,66,,,,,,,,78.98,,imperial,,,0.7
+2023-08-10 15:14:29,Capstone_tobi,Denver,,17.15,41.0,3.89,Clear,Clear sky,,,,,,,,,2023-08-10 15:14:29,Clear sky,,,,41,,,,,,,,62.87,,imperial,,,8.7
+2023-08-11 15:14:29,Capstone_tobi,Denver,,14.36,66.0,6.57,Clear,Clear sky,,,,,,,,,2023-08-11 15:14:29,Clear sky,,,,66,,,,,,,,57.84,,imperial,,,14.7
+2023-08-12 15:14:29,Capstone_tobi,Denver,,23.76,46.0,4.83,Thunderstorm,Thunderstorm,,,,,,,,,2023-08-12 15:14:29,Thunderstorm,,,,46,,,,,,,,74.76,,imperial,,,10.8
+2023-08-13 15:14:29,Capstone_tobi,Denver,,20.38,52.0,4.47,Few,Few clouds,,,,,,,,,2023-08-13 15:14:29,Few clouds,,,,52,,,,,,,,68.69,,imperial,,,10.0
+2023-08-14 15:14:29,Capstone_tobi,Denver,,21.89,47.0,4.96,Light,Light rain,,,,,,,,,2023-08-14 15:14:29,Light rain,,,,47,,,,,,,,71.41,,imperial,,,11.1
+2023-08-15 15:14:29,Capstone_tobi,Denver,,21.37,59.0,3.67,Few,Few clouds,,,,,,,,,2023-08-15 15:14:29,Few clouds,,,,59,,,,,,,,70.47,,imperial,,,8.2
+2023-08-16 15:14:29,Capstone_tobi,Denver,,23.53,34.0,4.38,Scattered,Scattered clouds,,,,,,,,,2023-08-16 15:14:29,Scattered clouds,,,,34,,,,,,,,74.35,,imperial,,,9.8
+2023-08-17 15:14:29,Capstone_tobi,Denver,,25.28,46.0,4.78,Light,Light rain,,,,,,,,,2023-08-17 15:14:29,Light rain,,,,46,,,,,,,,77.51,,imperial,,,10.7
+2023-08-18 15:14:29,Capstone_tobi,Denver,,30.82,68.0,5.32,Clear,Clear sky,,,,,,,,,2023-08-18 15:14:29,Clear sky,,,,68,,,,,,,,87.47,,imperial,,,11.9
+2023-08-19 15:14:29,Capstone_tobi,Denver,,21.61,62.0,5.1,Clear,Clear sky,,,,,,,,,2023-08-19 15:14:29,Clear sky,,,,62,,,,,,,,70.9,,imperial,,,11.4
+2023-08-20 15:14:29,Capstone_tobi,Denver,,26.94,50.0,5.72,Clear,Clear sky,,,,,,,,,2023-08-20 15:14:29,Clear sky,,,,50,,,,,,,,80.49,,imperial,,,12.8
+2023-08-21 15:14:29,Capstone_tobi,Denver,,29.44,38.0,7.91,Clear,Clear sky,,,,,,,,,2023-08-21 15:14:29,Clear sky,,,,38,,,,,,,,85.0,,imperial,,,17.7
+2023-08-22 15:14:29,Capstone_tobi,Denver,,20.42,80.0,2.55,Scattered,Scattered clouds,,,,,,,,,2023-08-22 15:14:29,Scattered clouds,,,,80,,,,,,,,68.75,,imperial,,,5.7
+2023-08-23 15:14:29,Capstone_tobi,Denver,,15.68,32.0,1.52,Clear,Clear sky,,,,,,,,,2023-08-23 15:14:29,Clear sky,,,,32,,,,,,,,60.23,,imperial,,,3.4
+2023-08-24 15:14:29,Capstone_tobi,Denver,,18.89,37.0,5.99,Overcast,Overcast clouds,,,,,,,,,2023-08-24 15:14:29,Overcast clouds,,,,37,,,,,,,,66.01,,imperial,,,13.4
+2023-08-25 15:14:29,Capstone_tobi,Denver,,29.09,29.0,2.59,Clear,Clear sky,,,,,,,,,2023-08-25 15:14:29,Clear sky,,,,29,,,,,,,,84.36,,imperial,,,5.8
+2023-08-26 15:14:29,Capstone_tobi,Denver,,17.56,82.0,0.98,Light,Light rain,,,,,,,,,2023-08-26 15:14:29,Light rain,,,,82,,,,,,,,63.6,,imperial,,,2.2
+2023-08-27 15:14:29,Capstone_tobi,Denver,,17.77,34.0,0.85,Few,Few clouds,,,,,,,,,2023-08-27 15:14:29,Few clouds,,,,34,,,,,,,,63.99,,imperial,,,1.9
+2023-08-28 15:14:29,Capstone_tobi,Denver,,20.67,53.0,3.76,Clear,Clear sky,,,,,,,,,2023-08-28 15:14:29,Clear sky,,,,53,,,,,,,,69.21,,imperial,,,8.4
+2023-08-29 15:14:29,Capstone_tobi,Denver,,18.79,52.0,8.99,Light,Light rain,,,,,,,,,2023-08-29 15:14:29,Light rain,,,,52,,,,,,,,65.82,,imperial,,,20.1
+2023-08-30 15:14:29,Capstone_tobi,Denver,,25.62,56.0,4.11,Overcast,Overcast clouds,,,,,,,,,2023-08-30 15:14:29,Overcast clouds,,,,56,,,,,,,,78.11,,imperial,,,9.2
+2023-08-31 15:14:29,Capstone_tobi,Denver,,20.51,42.0,5.5,Clear,Clear sky,,,,,,,,,2023-08-31 15:14:29,Clear sky,,,,42,,,,,,,,68.91,,imperial,,,12.3
+2023-09-01 15:14:29,Capstone_tobi,Denver,,23.59,51.0,2.37,Few,Few clouds,,,,,,,,,2023-09-01 15:14:29,Few clouds,,,,51,,,,,,,,74.46,,imperial,,,5.3
+2023-09-02 15:14:29,Capstone_tobi,Denver,,20.85,73.0,3.53,Clear,Clear sky,,,,,,,,,2023-09-02 15:14:29,Clear sky,,,,73,,,,,,,,69.53,,imperial,,,7.9
+2023-09-03 15:14:29,Capstone_tobi,Denver,,24.91,76.0,4.25,Overcast,Overcast clouds,,,,,,,,,2023-09-03 15:14:29,Overcast clouds,,,,76,,,,,,,,76.84,,imperial,,,9.5
+2023-09-04 15:14:29,Capstone_tobi,Denver,,19.97,70.0,4.74,Clear,Clear sky,,,,,,,,,2023-09-04 15:14:29,Clear sky,,,,70,,,,,,,,67.94,,imperial,,,10.6
+2023-09-05 15:14:29,Capstone_tobi,Denver,,28.24,67.0,4.38,Rain,Rain,,,,,,,,,2023-09-05 15:14:29,Rain,,,,67,,,,,,,,82.83,,imperial,,,9.8
+2023-09-06 15:14:29,Capstone_tobi,Denver,,22.51,33.0,2.41,Overcast,Overcast clouds,,,,,,,,,2023-09-06 15:14:29,Overcast clouds,,,,33,,,,,,,,72.51,,imperial,,,5.4
+2023-09-07 15:14:29,Capstone_tobi,Denver,,25.73,51.0,1.39,Clear,Clear sky,,,,,,,,,2023-09-07 15:14:29,Clear sky,,,,51,,,,,,,,78.31,,imperial,,,3.1
+2025-07-10 00:45:05,Elizabeth,Miami,,28.77,77.0,4.63,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 00:45:05,,,,1,Miami,,4.63,,,28.77,,,,,,
+2025-07-10 00:56:03,Elizabeth,Miami,,28.76,77.0,4.63,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 00:56:03,,,,2,Miami,,4.63,,,28.76,,,,,,
+2025-07-10 00:56:40,Elizabeth,Charleston,,25.49,80.0,2.57,Clear,clear sky,,,,,,,,,,clear sky,2025-07-10 00:56:40,,,,3,Charleston,,2.57,,,25.49,,,,,,
+2025-07-10 00:57:23,Elizabeth,London,,18.99,70.0,1.02,Overcast,overcast clouds,,,,,,,,,,overcast clouds,2025-07-10 00:57:23,,,,4,London,,1.02,,,18.99,,,,,,
+2025-07-10 00:59:56,Elizabeth,Tokyo,,33.09,58.0,5.14,Few,few clouds,,,,,,,,,,few clouds,2025-07-10 00:59:56,,,,5,Tokyo,,5.14,,,33.09,,,,,,
+2025-07-10 00:55:17,Elizabeth,San Francisco,,16.84,78.0,11.83,Fog,fog,,,,,,,,,,fog,2025-07-10 00:55:17,,,,6,San Francisco,,11.83,,,16.84,,,,,,
+2025-07-10 00:51:12,Elizabeth,Miami,,28.76,77.0,4.63,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 00:51:12,,,,7,Miami,,4.63,,,28.76,,,,,,
+2025-07-10 01:02:03,Elizabeth,New York,,29.16,66.0,3.13,Light,light rain,,,,,,,,,,light rain,2025-07-10 01:02:03,,,,8,New York,,3.13,,,29.16,,,,,,
+2025-07-10 02:13:05,Elizabeth,Miami,,28.17,80.0,4.12,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 02:13:05,,,,9,Miami,,4.12,,,28.17,,,,,,
+2025-07-10 02:20:08,Elizabeth,Dayton,,23.8,87.0,2.57,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 02:20:08,,,,10,Dayton,,2.57,,,23.8,,,,,,
+2025-07-10 02:13:05,Elizabeth,Miami,,28.17,80.0,4.12,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 02:13:05,,,,11,Miami,,4.12,,,28.17,,,,,,
+2025-07-10 02:20:08,Elizabeth,Dayton,,23.8,87.0,2.57,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 02:20:08,,,,12,Dayton,,2.57,,,23.8,,,,,,
+2025-07-10 18:53:02,Elizabeth,Miami,,32.59,68.0,5.14,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 18:53:02,,,,13,Miami,,5.14,,,32.59,,,,,,
+2025-07-10 19:07:13,Elizabeth,Culloden,,30.83,65.0,2.24,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 19:07:13,,,,14,Culloden,,2.24,,,30.83,,,,,,
+2025-07-10 19:07:13,Elizabeth,Culloden,,30.83,65.0,2.24,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-10 19:07:13,,,,15,Culloden,,2.24,,,30.83,,,,,,
+2025-07-12 00:50:40,Elizabeth,Miami,,26.0,68.0,3.09,Overcast,overcast clouds,,,,,,,,,,overcast clouds,2025-07-12 00:50:40,,,,16,Miami,,3.09,,,26.0,,,,,,
+2025-07-12 00:50:40,Elizabeth,Miami,,26.0,68.0,3.09,Overcast,overcast clouds,,,,,,,,,,overcast clouds,2025-07-12 00:50:40,,,,17,Miami,,3.09,,,26.0,,,,,,
+2025-07-12 00:50:40,Elizabeth,Miami,,26.0,68.0,3.09,Overcast,overcast clouds,,,,,,,,,,overcast clouds,2025-07-12 00:50:40,,,,18,Miami,,3.09,,,26.0,,,,,,
+2025-07-13 19:20:40,Elizabeth,Miami,,30.29,76.0,0.0,Thunderstorm,thunderstorm,,,,,,,,,,thunderstorm,2025-07-13 19:20:40,,,,19,Miami,,0.0,,,30.29,,,,,,
+2025-07-22 21:31:29,Elizabeth,Culloden,,30.01,55.0,1.01,Few,few clouds,,,,,,,,,,few clouds,2025-07-22 21:31:29,,,,20,Culloden,,1.01,,,86.02,,,,,,
+2025-07-22 21:30:00,Elizabeth,Charleston,,25.49,93.0,3.44,Drizzle,drizzle,,,,,,,,,,drizzle,2025-07-22 21:30:00,,,,21,Charleston,,3.44,,,77.88,,,,,,
+2025-07-22 21:31:29,Elizabeth,Culloden,,30.01,55.0,0.45,Few,few clouds,,,,,,,,,,few clouds,2025-07-22 21:31:29,,,,22,Culloden,,0.45,,,30.01,,,,,,
+2025-07-22 21:35:52,Elizabeth,Charleston,,25.45,93.0,1.54,Drizzle,drizzle,,,,,,,,,,drizzle,2025-07-22 21:35:52,,,,23,Charleston,,1.54,,,25.45,,,,,,
+2025-07-22 21:35:52,Elizabeth,Charleston,,25.45,93.0,1.54,Drizzle,drizzle,,,,,,,,,,drizzle,2025-07-22 21:35:52,,,,24,Charleston,,1.54,,,25.45,,,,,,
+2025-07-22 21:31:29,Elizabeth,Culloden,,30.01,55.0,0.45,Few,few clouds,,,,,,,,,,few clouds,2025-07-22 21:31:29,,,,25,Culloden,,0.45,,,30.01,,,,,,
+2025-07-22 21:31:29,Elizabeth,Culloden,,30.01,55.0,0.45,Few,few clouds,,,,,,,,,,few clouds,2025-07-22 21:31:29,,,,26,Culloden,,0.45,,,30.01,,,,,,
+2025-07-22 21:44:01,Elizabeth,Culloden,,29.63,55.0,0.45,Few,few clouds,,,,,,,,,,few clouds,2025-07-22 21:44:01,,,,27,Culloden,,0.45,,,29.63,,,,,,
+2025-07-22 23:38:43,Elizabeth,Charleston,,25.93,93.0,1.54,Mist,mist,,,,,,,,,,mist,2025-07-22 23:38:43,,,,28,Charleston,,1.54,,,25.93,,,,,,
+2025-07-23 00:04:50,Elizabeth,New York,,23.28,64.0,5.14,Overcast,overcast clouds,,,,,,,,,,overcast clouds,2025-07-23 00:04:50,,,,29,New York,,5.14,,,23.28,,,,,,
+2025-07-23 18:34:50,Elizabeth,Charleston,,31.69,69.0,5.66,Clear,clear sky,,,,,,,,,,clear sky,2025-07-23 18:34:50,,,,30,Charleston,,5.66,,,31.69,,,,,,
+2025-07-23 18:38:57,Elizabeth,Culloden,,32.14,65.0,2.24,Scattered,scattered clouds,,,,,,,,,,scattered clouds,2025-07-23 18:38:57,,,,31,Culloden,,2.24,,,32.14,,,,,,
+2025-07-23 18:38:57,Elizabeth,Culloden,,32.14,65.0,2.24,Scattered,scattered clouds,,,,,,,,,,scattered clouds,2025-07-23 18:38:57,,,,32,Culloden,,2.24,,,32.14,,,,,,
+2025-07-23 18:34:50,Elizabeth,Charleston,,31.69,69.0,5.66,Clear,clear sky,,,,,,,,,,clear sky,2025-07-23 18:34:50,,,,33,Charleston,,5.66,,,31.69,,,,,,
+2025-07-25 17:13:07,Elizabeth,Charlotte,,33.03,58.0,2.06,Scattered,scattered clouds,,,,,,,,,,scattered clouds,2025-07-25 17:13:07,,,,34,Charlotte,,2.06,,,33.03,,,,,,
+2025-07-25 17:03:17,Elizabeth,New York,,34.56,54.0,5.66,Clear,clear sky,,,,,,,,,,clear sky,2025-07-25 17:03:17,,,,35,New York,,5.66,,,34.56,,,,,,
+2025-07-29 22:33:58,Elizabeth,Charlotte,,27.98,74.0,5.75,Broken,broken clouds,,,,,,,,,,broken clouds,2025-07-29 22:33:58,88.11,,,36,Charlotte,,5.75,,,82.36,,,,,,
+2025-07-29 22:39:48,Elizabeth,Charleston,,29.8,82.0,1.99,Mist,mist,,,,,,,,,,mist,2025-07-29 22:39:48,98.24,,,37,Charleston,,1.99,,,85.64,,,,,,
+2025-07-29 22:28:03,Elizabeth,New York,,35.28,47.0,14.97,Clear,clear sky,,,,,,,,,,clear sky,2025-07-29 22:28:03,104.31,,,38,New York,,14.97,,,95.5,,,,,,
 2025-06-16T14:45:22.123456,Eric,Providence,US,22.1,72.0,3.2,Few,few clouds,,,,,,,,25,,,,24.5,,,,,1016,,05:12,19:56,,,-5.0,,10.0,180,
 2025-06-17T14:45:22.123456,Eric,Providence,US,25.3,65.0,2.8,Clear,clear sky,,,,,,,,5,,,,27.8,,,,,1014,,05:12,19:57,,,-5.0,,10.0,220,
 2025-06-18T14:45:22.123456,Eric,Providence,US,21.7,78.0,4.5,Light,light rain,,,,,,,,85,,,,23.2,,,,,1018,,05:12,19:57,,,-5.0,,8.5,270,

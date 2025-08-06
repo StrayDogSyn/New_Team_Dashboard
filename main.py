@@ -44,7 +44,7 @@ def normalize_row_data(row: Dict[str, Any], filename: str) -> Dict[str, Any]:
         normalized['member_name'] = 'Unknown'
     
     # Handle different timestamp formats
-    timestamp_fields = ['timestamp', 'Timestamp', 'date', 'Date', 'time', 'Time']
+    timestamp_fields = ['timestamp', 'Timestamp', 'date', 'Date', 'time', 'Time', 'datetime', 'dt']
     for field in timestamp_fields:
         if field in row and row[field]:
             normalized['timestamp'] = row[field]
@@ -53,7 +53,7 @@ def normalize_row_data(row: Dict[str, Any], filename: str) -> Dict[str, Any]:
         normalized['timestamp'] = ''
     
     # Handle different city name formats
-    city_fields = ['city', 'City', 'location', 'Location', 'place', 'Place']
+    city_fields = ['city', 'City', 'location', 'Location', 'place', 'Place', 'name']
     for field in city_fields:
         if field in row and row[field]:
             normalized['city'] = row[field]
@@ -71,13 +71,13 @@ def normalize_row_data(row: Dict[str, Any], filename: str) -> Dict[str, Any]:
         normalized['country'] = ''
     
     # Handle temperature (convert Fahrenheit to Celsius if needed)
-    temp_fields = ['temperature', 'Temperature', 'temp', 'Temp', 'Temperature (F)', 'Temperature (C)']
+    temp_fields = ['temperature', 'Temperature', 'temp', 'Temp', 'temp_f', 'Temperature (F)', 'Temperature (C)']
     for field in temp_fields:
         if field in row and row[field]:
             try:
                 temp_value = float(row[field])
                 # Convert Fahrenheit to Celsius if the field indicates Fahrenheit
-                if '(F)' in field or temp_value > 50:  # Assume >50 is Fahrenheit
+                if 'temp_f' in field or '(F)' in field or temp_value > 50:  # Assume >50 is Fahrenheit
                     temp_value = (temp_value - 32) * 5/9
                 normalized['temperature'] = round(temp_value, 2)
                 break
@@ -93,7 +93,7 @@ def normalize_row_data(row: Dict[str, Any], filename: str) -> Dict[str, Any]:
             break
     
     # Handle humidity
-    humidity_fields = ['humidity', 'Humidity', 'humid', 'Humid']
+    humidity_fields = ['humidity', 'Humidity', 'humid', 'Humid', 'humidity_pct']
     for field in humidity_fields:
         if field in row and row[field]:
             try:
@@ -103,11 +103,15 @@ def normalize_row_data(row: Dict[str, Any], filename: str) -> Dict[str, Any]:
                 pass
     
     # Handle wind speed
-    wind_fields = ['wind_speed', 'Wind Speed', 'wind', 'Wind', 'windspeed', 'WindSpeed']
+    wind_fields = ['wind_speed', 'Wind Speed', 'wind', 'Wind', 'windspeed', 'WindSpeed', 'speed', 'wind_speed_mph']
     for field in wind_fields:
         if field in row and row[field]:
             try:
-                normalized['wind_speed'] = round(float(row[field]), 2)
+                wind_value = float(row[field])
+                # Convert mph to m/s if needed (1 mph = 0.44704 m/s)
+                if 'mph' in field.lower():
+                    wind_value = wind_value * 0.44704
+                normalized['wind_speed'] = round(wind_value, 2)
                 break
             except (ValueError, TypeError):
                 pass
@@ -165,6 +169,11 @@ def export_standardized_data(team_data: List[Dict[str, Any]], output_dir: str = 
         writer.writeheader()
         writer.writerows(team_data)
     print(f"✅ Exported standardized CSV: {csv_filepath}")
+
+    # Write JSON
+    with open(json_filepath, 'w', encoding='utf-8') as jsonfile:
+        json.dump(team_data, jsonfile, indent=2, ensure_ascii=False)
+    print(f"✅ Exported standardized JSON: {json_filepath}")
 
 
 
